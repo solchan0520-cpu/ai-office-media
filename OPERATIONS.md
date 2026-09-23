@@ -35,6 +35,12 @@ python3 tools/make_short.py <폴더>/script.json   # video.mp4 + thumb.jpg 생�
 2. **기획·제작(기획·작가팀 → 숏폼/롱폼제작팀)** — 대본을 `script.json`으로 쓰고 제작기를 돌린다. 결과 화면 1~2장을 뽑아 눈으로 확인한다.
 3. **심의(CLO 심의팀)** — 아래를 모두 통과해야 올린다. 하나라도 실패하면 고치거나 그날은 건너뛴다.
    - 사실마다 출처 2개 이상 / 남의 저작물 없음 / 혐오·선정·폭력·위험 행동 없음 / 광고 친화 / 제목이 내용과 맞음(낚시 금지) / 아동용 아님
+   - **스타일 중복 금지**: 화면 구성·전개 방식(질문/반전/순위/비교/이야기)·말투를 `videos`의 최근 7편과 겹치지 않게 바꾸고, 업로드 후 `videos/<youtubeId>`에 `style: {layout, structure, tone}`으로 기록한다.
+   - **내용 깊이**: 편마다 '왜 그런지' 설명·수치 비교·생활 예시 중 2개 이상을 넣는다.
+   - **그림 자료**: 도표·지도는 직접 만든 것만 쓴다.
+   - **새로 쓰기**: 제목·설명·해시태그는 편마다 새로 쓴다(참고 영상이나 이전 편의 문구 재사용 금지).
+   - **롱폼 화면 변화**: 같은 화면을 30초 넘게 이어서 보여주지 않는다.
+   - 위 항목 중 하나라도 지키지 못한 편은 올리지 않는다.
 4. **업로드(배포운영팀)** — 영상 폴더를 커밋·푸시한 뒤, 커밋 SHA로 공개 주소를 만든다:
    `https://raw.githubusercontent.com/solchan0520-cpu/ai-office-media/<SHA>/<폴더>/video.mp4`
    (curl로 200 확인 후) Zapier YouTube `upload_video`, 연결 `02d1c0dc-489c-85a7-9bff-88a7c9c75495`, `privacy_status: public`, `made_for_kids: false`, `language_code/default_language/default_audio_language: ko`.
