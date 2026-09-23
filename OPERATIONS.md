@@ -23,12 +23,29 @@ python3 tools/make_short.py <폴더>/script.json   # video.mp4 + thumb.jpg 생�
 | 화·금 | | 1 | |
 | 수·토 | | | 1 |
 
-하루 최대 2편 업로드. 쉬는 요일 없음.
+하루 최대 2편 업로드. 쉬는 요일 없음. 아래 무료 예산이 모자라면 이 표보다 줄인다.
+
+## 무료 원칙과 월 예산
+
+- 돈이 드는 전환(Zapier·vidIQ 유료 요금제 등)은 하지 않는다.
+- **Zapier 무료 월 100 task**를 넘지 않게 매월 1일 첫 실행에서 그달 예산을 짜 `setup/zapier`에 `budget: {month, uploads, weeklyChecks, monthlyReport, reserve}`로 기록한다.
+  - 업로드 1편 = 1 task, 주간 평가 1회 = 1 task, 월간 의장 보고 확인 = 최대 2 task, 예비 5 task 이상.
+- 예산이 모자라면 편수를 줄이고 남은 편의 품질을 올린다. 줄이는 순서: ① 바이럴 참고 숏폼 → ② 창작 숏폼. **롱폼은 수익 창출(시청시간) 핵심이라 마지막까지 유지한다.**
+- **vidIQ 무료 크레딧은 잔액 20 아래로 쓰지 않는다.** 쓰기 전 `vidiq_balance`로 확인하고, 20 이하이면 웹 검색으로 대신한다.
+
+## 주간 평가 (매주 월요일, 그날 제작 전)
+
+1. `videos`에서 지난 4주 영상 ID를 최대 50개 모은다.
+2. Zapier YouTube **Make API GET Request 1회**로 `videos?part=statistics,contentDetails&id=<ID들 쉼표로>`를 가져온다(1 task, `setup/zapier`에 기록).
+3. 조회수 기준 잘된 3편·안된 3편을 고르고, 공통점을 뽑는다: 주제 분야, 첫 3초 훅, 전개 방식, 스타일(`videos.style`), 길이, 올린 시간.
+4. `insights/YYYY-Www`(ISO 주차, 예: `2026-W40`)에 `{week, createdAt, sampleSize, top:[{id, views, ...}], bottom:[...], patterns:{more:[..], less:[..]}, note}`로 기록한다.
+5. 숫자는 API가 준 값만 쓴다. 지난 4주 영상이 5편 미만이면 `note: "표본 부족"`으로 기록만 하고 공식은 바꾸지 않는다.
+6. 그 주의 주제·스타일은 **최신 `insights`를 먼저 읽고** 잘된 공식은 늘리고 안된 공식은 줄인다(스타일 중복 금지 규칙은 그대로 지킨다).
 
 ## 순서
 
 1. **조사(트렌드리서치팀)** — `topics`에 오늘 주제를 쌓는다.
-   - 바이럴 참고: vidIQ(`vidiq_outliers`, `vidiq_trending_videos`)로 잘 된 영상의 *공식*(첫 3초 질문, 숫자 목록, 반전, 시리즈)만 뽑는다. 내용·대본·장면은 베끼지 않는다. vidIQ 크레딧은 하루 10 이하, 부족하면 웹 검색.
+   - 바이럴 참고: vidIQ(`vidiq_outliers`, `vidiq_trending_videos`)로 잘 된 영상의 *공식*(첫 3초 질문, 숫자 목록, 반전, 시리즈)만 뽑는다. 내용·대본·장면은 베끼지 않는다. vidIQ 크레딧은 하루 10 이하, 잔액 20 아래로는 쓰지 않고 웹 검색.
    - 주제는 제한 없음. 단 불법·저작권 침해·혐오·확인 안 된 사실·실존 인물 비방·의료/투자 조언은 뺀다.
    - 모든 사실은 서로 다른 출처 2곳 이상에서 확인한다(백과사전, 공공기관, 학술·언론). 출처 URL을 `sources`와 영상 설명에 넣는다.
    - `videos` 컬렉션을 보고 이미 다룬 주제는 피한다.
@@ -51,5 +68,6 @@ python3 tools/make_short.py <폴더>/script.json   # video.mp4 + thumb.jpg 생�
 ## 하지 않는 것
 
 - 결제, 계정 생성, 삭제, 비공개 시험 영상 공개 전환
-- 채널 통계 조회(월간 의장 보고가 월 2회 이내로 한다)
+- 채널 통계 조회(월간 의장 보고가 월 2회 이내로 한다). 단, 월요일 주간 평가의 Make API GET 1회는 예외.
+- 유료 요금제 전환·결제
 - 돈이 드는 일·긴급 사항은 직접 하지 않고 `approvals`에 다음 H-번호로 올린 뒤 의장에게 알린다.
