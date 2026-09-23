@@ -39,7 +39,7 @@ python3 tools/make_short.py <폴더>/script.json   # video.mp4 + thumb.jpg 생�
    `https://raw.githubusercontent.com/solchan0520-cpu/ai-office-media/<SHA>/<폴더>/video.mp4`
    (curl로 200 확인 후) Zapier YouTube `upload_video`, 연결 `02d1c0dc-489c-85a7-9bff-88a7c9c75495`, `privacy_status: public`, `made_for_kids: false`, `language_code/default_language/default_audio_language: ko`.
    - 한도: `setup/zapier` 문서로 센다. 24시간 업로드 5편, 월 100 task. 월 90 task를 넘으면 그달 업로드를 멈추고 로그만 남긴다. 월이 바뀌면 `month`·`tasks`를 새로 시작한다.
-   - 이 저장소 커밋은 영상 보관용이므로 PR은 만들지 않는다.
+   - 영상 커밋은 `claude/epic-volta-6tcf65` 브랜치에 푸시한다(영상 보관용, 새 PR은 만들지 않는다).
 5. **기록** — `videos/<youtubeId>`, `logs/<오늘>`(시각은 한국 시간, 부서명), `setup/zapier`, `kpi/current`(`videosPublished`, `channels.adult.shorts`, `channels.adult.long`). 회의는 규정상 필요할 때만 `meetings`에 남긴다. 모든 쓰기는 읽은 `version`으로 `if_version`을 건다.
 
 ## 하지 않는 것
