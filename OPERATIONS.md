@@ -5,7 +5,7 @@ Ark Cornerstone 매일 예약 작업이 따르는 절차. 의장(강솔찬)에�
 ## 도구
 
 ```bash
-bash tools/setup.sh                       # 음성(sherpa-onnx KSS)·ffmpeg·Pillow 준비 (약 1분)
+bash tools/setup.sh                       # 음성(현재 sherpa-onnx KSS, 아래 '음성' 참고)·ffmpeg·Pillow 준비 (약 1분)
 python3 tools/make_short.py <폴더>/script.json   # video.mp4 + thumb.jpg 생성
 ```
 
@@ -14,6 +14,20 @@ python3 tools/make_short.py <폴더>/script.json   # video.mp4 + thumb.jpg 생�
 - `script.json` 형식은 `tools/make_short.py` 맨 위 설명, 예시는 `shorts/2026-09-23-octopus/script.json`
 - 자막(`text`)은 짧게, 읽을 문장(`say`)은 숫자를 한글로 풀어 쓴다(예: "3개" → "세 개").
 - 화면·목소리·글꼴은 모두 직접 만든 것(글꼴 Nanum Gothic, OFL)만 쓴다. 남의 영상·이미지·음악을 넣지 않는다.
+
+## 음성
+
+- 기본 음성은 **MeloTTS-Korean**(MIT, CPU 실행)으로 한다(`insights/production-quality.voice`).
+- 2026-09-23 설치 시도 결과: 모델이 HuggingFace(`myshell-ai/MeloTTS-Korean`)에만 있는데 이 작업 환경에서 HuggingFace 접속이 막혀 설치 실패 → **기존 음성(sherpa-onnx mimic3 KSS)을 유지**하고 `logs`에 남겼다.
+- 매주 월요일에 한 번만 `curl -s -o /dev/null -w '%{http_code}' https://huggingface.co/myshell-ai/MeloTTS-Korean/resolve/main/config.json`로 다시 확인한다. 200이면 설치해 `tools/make_short.py`의 음성을 바꾸고, 아니면 KSS를 그대로 쓴다. 다른 우회 경로(미러 등)는 쓰지 않는다.
+
+## 매일 제작 전에 읽을 것
+
+제작을 시작하기 전에 DB `insights/production-quality`와 `insights/marketing-playbook`을 **매일** 읽고 그대로 따른다. 이 절차서와 부딪히면 더 엄격한 쪽을 따른다(예: 해시태그 3개 이하).
+
+- `production-quality`: 말하듯 쓰는 대본(짧은 문장·구어체·끝맺음 다양화, 질문·맞장구), 숫자·영어는 읽는 대로 풀어 쓰기, 문장 사이 쉼·속도 변화, 화면 전환을 쉼에 맞추기, 강조 단어 색, 심의 전 끝까지 듣고 어색한 문장은 고쳐 다시 만들기.
+- `marketing-playbook`: 제목 앞 20자에 핵심어, 설명 첫 2줄(요약 + 관련 롱폼 링크 + 구독 한 줄), 첫 3초 훅, 롱폼 초반 30초 예고·끝 20초 다음 영상 추천, 시리즈화, 롱폼 썸네일 규칙. `growthSprint`는 주간 평가·월간 보고에서 조건을 확인한다. `multiPlatform`은 결재 전까지 하지 않는다.
+- 지금 도구로 못 하는 항목(효과음·배경음, 고정 댓글, 재생목록 등)은 무료로 가능한 범위에서만 하고, 못 한 것은 `logs`에 한 줄 남긴다. 효과음·배경음은 라이선스가 확인된 무료 자료만 쓴다.
 
 ## 요일별 제작량 (한국 시간 기준)
 
