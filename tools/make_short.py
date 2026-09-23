@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""알고보면 세로 숏폼 제작기 (1080x1920).
+"""알고보면 영상 제작기 — 세로 숏폼(1080x1920) / 가로 롱폼(1920x1080).
 
 사용법: python3 tools/make_short.py shorts/<id>/script.json
 script.json:
   {
     "id": "2026-09-23-octopus",
+    "format": "short" | "long"   (기본 short),
     "title": "...", "description": "...", "tags": [...],
     "sources": ["https://...", "https://..."],
     "scenes": [{"text": "화면 자막", "say": "읽을 문장(없으면 text)"}]
@@ -21,7 +22,8 @@ from pathlib import Path
 import imageio_ffmpeg
 from PIL import Image, ImageDraw, ImageFont
 
-W, H = 1080, 1920
+SIZES = {"short": (1080, 1920), "long": (1920, 1080)}
+W, H = SIZES["short"]
 FPS = 30
 ROOT = Path(__file__).resolve().parent
 FONT = str(ROOT / "fonts" / "NanumGothic-ExtraBold.ttf")
@@ -31,7 +33,7 @@ MODEL = CACHE / "vits-mimic3-ko_KO-kss_low"
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 
 YELLOW = (255, 214, 0)
-BAND_H = 190
+BAND_H = 190  # 롱폼은 make()에서 줄인다
 BAR_H = 18
 # 장면마다 돌아가며 쓰는 배경 (위→아래 그라데이션)
 PALETTES = [
@@ -96,14 +98,11 @@ def fit_text(draw, text, max_w, max_h, start=120, low=56):
 
 
 def gradient(top, bottom):
-    img = Image.new("RGB", (W, H))
-    px = img.load()
+    col = Image.new("RGB", (1, H))
     for y in range(H):
         t = y / (H - 1)
-        c = tuple(int(top[i] + (bottom[i] - top[i]) * t) for i in range(3))
-        for x in range(W):
-            px[x, y] = c
-    return img
+        col.putpixel((0, y), tuple(int(top[i] + (bottom[i] - top[i]) * t) for i in range(3)))
+    return col.resize((W, H))
 
 
 _GRADIENTS = {}
@@ -118,9 +117,9 @@ def scene_image(text, idx, total, hook=False):
 
     # 노란 「알고보면」 띠
     d.rectangle([0, 0, W, BAND_H], fill=YELLOW)
-    bf = ImageFont.truetype(FONT, 96)
+    bf = ImageFont.truetype(FONT, int(BAND_H * 0.5))
     label = "알고보면"
-    d.text(((W - d.textlength(label, font=bf)) / 2, (BAND_H - 110) / 2), label, font=bf, fill=(0, 0, 0))
+    d.text(((W - d.textlength(label, font=bf)) / 2, BAND_H * 0.2), label, font=bf, fill=(0, 0, 0))
 
     # 장면 번호
     nf = ImageFont.truetype(FONT, 40)
@@ -128,8 +127,10 @@ def scene_image(text, idx, total, hook=False):
     d.text((60, BAND_H + 40), tag, font=nf, fill=YELLOW)
 
     # 본문 자막
-    margin = 80
-    font, lines, line_h = fit_text(d, text, W - margin * 2, 1100, start=128 if hook else 112)
+    margin = 80 if W < H else 160
+    max_h = int((H - BAND_H) * 0.65)
+    start = (128 if hook else 112) if W < H else (120 if hook else 96)
+    font, lines, line_h = fit_text(d, text, W - margin * 2, max_h, start=start)
     block_h = line_h * len(lines)
     y = BAND_H + (H - BAND_H - BAR_H - block_h) // 2
     for line in lines:
@@ -148,8 +149,12 @@ def run(args):
 
 
 def make(script_path):
+    global W, H, BAND_H
     script_path = Path(script_path)
     spec = json.loads(script_path.read_text(encoding="utf-8"))
+    W, H = SIZES[spec.get("format", "short")]
+    BAND_H = 190 if W < H else 130
+    _GRADIENTS.clear()
     out_dir = script_path.parent
     work = out_dir / ".work"
     work.mkdir(exist_ok=True)
@@ -159,11 +164,11 @@ def make(script_path):
     segs = []
     total = 0.0
     for i, sc in enumerate(scenes):
-        wav = work / f"s{i:02d}.wav"
+        wav = work / f"s{i:03d}.wav"
         dur = tts(sc.get("say", sc["text"]).replace("\n", " "), wav) + 0.45
-        png = work / f"s{i:02d}.png"
+        png = work / f"s{i:03d}.png"
         scene_image(sc["text"], i, n, hook=(i == 0)).save(png)
-        seg = work / f"s{i:02d}.mp4"
+        seg = work / f"s{i:03d}.mp4"
         run([
             "-loop", "1", "-i", str(png), "-i", str(wav),
             "-af", "apad", "-t", f"{dur:.3f}",
