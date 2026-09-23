@@ -17,9 +17,12 @@ python3 tools/make_short.py <폴더>/script.json   # video.mp4 + thumb.jpg 생�
 
 ## 음성
 
-- 기본 음성은 **MeloTTS-Korean**(MIT, CPU 실행)으로 한다(`insights/production-quality.voice`).
-- 2026-09-23 설치 시도 결과: 모델이 HuggingFace(`myshell-ai/MeloTTS-Korean`)에만 있는데 이 작업 환경에서 HuggingFace 접속이 막혀 설치 실패 → **기존 음성(sherpa-onnx mimic3 KSS)을 유지**하고 `logs`에 남겼다.
-- 매주 월요일에 한 번만 `curl -s -o /dev/null -w '%{http_code}' https://huggingface.co/myshell-ai/MeloTTS-Korean/resolve/main/config.json`로 다시 확인한다. 200이면 설치해 `tools/make_short.py`의 음성을 바꾸고, 아니면 KSS를 그대로 쓴다. 다른 우회 경로(미러 등)는 쓰지 않는다.
+- 기본 음성은 **MeloTTS-Korean**(MIT, CPU 실행)으로 한다(`insights/production-quality.voice`). `tools/setup.sh`가 매번 자동으로 판단한다:
+  - huggingface.co에 닿으면 MeloTTS(공식 GitHub 커밋 고정)를 설치하고 짧은 문장으로 시험해, 성공하면 `~/.cache/algobomyeon/melo.ok`를 만든다. 설치는 새 컨테이너에서 약 16분·7GB가 걸린다.
+  - 닿지 않거나 시험이 실패하면 `melo.ok`를 지우고 기존 음성(sherpa-onnx mimic3 KSS)을 쓴다.
+- `tools/make_short.py`는 `melo.ok`가 있으면 MeloTTS(문장 단위, 속도 0.95~1.05, 문장 사이 0.25~0.6초 쉼), 없으면 KSS로 만든다. 결과 JSON의 `voice`로 어떤 음성을 썼는지 확인하고 `videos`에 `voice`로 기록한다.
+- **MeloTTS가 처음 성공한 날**: 그날 업로드 전에 `shorts/2026-09-23-octopus/script.json`을 복사해 `shorts/<오늘>-octopus-melo/`에서 새 음성으로 만들어(업로드하지 않음) 끝까지 듣고 어색한 곳을 확인한 뒤 `logs`에 결과를 남긴다. 어색하면 `ALGO_TTS=kss`로 KSS를 계속 쓰고 이유를 기록한다.
+- 기록: 2026-09-23 두 번 시도, 두 번 모두 이 컨테이너에서 huggingface.co 연결이 거부(403)되어 실패 → KSS 유지. (네트워크 허용은 새 컨테이너부터 적용되는 것으로 보인다.) 미러 등 다른 우회 경로는 쓰지 않는다.
 
 ## 매일 제작 전에 읽을 것
 

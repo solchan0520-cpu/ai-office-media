@@ -30,6 +30,8 @@ FONT = str(ROOT / "fonts" / "NanumGothic-ExtraBold.ttf")
 CACHE = Path(os.environ.get("ALGO_CACHE", Path.home() / ".cache" / "algobomyeon"))
 SHERPA = CACHE / "sherpa-onnx-v1.12.14-linux-x64-shared"
 MODEL = CACHE / "vits-mimic3-ko_KO-kss_low"
+MELO_PY = CACHE / "melo-venv" / "bin" / "python"
+MELO_OK = CACHE / "melo.ok"  # tools/setup.sh가 MeloTTS 설치·시험에 성공했을 때만 생긴다
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 
 YELLOW = (255, 214, 0)
@@ -58,8 +60,26 @@ def tts(text, out_wav):
         ],
         check=True, env=env, capture_output=True,
     )
-    with wave.open(str(out_wav)) as w:
+    return wav_seconds(out_wav)
+
+
+def wav_seconds(path):
+    with wave.open(str(path)) as w:
         return w.getnframes() / w.getframerate()
+
+
+def melo_batch(texts, wavs):
+    """MeloTTS-Korean으로 한 번에 만든다. 실패하면 False를 돌려 KSS로 되돌린다."""
+    if os.environ.get("ALGO_TTS") == "kss" or not MELO_OK.exists():
+        return False
+    jobs = wavs[0].parent / "melo_jobs.json"
+    jobs.write_text(json.dumps([{"text": t, "out": str(w)} for t, w in zip(texts, wavs)],
+                               ensure_ascii=False), encoding="utf-8")
+    r = subprocess.run([str(MELO_PY), str(ROOT / "melo_tts.py"), str(jobs)], capture_output=True, text=True)
+    if r.returncode != 0 or not all(w.exists() for w in wavs):
+        print("MeloTTS 실패, KSS 음성으로 대신함:", r.stderr[-500:], file=sys.stderr)
+        return False
+    return True
 
 
 def wrap(draw, text, font, max_w):
@@ -161,11 +181,15 @@ def make(script_path):
     scenes = spec["scenes"]
     n = len(scenes)
 
+    says = [sc.get("say", sc["text"]).replace("\n", " ") for sc in scenes]
+    wavs = [work / f"s{i:03d}.wav" for i in range(n)]
+    voice = "melo" if melo_batch(says, wavs) else "kss"
+
     segs = []
     total = 0.0
     for i, sc in enumerate(scenes):
-        wav = work / f"s{i:03d}.wav"
-        dur = tts(sc.get("say", sc["text"]).replace("\n", " "), wav) + 0.45
+        wav = wavs[i]
+        dur = (wav_seconds(wav) if voice == "melo" else tts(says[i], wav)) + 0.45
         png = work / f"s{i:03d}.png"
         scene_image(sc["text"], i, n, hook=(i == 0)).save(png)
         seg = work / f"s{i:03d}.mp4"
@@ -197,7 +221,8 @@ def make(script_path):
     for f in work.iterdir():
         f.unlink()
     work.rmdir()
-    print(json.dumps({"video": str(video), "seconds": round(total, 2), "bytes": video.stat().st_size},
+    print(json.dumps({"video": str(video), "seconds": round(total, 2), "bytes": video.stat().st_size,
+                      "voice": voice},
                      ensure_ascii=False))
 
 
