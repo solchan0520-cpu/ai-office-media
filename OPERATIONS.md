@@ -32,6 +32,17 @@ python3 tools/make_short.py <폴더>/script.json   # video.mp4 + thumb.jpg 생�
 - `marketing-playbook`: 제목 앞 20자에 핵심어, 설명 첫 2줄(요약 + 관련 롱폼 링크 + 구독 한 줄), 첫 3초 훅, 롱폼 초반 30초 예고·끝 20초 다음 영상 추천, 시리즈화, 롱폼 썸네일 규칙. `growthSprint`는 주간 평가·월간 보고에서 조건을 확인한다. `multiPlatform`은 결재 전까지 하지 않는다.
 - 지금 도구로 못 하는 항목(효과음·배경음, 고정 댓글, 재생목록 등)은 무료로 가능한 범위에서만 하고, 못 한 것은 `logs`에 한 줄 남긴다. 효과음·배경음은 라이선스가 확인된 무료 자료만 쓴다.
 
+## 하루 시간표와 팀 릴레이 (의장 지시 2026-09-24)
+
+- 매일 예약은 **10:00 KST**(UTC 01:00)에 이 세션에서 돈다. 이미 오늘 분량이 `videos`에 있으면 건너뛴다.
+- 시작하면 DB `insights/chair-directives`(status "반영"만)를 먼저 읽고, 이어서 `insights/team-workflow`의 **12팀 릴레이**를 순서대로 따른다. 단계마다 `logs/<오늘>.entries`에 `{time, dept:<팀 이름>, text:<한 일 1줄, 숫자 포함>}`을 남기고, 새 영상이 나온 날은 `meetings/<오늘>-team`(level "team")에 팀 리뷰 1건을 남긴다.
+- 주제는 `topics`에서 `status`가 "제작 대기"인 **priority 문서부터** 쓴다(오늘 날짜 문서 → priority 숫자 순). 쓴 문서는 `status: "업로드 완료"`와 `youtubeId`로 바꾼다. priority 문서가 없을 때만 새로 조사한다.
+- 시간표: 10:00 제작 시작 → 제작이 끝나도 **10:50까지 대기** → 10:50 이후 `topics/priority-<오늘>`을 다시 읽어 `affiliate.links`가 있으면 설명란에 반영(아래) → 업로드 → **11:00 공개**.
+  - 11:00 전이면 `privacy_status: private` + `publish_at: <오늘>T11:00:00+09:00`으로 먼저 시도하고, 거절·오류면 바로 `public`. 예약 공개가 안 된다는 사실은 `insights/production-quality`에 한 번만 적고 이후엔 바로 `public`. 11:00이 지났으면 `public`.
+  - `chair-directives`의 07:30/08:00/08:30/09:00 시간표보다 이 시간표(의장 본인 지시 2026-09-24 오전)가 우선한다.
+- **쿠팡 파트너스**(`marketing-playbook.coupangAffiliate`): 링크가 있으면 설명란 첫 줄에 대가성 문구(`affiliate.disclosure`)를 그대로, 둘째 줄부터 `🛒 <상품 종류>: <링크>` 1~2개(link.coupang.com·coupang.com만, 주제 관련 상품만), 그 뒤 원래 설명. 링크가 없으면 기다리지 않고 링크 없이 올린다. `videos`에 `affiliate: true/false`와 링크를 남긴다. 금융상품·의약품·성인·주류·담배 상품은 넣지 않는다.
+- 드라마·영화·예능 장면은 쓰지 않는다(`insights/drama-policy`). 축구 소재는 점수·기록 사실만, 경기 화면·엠블럼·선수 사진 없이 자체 그래픽으로.
+
 ## 요일별 제작량 (한국 시간 기준)
 
 | 요일 | 바이럴 참고 숏폼 | 창작 숏폼(자막형) | 20분 롱폼 |
@@ -90,7 +101,7 @@ python3 tools/make_short.py <폴더>/script.json   # video.mp4 + thumb.jpg 생�
    (curl로 200 확인 후) Zapier YouTube `upload_video`, 연결 `02d1c0dc-489c-85a7-9bff-88a7c9c75495`, `privacy_status: public`, `made_for_kids: false`, `language_code/default_language/default_audio_language: ko`.
    - 한도: `setup/zapier` 문서로 센다. 24시간 업로드 5편, 월 100 task. 월 90 task를 넘으면 그달 업로드를 멈추고 로그만 남긴다. 월이 바뀌면 `month`·`tasks`를 새로 시작한다.
    - 영상 커밋은 `claude/epic-volta-6tcf65` 브랜치에 푸시한다(영상 보관용, 새 PR은 만들지 않는다).
-5. **기록** — `videos/<youtubeId>`, `logs/<오늘>`(시각은 한국 시간, 부서명), `setup/zapier`, `kpi/current`(`videosPublished`, `channels.adult.shorts`, `channels.adult.long`). 회의는 규정상 필요할 때만 `meetings`에 남긴다. 모든 쓰기는 읽은 `version`으로 `if_version`을 건다.
+5. **기록** — `videos/<youtubeId>`(공개 방식 예약/즉시, `affiliate`, `voice`, `style` 포함), `logs/<오늘>`(시각은 한국 시간, 부서명), `setup/zapier`, `kpi/current`(`videosPublished`, `channels.adult.shorts`, `channels.adult.long`). 회의는 규정상 필요할 때만 `meetings`에 남긴다. 모든 쓰기는 읽은 `version`으로 `if_version`을 건다.
 
 ## 하지 않는 것
 
