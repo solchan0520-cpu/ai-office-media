@@ -8,7 +8,7 @@ CACHE="${ALGO_CACHE:-$HOME/.cache/algobomyeon}"
 mkdir -p "$CACHE"
 cd "$CACHE"
 
-python3 -c "import PIL, imageio_ffmpeg" 2>/dev/null || pip install --quiet pillow imageio-ffmpeg
+python3 -c "import PIL, imageio_ffmpeg, numpy" 2>/dev/null || pip install --quiet --break-system-packages pillow imageio-ffmpeg numpy 2>/dev/null || pip install --quiet pillow imageio-ffmpeg numpy
 
 SHERPA=sherpa-onnx-v1.12.14-linux-x64-shared
 if [ ! -x "$CACHE/$SHERPA/bin/sherpa-onnx-offline-tts" ]; then

@@ -1,0 +1,48 @@
+# 실제 촬영 영상(B-roll) 받기: 제작 세션은 외부 영상 사이트에 못 닿으므로 GitHub가 대신 받아 준다.
+# script.json이 올라오면 broll.url을 받아 1080x1920 클립으로 다듬고 broll-cache 브랜치에 올린다.
+# broll-cache는 매번 새로 덮어써서(기록 1개) 저장소가 커지지 않는다. 비용: GitHub Actions 무료 시간(약 1~2분).
+name: broll
+on:
+  push:
+    paths: ["shorts/**/script.json", "long/**/script.json"]
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "script.json 경로(예: shorts/2026-09-25-xxx/script.json)"
+        required: true
+permissions:
+  contents: write
+concurrency: broll
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - run: pip install --quiet imageio-ffmpeg
+      - name: 받을 대본 고르기
+        id: pick
+        run: |
+          if [ -n "${{ github.event.inputs.script }}" ]; then
+            echo "files=${{ github.event.inputs.script }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "files=$(git diff --name-only HEAD~1 HEAD -- 'shorts/**/script.json' 'long/**/script.json' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+          fi
+      - name: 영상 받기
+        if: steps.pick.outputs.files != ''
+        run: python3 tools/fetch_broll.py ${{ steps.pick.outputs.files }} || true
+      - name: broll-cache에 올리기
+        if: steps.pick.outputs.files != ''
+        run: |
+          mkdir -p /tmp/cache
+          for f in ${{ steps.pick.outputs.files }}; do
+            d=$(dirname "$f")
+            if [ -d "$d/broll" ]; then mkdir -p "/tmp/cache/$d" && cp -r "$d/broll" "/tmp/cache/$d/"; fi
+          done
+          cd /tmp/cache
+          git init -q && git checkout -q -b broll-cache
+          git config user.name "broll-bot" && git config user.email "broll-bot@users.noreply.github.com"
+          git add -A && git commit -q -m "broll for ${{ steps.pick.outputs.files }}"
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" broll-cache
