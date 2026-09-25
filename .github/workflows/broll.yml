@@ -32,6 +32,8 @@ jobs:
           fi
       - name: 영상 받기
         if: steps.pick.outputs.files != ''
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python3 tools/fetch_broll.py ${{ steps.pick.outputs.files }} || true
       - name: broll-cache에 올리기
         if: steps.pick.outputs.files != ''
