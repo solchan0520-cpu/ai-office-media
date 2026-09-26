@@ -1,0 +1,125 @@
+{
+ "id": "2026-09-26-revolving",
+ "format": "short",
+ "kind": "priority",
+ "topicDoc": "topics/priority-2026-09-26-b",
+ "title": "리볼빙 이자 월 1만 4천 원, 연회비 0원 카드의 비밀 | 알고보면 돈 4편",
+ "thumbText": "매달 1만 4,567원\n정체는?",
+ "series": "알고보면 돈",
+ "seriesNo": 4,
+ "sources": [
+  "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04365686645582416",
+  "https://biz.newdaily.co.kr/site/data/html/2026/09/22/2026092200117.html",
+  "https://www.mt.co.kr/finance/2026/08/11/2026081110153155987",
+  "https://www.womennews.co.kr/news/articleView.html?idxno=280907",
+  "https://gongsi.crefia.or.kr/portal/creditcard/creditcardDisclosureDetail30?cgcMode=30"
+ ],
+ "brollUsed": [
+  "https://www.pexels.com/video/bustling-day-at-outdoor-market-in-seoul-36718309/",
+  "https://www.pexels.com/video/vibrant-market-display-of-fresh-produce-36108518/",
+  "https://www.pexels.com/video/woman-doing-grocery-9015583/",
+  "https://www.pexels.com/video/food-market-supermarket-foodstuff-4251604/",
+  "https://www.pexels.com/video/time-lapse-video-of-a-person-doing-grocery-8799885/"
+ ],
+ "style": {
+  "layout": "숫자 정체 맞히기 + 실사 위 막대",
+  "structure": "숫자 정체 질문→힌트→가맹점 수수료→리볼빙 반전→알보 계산→사례→A/B→되감기",
+  "tone": "대화형 구어체"
+ },
+ "scenes": [
+  {
+   "text": "매달 1만 4,567원\n이 돈의 정체는?",
+   "say": "매달 1만 4천5백 원, 조용히 빠지는 이 돈. 정체가 뭘까요?",
+   "motion": "카드를 쥔 손 실사 위, 1만 4,567원이 카운트업되며 동전이 하나씩 떨어짐 → 물음표 톡",
+   "source": "알보 계산(여신금융협회 공시 평균 리볼빙 수수료율, 이데일리 2026.9)",
+   "broll": {
+    "query": "hands holding credit card"
+   }
+  },
+  {
+   "text": "연회비 0원 카드\n카드사는 뭘로 벌까",
+   "say": "연회비 0원 카드를 주는 카드사, 뭘로 벌까요? 힌트는 리볼빙이에요.",
+   "motion": "0원 도장 쾅 → '리볼빙' 글자가 흐릿하게 떴다 사라짐",
+   "broll": {
+    "query": "contactless card payment"
+   },
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21)"
+  },
+  {
+   "text": "커피 5천 원 결제\n가게가 20~72원",
+   "say": "먼저, 결제할 때마다 가게가 수수료를 내요. 오천 원 커피면, 이십 원에서 칠십 원 남짓이죠.",
+   "motion": "계산식 5,000×0.4%=20원 / ×1.45%=72.5원이 차례로 써지고 막대 2개 자람",
+   "source": "금융위원회 우대수수료율(영세·중소 가맹점) · 머니투데이(2026.8.11)·여성신문(2026.8)",
+   "chart": {
+    "items": [
+     [
+      "우대 최저 0.4%",
+      20,
+      "원"
+     ],
+     [
+      "우대 최고 1.45%",
+      72.5,
+      "원"
+     ]
+    ]
+   },
+   "broll": {
+    "query": "barista serving coffee"
+   }
+  },
+  {
+   "text": "진짜 큰돈은\n리볼빙 연 17%대",
+   "say": "진짜 큰돈은 따로 있어요. 결제일에 일부만 내는 리볼빙. 평균 연 십칠 퍼센트대예요. 카드론보다 비싸죠.",
+   "motion": "막대 2개(카드론 14.48 vs 리볼빙 17.48)가 자라고 차이 '+3%p' 꼬리표 톡",
+   "source": "여신금융협회 공시(8월 취급분) · 이데일리(2026.9.21)·뉴데일리(2026.9.22)",
+   "chart": {
+    "items": [
+     [
+      "카드론",
+      14.48,
+      "%"
+     ],
+     [
+      "리볼빙",
+      17.48,
+      "%"
+     ]
+    ]
+   }
+  },
+  {
+   "text": "알보 계산\n100만×17.48%÷12",
+   "say": "알보가 계산해 볼게요. 백만 원을 넘기면, 한 달 수수료가 만 사천오백 원쯤. 처음 그 돈이에요.",
+   "motion": "계산식이 한 칸씩 써지고 결과 1만 4,567원 카운트업(노란색) → 첫 장면 숫자와 같은 모양으로 반짝",
+   "source": "알보 계산(평균 연 17.48%, 이데일리 2026.9)"
+  },
+  {
+   "text": "리볼빙 잔액\n7조 원",
+   "say": "지난 팔월 리볼빙 잔액은 칠조 원. 다섯 달째 늘었어요.",
+   "motion": "도시 야경 실사 위 7조 원 카운트업 + 5칸 계단 그래프가 한 칸씩 올라감",
+   "source": "이데일리(2026.9.21)·뉴데일리(2026.9.22)",
+   "case": {
+    "date": "2026-09-21",
+    "headline": "8월 말 리볼빙 이월잔액 6조 9,994억 원, 5개월 연속 증가",
+    "outlet": "이데일리"
+   },
+   "broll": {
+    "query": "city skyline at night"
+   }
+  },
+  {
+   "text": "A 켜져 있다\nB 꺼져 있다",
+   "say": "그래서 나한테 뜻하는 건 하나. 내 카드 리볼빙, 켜졌는지 보세요. 여러분은, A 켜져 있다, B 꺼져 있다?",
+   "motion": "스위치 아이콘이 켜짐/꺼짐으로 깜빡 + A·B 카드 등장",
+   "broll": {
+    "query": "hands scrolling phone"
+   }
+  },
+  {
+   "text": "처음 그 숫자,\n다시 볼까요?",
+   "say": "그럼 처음 그 숫자, 다시 볼까요?",
+   "motion": "되감기 효과로 첫 장면 1만 4,567원 쪽으로 밀려남 + 알보 손 흔들기"
+  }
+ ]
+}
