@@ -647,9 +647,13 @@ def make(script_path):
          "-shortest", "-movflags", "+faststart", str(video)],
         stdin=subprocess.PIPE,
     )
+    prev_i = None
     for f in range(frames):
         t_global = f / FPS
         i = max(k for k in range(n) if starts[k] <= t_global + 1e-9)
+        if prev_i is not None and i != prev_i:
+            objs[prev_i].close()  # 지난 장면의 실제 영상 리더를 바로 닫는다(롱폼 메모리 부족 방지)
+        prev_i = i
         t = t_global - starts[i]
         frame = objs[i].frame(t, durs[i])
         if i > 0 and t < TRANS:
