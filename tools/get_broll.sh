@@ -27,7 +27,7 @@ python3 tools/fetch_broll.py "$S" && { echo "broll: 직접 받기 성공"; exit 
 echo "broll: 직접 받기 실패 → GitHub에서 받기"
 git add "$S" && git commit -q -m "대본: $D (broll 요청)" || true
 git push -q || { echo "broll: push 실패 → 클립 없이 진행"; exit 0; }
-for i in $(seq 1 40); do
+for i in $(seq 1 ${BROLL_WAIT_STEPS:-40}); do
   sleep 15
   if git fetch -q origin broll-cache 2>/dev/null && git ls-tree -r --name-only origin/broll-cache | grep -q "^$D/broll/s"; then
     git archive origin/broll-cache "$D/broll" | tar x
