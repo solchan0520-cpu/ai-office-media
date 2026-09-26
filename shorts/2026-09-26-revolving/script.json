@@ -33,7 +33,11 @@
    "motion": "카드를 쥔 손 실사 위, 1만 4,567원이 카운트업되며 동전이 하나씩 떨어짐 → 물음표 톡",
    "source": "알보 계산(여신금융협회 공시 평균 리볼빙 수수료율, 이데일리 2026.9)",
    "broll": {
-    "query": "hands holding credit card"
+    "query": "hands holding credit card",
+    "url": "https://videos.pexels.com/video-files/6898096/6898096-hd_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/person-shopping-online-6898096/",
+    "credit": "Mikhail Nilov / Pexels",
+    "license": "Pexels License(상업 무료)"
    }
   },
   {
@@ -41,7 +45,11 @@
    "say": "연회비 0원 카드를 주는 카드사, 뭘로 벌까요? 힌트는 리볼빙이에요.",
    "motion": "0원 도장 쾅 → '리볼빙' 글자가 흐릿하게 떴다 사라짐",
    "broll": {
-    "query": "contactless card payment"
+    "query": "contactless card payment",
+    "url": "https://videos.pexels.com/video-files/7669659/7669659-hd_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-contactless-payment-7669659/",
+    "credit": "Ivan S / Pexels",
+    "license": "Pexels License(상업 무료)"
    },
    "source": "여신금융협회 공시 · 이데일리(2026.9.21)"
   },
@@ -65,7 +73,11 @@
     ]
    },
    "broll": {
-    "query": "barista serving coffee"
+    "query": "barista serving coffee",
+    "url": "https://videos.pexels.com/video-files/13736675/13736675-hd_1080_1920_24fps.mp4",
+    "page": "https://www.pexels.com/video/a-barista-serving-a-cup-of-coffee-13736675/",
+    "credit": "Mizuno K / Pexels",
+    "license": "Pexels License(상업 무료)"
    }
   },
   {
@@ -105,7 +117,11 @@
     "outlet": "이데일리"
    },
    "broll": {
-    "query": "city skyline at night"
+    "query": "city skyline at night",
+    "url": "https://videos.pexels.com/video-files/9921286/9921286-hd_1080_1920_30fps.mp4",
+    "page": "https://www.pexels.com/video/modern-skyscrapers-at-night-9921286/",
+    "credit": "Natalya Fedorova / Pexels",
+    "license": "Pexels License(상업 무료)"
    }
   },
   {
@@ -113,7 +129,11 @@
    "say": "그래서 나한테 뜻하는 건 하나. 내 카드 리볼빙, 켜졌는지 보세요. 여러분은, A 켜져 있다, B 꺼져 있다?",
    "motion": "스위치 아이콘이 켜짐/꺼짐으로 깜빡 + A·B 카드 등장",
    "broll": {
-    "query": "hands scrolling phone"
+    "query": "hands scrolling phone",
+    "url": "https://videos.pexels.com/video-files/17512949/17512949-hd_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/girl-using-her-phone-device-inside-of-a-hipster-coffee-shop-17512949/",
+    "credit": "Nathan J Hilton / Pexels",
+    "license": "Pexels License(상업 무료)"
    }
   },
   {

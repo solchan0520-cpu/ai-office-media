@@ -30,12 +30,16 @@
  },
  "scenes": [
   {
-   "text": "5만 원 선물세트\n당근선 2만 5천 원?",
+   "text": "5만 원 선물세트\n당근에선 반값?",
    "say": "5만 원 추석 선물세트가, 당근에선 2만 5천 원. 누가 이득일까요?",
    "motion": "손이 선물 상자를 드는 실사 위, 두 숫자가 좌우에서 동시에 카운트업(노란색) → 가운데 'VS' 톡 → 작은 꼬리표 '예시 금액'",
    "source": "반값 거래 사례: 국민일보·아시아경제(2026.9) · 금액은 예시",
    "broll": {
-    "query": "hands holding gift box"
+    "query": "hands holding gift box",
+    "url": "https://videos.pexels.com/video-files/6568265/6568265-hd_720_1366_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-person-opening-a-box-containing-a-cloth-6568265/",
+    "credit": "cottonbro studio / Pexels",
+    "license": "Pexels License(상업 무료)"
    }
   },
   {
@@ -63,7 +67,11 @@
     "outlet": "국민일보"
    },
    "broll": {
-    "query": "person scrolling smartphone"
+    "query": "person scrolling smartphone",
+    "url": "https://videos.pexels.com/video-files/10374888/10374888-hd_1080_1920_24fps.mp4",
+    "page": "https://www.pexels.com/video/close-up-on-man-hand-scrolling-phone-gallery-10374888/",
+    "credit": "RDNE Stock project / Pexels",
+    "license": "Pexels License(상업 무료)"
    }
   },
   {
@@ -72,7 +80,11 @@
    "motion": "숫자 1만 원 카운트업, 말풍선 5개가 톡톡 튀어나옴",
    "source": "국민일보(2026.9.23)·아시아경제(2026.9.24)",
    "broll": {
-    "query": "fresh pears in box"
+    "query": "fresh pears in box",
+    "url": "https://videos.pexels.com/video-files/5945049/5945049-hd_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-person-getting-some-slices-of-pear-from-the-cutting-board-5945049/",
+    "credit": "Any Lane / Pexels",
+    "license": "Pexels License(상업 무료)"
    }
   },
   {
@@ -108,7 +120,11 @@
    "motion": "체크리스트 3줄(미개봉·소비기한·허용 앱)이 하나씩 체크되며 등장",
    "source": "파이낸셜뉴스(2026.9.24)·서플(2026.9.26)",
    "broll": {
-    "query": "hands holding capsule pills"
+    "query": "hands holding capsule pills",
+    "url": "https://videos.pexels.com/video-files/5453771/5453771-hd_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/medicines-falling-on-palm-of-a-man-5453771/",
+    "credit": "Tima Miroshnichenko / Pexels",
+    "license": "Pexels License(상업 무료)"
    }
   },
   {
@@ -116,7 +132,11 @@
    "say": "그래서 나한테 뜻하는 건 하나. 팔기 전에, 품목부터 보세요. 여러분은 A 그냥 쓴다, B 반값에 판다?",
    "motion": "A·B 카드가 좌우로 톡 튀어나오고 3·2·1 카운트",
    "broll": {
-    "query": "family opening gift box at home"
+    "query": "family opening gift box at home",
+    "url": "https://videos.pexels.com/video-files/5814325/5814325-hd_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/father-and-daughter-opening-christmas-present-5814325/",
+    "credit": "Tima Miroshnichenko / Pexels",
+    "license": "Pexels License(상업 무료)"
    }
   },
   {
