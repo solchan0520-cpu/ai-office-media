@@ -79,6 +79,8 @@ def main(script_path):
                     used.add(hit["page"])
                     resolved[str(i)] = hit
                     b = {**b, **hit}
+                else:
+                    fail += 1  # 검색어를 못 풀면 실패로 세서 get_broll.sh가 GitHub(키 있음)로 넘기게 한다
         if not b or not b.get("url"):
             continue
         dst = out / f"s{i:02d}.mp4"
