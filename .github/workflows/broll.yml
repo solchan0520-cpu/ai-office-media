@@ -4,7 +4,7 @@
 name: broll
 on:
   push:
-    paths: ["shorts/**/script.json", "long/**/script.json"]
+    paths: ["shorts/**/script.json", "long/**/script.json", "longs/**/script.json"]
   workflow_dispatch:
     inputs:
       script:
@@ -28,7 +28,7 @@ jobs:
           if [ -n "${{ github.event.inputs.script }}" ]; then
             echo "files=${{ github.event.inputs.script }}" >> "$GITHUB_OUTPUT"
           else
-            echo "files=$(git diff --name-only HEAD~1 HEAD -- 'shorts/**/script.json' 'long/**/script.json' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+            echo "files=$(git diff --name-only HEAD~1 HEAD -- 'shorts/**/script.json' 'long/**/script.json' 'longs/**/script.json' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
           fi
       - name: 영상 받기
         if: steps.pick.outputs.files != ''
