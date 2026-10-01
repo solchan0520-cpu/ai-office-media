@@ -6,19 +6,19 @@
   {
    "item": "길이",
    "result": "pass",
-   "value": "46.9초",
+   "value": "51.9초",
    "rule": "25~60초"
   },
   {
    "item": "용량",
    "result": "pass",
-   "value": "24.9MB",
+   "value": "27.9MB",
    "rule": "80MB 미만(GitHub 100MB 한도·업로드 안정)"
   },
   {
    "item": "음량",
    "result": "pass",
-   "value": "-14.9 LUFS",
+   "value": "-14.3 LUFS",
    "rule": "-16~-12 LUFS"
   },
   {
