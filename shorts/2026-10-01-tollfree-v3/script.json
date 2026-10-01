@@ -1,0 +1,144 @@
+{
+ "id": "2026-10-01-tollfree-v3",
+ "format": "short",
+ "kind": "waiting",
+ "topicDoc": "topics/toll-free-holiday",
+ "title": "명절 통행료 0원, 1,192억 원은 누가 낼까 | 알고보면 돈 5편",
+ "thumbText": "통행료 0원\n1,192억은 누가?",
+ "series": "알고보면 돈",
+ "seriesNo": 5,
+ "sources": [
+  "https://www.fnnews.com/news/202609241001059518",
+  "https://www.newspim.com/news/view/20260922001160"
+ ],
+ "brollUsed": [
+  "https://www.pexels.com/video/a-person-opening-a-box-containing-a-cloth-6568265/",
+  "https://www.pexels.com/video/close-up-on-man-hand-scrolling-phone-gallery-10374888/",
+  "https://www.pexels.com/video/a-person-getting-some-slices-of-pear-from-the-cutting-board-5945049/",
+  "https://www.pexels.com/video/medicines-falling-on-palm-of-a-man-5453771/",
+  "https://www.pexels.com/video/father-and-daughter-opening-christmas-present-5814325/",
+  "https://www.pexels.com/video/person-shopping-online-6898096/",
+  "https://www.pexels.com/video/a-contactless-payment-7669659/",
+  "https://www.pexels.com/video/a-barista-serving-a-cup-of-coffee-13736675/",
+  "https://www.pexels.com/video/modern-skyscrapers-at-night-9921286/",
+  "https://www.pexels.com/video/girl-using-her-phone-device-inside-of-a-hipster-coffee-shop-17512949/",
+  "https://www.pexels.com/video/bustling-day-at-outdoor-market-in-seoul-36718309/",
+  "https://www.pexels.com/video/vibrant-market-display-of-fresh-produce-36108518/",
+  "https://www.pexels.com/video/woman-doing-grocery-9015583/",
+  "https://www.pexels.com/video/food-market-supermarket-foodstuff-4251604/",
+  "https://www.pexels.com/video/time-lapse-video-of-a-person-doing-grocery-8799885/",
+  "https://www.pexels.com/video/sunset-city-traffic-with-vibrant-skyline-34504957/",
+  "https://www.pexels.com/video/nighttime-highway-traffic-timelapse-39286036/",
+  "https://www.pexels.com/video/aerial-drone-view-of-busy-toll-booth-29842321/",
+  "https://www.pexels.com/video/night-construction-site-with-workers-and-machinery-35379366/",
+  "https://www.pexels.com/video/aerial-view-of-highway-on-sunny-day-38510169/",
+  "https://www.pexels.com/video/monochrome-highway-with-passing-vehicles-36828748/"
+ ],
+ "style": {
+  "layout": "숫자 훅 + 실사 위 막대·사례 카드",
+  "structure": "사라진 돈→누가 낼까→감면 구조→알보 계산→정부 0원 반전→누적→해석→A/B→되감기",
+  "tone": "대화형 구어체"
+ },
+ "scenes": [
+  {
+   "text": "통행료 0원\n사라진 돈 1,192억",
+   "say": "1,192억 원. 명절 고속도로가 공짜인 동안 사라진 통행료예요.",
+   "source": "파이낸셜뉴스(2026.9.24)·뉴스핌(2026.9.22) · 2025년 기준",
+   "broll": {
+    "query": "highway traffic jam holiday",
+    "cuts": 3
+   }
+  },
+  {
+   "text": "이번 추석도\n통행료 0원",
+   "say": "이번 추석에도 통행료는 0원이었죠. 그럼 이 돈, 누가 낼까요?",
+   "source": "파이낸셜뉴스(2026.9.24)·뉴스핌(2026.9.22)",
+   "broll": {
+    "query": "car driving highway night",
+    "cuts": 3
+   }
+  },
+  {
+   "text": "작년 감면 4,712억\n수입의 10.7%",
+   "say": "작년 고속도로 통행료 감면은 모두 4,712억 원. 통행료 수입의 10.7%였어요.",
+   "source": "파이낸셜뉴스(2026.9.24)·뉴스핌(2026.9.22)",
+   "chart": {
+    "items": [
+     [
+      "명절 면제",
+      1192,
+      "억 원"
+     ],
+     [
+      "그 밖의 감면",
+      3520,
+      "억 원"
+     ]
+    ]
+   },
+   "broll": {
+    "query": "toll gate highway cars",
+    "cuts": 3
+   }
+  },
+  {
+   "text": "알보 계산\n감면 4번 중 1번",
+   "say": "알보가 계산해 보면, 감면 네 번 중 한 번꼴이 명절 며칠에 몰린 셈이죠.",
+   "source": "알보 계산(1,192억÷4,712억=25.3%) · 파이낸셜뉴스(2026.9.24)·뉴스핌(2026.9.22)",
+   "broll": {
+    "query": "calculator counting money hands",
+    "cuts": 3
+   }
+  },
+  {
+   "text": "정부가 채워 준 돈\n0원",
+   "say": "그런데 이 돈, 정부가 채워 준 적은 없어요. 고스란히 도로공사 몫이죠.",
+   "source": "파이낸셜뉴스(2026.9.24)·뉴스핌(2026.9.22)",
+   "case": {
+    "headline": "명절 통행료 면제 1,192억 원, 정부 보전 없이 도로공사 부담",
+    "outlet": "파이낸셜뉴스",
+    "date": "2026-09-24"
+   },
+   "broll": {
+    "query": "road construction workers",
+    "cuts": 3
+   }
+  },
+  {
+   "text": "17년 누적 감면\n5조 4,506억 원",
+   "say": "2009년부터 쌓인 감면은 5조 4,506억 원. 도로공사 빚의 약 12% 규모예요.",
+   "source": "파이낸셜뉴스(2026.9.24)·뉴스핌(2026.9.22)",
+   "broll": {
+    "query": "highway aerial view",
+    "cuts": 3
+   }
+  },
+  {
+   "text": "공짜 통행료도\n누군가의 장부에",
+   "say": "공짜 같지만, 결국 누군가의 장부에 남아요. 요금에 어떻게 반영될지는 아직 정해진 게 없어요.",
+   "icon": "coin",
+   "broll": {
+    "query": "toll booth cars passing",
+    "cuts": 3
+   }
+  },
+  {
+   "text": "A 계속 0원\nB 일부만 면제",
+   "say": "여러분은요? A 계속 0원, B 일부만 면제. 댓글로 골라 주세요.",
+   "broll": {
+    "query": "family car road trip",
+    "cuts": 3
+   },
+   "source": "파이낸셜뉴스(2026.9.24)·뉴스핌(2026.9.22)"
+  },
+  {
+   "text": "처음 그 숫자,\n다시 볼까요?",
+   "say": "그럼 처음 그 숫자, 다시 볼까요?",
+   "broll": {
+    "query": "highway timelapse night city",
+    "cuts": 3
+   }
+  }
+ ],
+ "demo": "제작기 v3 풀모션 시연(업로드 안 함)"
+}
