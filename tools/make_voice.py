@@ -23,13 +23,14 @@ def main(script_path):
     out = script_path.parent / "voice"
     out.mkdir(exist_ok=True)
     says = [say_of(sc) for sc in spec["scenes"]]
-    jobs = [{"text": t, "out": str(out / f"s{i:03d}.wav")} for i, t in enumerate(says)]
+    speed = float(spec.get("voiceSpeed", 1.25 if spec.get("format", "short") == "short" else 1.1))
+    jobs = [{"text": t, "out": str(out / f"s{i:03d}.wav"), "speed": speed} for i, t in enumerate(says)]
     jp = out / "jobs.json"
     jp.write_text(json.dumps(jobs, ensure_ascii=False), encoding="utf-8")
     subprocess.run([sys.executable, str(Path(__file__).parent / "melo_tts.py"), str(jp)], check=True)
     jp.unlink()
     manifest = {str(i): say_hash(t) for i, t in enumerate(says) if (out / f"s{i:03d}.wav").exists()}
-    (out / "manifest.json").write_text(json.dumps({"engine": "melo", "scenes": manifest}, indent=1), encoding="utf-8")
+    (out / "manifest.json").write_text(json.dumps({"engine": "melo", "speed": speed, "scenes": manifest}, indent=1), encoding="utf-8")
     print(json.dumps({"id": spec.get("id"), "voiced": len(manifest), "scenes": len(says)}))
 
 
