@@ -79,7 +79,7 @@ def main(script_path):
                     used.add(hit["page"])
                     # cuts: N이면 같은 검색어로 서로 다른 클립을 N개까지 더 고른다(장면 안 2초 컷용)
                     extra = []
-                    for _ in range(max(0, int(b.get("cuts", 1)) - 1)):
+                    for _ in range(max(0, int(b.get("cuts", 3)) - 1)):
                         try:
                             more = pexels_search(b["query"], orientation, used)
                         except Exception:

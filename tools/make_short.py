@@ -449,6 +449,7 @@ class Scene:
                 self.broll = self.clips[0]
         self.reader = None
         self._seg = None
+        self.offset_base = 0.0
         self.say = sc.get("say", sc["text"]).replace("\n", " ").replace("*", "")
         self.case = sc.get("case")
         L = layout()
@@ -485,7 +486,7 @@ class Scene:
             self.close()
             n = len(self.clips)
             clip = self.clips[seg % n]
-            offset = (seg // n) * SEG
+            offset = self.offset_base + (seg // n) * SEG
             self.reader = subprocess.Popen(
                 [FFMPEG, "-loglevel", "error", "-stream_loop", "-1", "-ss", f"{offset:.2f}", "-i", str(clip),
                  "-t", f"{SEG + 1:.3f}",
@@ -698,6 +699,14 @@ def make(script_path):
     visual = spec.get("visuals", True)
     objs = [Scene(sc, i, n, visual=visual, base=out_dir) for i, sc in enumerate(scenes)]
     broll_used = sum(1 for o in objs if o.broll is not None)
+    # 실사가 없는 장면은 가장 가까운 장면의 클립 뒷부분을 빌려 깐다(그림만 있는 장면을 없앤다)
+    if spec.get("fillBroll", True) and broll_used:
+        have = [k for k, o in enumerate(objs) if o.clips]
+        for k, o in enumerate(objs):
+            if not o.clips:
+                src = min(have, key=lambda j: (abs(j - k), j))
+                o.clips, o.broll, o.offset_base = objs[src].clips, objs[src].broll, 6.0
+                o.icon, o.host = None, False
     bgs = [o.bg for o in objs]
     host_on = visual and spec.get("presenter", True)
     # 진행자 입 모양용: 프레임마다 목소리 크기(0~1)
