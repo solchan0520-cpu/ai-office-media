@@ -39,6 +39,7 @@ python3 tools/make_short.py <폴더>/script.json   # video.mp4 + thumb.jpg 생�
 - 실사가 없는 장면은 가장 가까운 장면의 클립 뒷부분을 빌려 깐다(그림만 있는 장면 없음, `"fillBroll": false`로 끔).
 - 읽는 문장(say)이 구절 단위로 화면 아래에 톡 튀어나오는 말 자막이 자동으로 붙는다(`"captions": false`로 끔).
 - 기획은 **모든 장면**에 broll.query를 적는다(사람이 움직이는 장면 우선).
+- **목소리(MeloTTS, 의장 승인 2026-10-01)**: 대본을 올리면 GitHub(tts 워크플로)가 MeloTTS-Korean으로 장면 목소리를 만들어 `tts-cache`에 올린다. 제작은 `bash tools/get_broll.sh` 다음에 `bash tools/get_voice.sh <script.json>`(최대 30분 대기). 대본 say와 해시가 맞을 때만 쓰고(결과 JSON `voice: "melo-gh"`), 없으면 KSS로 자동 진행. 대본을 고치면 다시 올려 새 목소리를 받는다.
 
 ### 제작 중 자동 품질 검수 (의장 지시 11번)
 - `make_short.py`가 영상을 만든 직후 `tools/qc.py`를 스스로 돌려 `qc.json`(항목별 통과·경고·실패)과 `qc_sheet.jpg`(영상 전체 12장 한 판)를 만든다. 사람이 따로 확인하는 단계는 없다.

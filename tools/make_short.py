@@ -111,6 +111,26 @@ def write_wav(path, a, rate):
         w.writeframes((a * 32767).astype(np.int16).tobytes())
 
 
+def gh_voice(out_dir, says, wavs):
+    """<폴더>/voice/에 지금 대본과 해시가 모두 맞는 MeloTTS 목소리가 있으면 작업 폴더로 복사한다."""
+    import hashlib
+    import shutil
+    if os.environ.get("ALGO_TTS") == "kss":
+        return False
+    vdir = out_dir / "voice"
+    m = vdir / "manifest.json"
+    if not m.exists():
+        return False
+    man = json.loads(m.read_text(encoding="utf-8")).get("scenes", {})
+    for i, t in enumerate(says):
+        src = vdir / f"s{i:03d}.wav"
+        if man.get(str(i)) != hashlib.sha256(t.encode("utf-8")).hexdigest()[:16] or not src.exists():
+            return False
+    for i, w in enumerate(wavs):
+        shutil.copy(vdir / f"s{i:03d}.wav", w)
+    return True
+
+
 def melo_batch(texts, wavs):
     """MeloTTS-Korean으로 한 번에 만든다. 실패하면 False를 돌려 KSS로 되돌린다."""
     if os.environ.get("ALGO_TTS") == "kss" or not MELO_OK.exists():
@@ -664,10 +684,13 @@ def make(script_path):
     # 1) 음성
     says = [sc.get("say", sc["text"]).replace("\n", " ").replace("*", "") for sc in scenes]
     wavs = [work / f"s{i:03d}.wav" for i in range(n)]
-    voice = "melo" if melo_batch(says, wavs) else "kss"
+    if gh_voice(out_dir, says, wavs):
+        voice = "melo-gh"  # GitHub(tts 워크플로)가 만든 MeloTTS 목소리
+    else:
+        voice = "melo" if melo_batch(says, wavs) else "kss"
     durs = []
     for i in range(n):
-        d = wav_seconds(wavs[i]) if voice == "melo" else tts(says[i], wavs[i])
+        d = wav_seconds(wavs[i]) if voice.startswith("melo") else tts(says[i], wavs[i])
         durs.append(d + TAIL)
     starts = np.cumsum([0] + durs[:-1]).tolist()
     total = sum(durs)
