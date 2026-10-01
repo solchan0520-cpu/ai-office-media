@@ -111,7 +111,7 @@ def write_wav(path, a, rate):
         w.writeframes((a * 32767).astype(np.int16).tobytes())
 
 
-def gh_voice(out_dir, says, wavs):
+def gh_voice(out_dir, says, wavs, speed):
     """<폴더>/voice/에 지금 대본과 해시가 모두 맞는 MeloTTS 목소리가 있으면 작업 폴더로 복사한다."""
     import hashlib
     import shutil
@@ -124,7 +124,7 @@ def gh_voice(out_dir, says, wavs):
     man = json.loads(m.read_text(encoding="utf-8")).get("scenes", {})
     for i, t in enumerate(says):
         src = vdir / f"s{i:03d}.wav"
-        if man.get(str(i)) != hashlib.sha256(t.encode("utf-8")).hexdigest()[:16] or not src.exists():
+        if man.get(str(i)) != hashlib.sha256(f"{speed}|{t}".encode("utf-8")).hexdigest()[:16] or not src.exists():
             return False
     for i, w in enumerate(wavs):
         shutil.copy(vdir / f"s{i:03d}.wav", w)
@@ -684,7 +684,8 @@ def make(script_path):
     # 1) 음성
     says = [sc.get("say", sc["text"]).replace("\n", " ").replace("*", "") for sc in scenes]
     wavs = [work / f"s{i:03d}.wav" for i in range(n)]
-    if gh_voice(out_dir, says, wavs):
+    vspeed = float(spec.get("voiceSpeed", 1.25 if spec.get("format", "short") == "short" else 1.1))
+    if gh_voice(out_dir, says, wavs, vspeed):
         voice = "melo-gh"  # GitHub(tts 워크플로)가 만든 MeloTTS 목소리
     else:
         voice = "melo" if melo_batch(says, wavs) else "kss"

@@ -11,9 +11,10 @@ import json, sys, pathlib, hashlib
 s = pathlib.Path(sys.argv[1]); m = s.parent / "voice" / "manifest.json"
 if not m.exists(): sys.exit(1)
 spec = json.loads(s.read_text(encoding="utf-8")); man = json.loads(m.read_text())["scenes"]
+sp = float(spec.get("voiceSpeed", 1.25 if spec.get("format", "short") == "short" else 1.1))
 for i, sc in enumerate(spec["scenes"]):
     t = sc.get("say", sc["text"]).replace("\n", " ").replace("*", "")
-    if man.get(str(i)) != hashlib.sha256(t.encode("utf-8")).hexdigest()[:16]: sys.exit(1)
+    if man.get(str(i)) != hashlib.sha256(f"{sp}|{t}".encode("utf-8")).hexdigest()[:16]: sys.exit(1)
 PY
 }
 match && { echo "voice: 이미 맞는 목소리 있음"; exit 0; }
