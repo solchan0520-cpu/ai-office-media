@@ -56,6 +56,7 @@ TRANS = 0.28     # 장면 전환(밀어내기) 길이(초)
 LINE_GAP = 0.16  # 줄마다 등장 간격(초)
 POP = 0.32       # 줄 등장 애니메이션 길이(초)
 COUNT = 0.8      # 숫자 카운트업 길이(초)
+SEG = 2.2        # 실제 영상 컷 길이(초) — 2~3초마다 화면이 바뀌게
 # 장면마다 돌아가며 쓰는 배경 (위→아래 그라데이션)
 PALETTES = [
     ((20, 24, 48), (6, 8, 18)),
@@ -439,11 +440,16 @@ class Scene:
         self.bg = make_background(idx)
         # 실제 촬영 영상(B-roll): shorts/<id>/broll/sNN.mp4 가 있으면 배경으로 쓴다
         self.broll = None
+        self.clips = []
         if base is not None:
-            cand = base / "broll" / f"s{idx:02d}.mp4"
-            if cand.exists() and cand.stat().st_size > 1000:
-                self.broll = cand
+            d = base / "broll"
+            cands = [d / f"s{idx:02d}.mp4"] + sorted(d.glob(f"s{idx:02d}_*.mp4"))
+            self.clips = [c for c in cands if c.exists() and c.stat().st_size > 1000]
+            if self.clips:
+                self.broll = self.clips[0]
         self.reader = None
+        self._seg = None
+        self.say = sc.get("say", sc["text"]).replace("\n", " ").replace("*", "")
         self.case = sc.get("case")
         L = layout()
         self.L = L
@@ -471,34 +477,53 @@ class Scene:
             return "point"
         return "talk"
 
-    def broll_frame(self, dur):
-        """실제 영상에서 다음 프레임을 읽어 글자가 잘 보이게 어둡게 깐다."""
-        if self.reader is None:
+    def broll_frame(self, t, dur):
+        """실제 영상: SEG초마다 다른 클립(또는 같은 클립의 다른 구간)으로 컷,
+        컷마다 천천히 확대·이동, 컷 순간 펀치 줌과 짧은 번쩍임(제작기 v3 '풀모션')."""
+        seg = int(t // SEG)
+        if seg != self._seg:
+            self.close()
+            n = len(self.clips)
+            clip = self.clips[seg % n]
+            offset = (seg // n) * SEG
             self.reader = subprocess.Popen(
-                [FFMPEG, "-loglevel", "error", "-stream_loop", "-1", "-i", str(self.broll),
-                 "-t", f"{dur + 1:.3f}",
+                [FFMPEG, "-loglevel", "error", "-stream_loop", "-1", "-ss", f"{offset:.2f}", "-i", str(clip),
+                 "-t", f"{SEG + 1:.3f}",
                  "-vf", f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1",
                  "-an", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
                 stdout=subprocess.PIPE)
-            self._last = None
+            self._seg = seg
             self._shade = shade_mask()
         raw = self.reader.stdout.read(W * H * 3)
         if len(raw) == W * H * 3:
-            a = np.frombuffer(raw, dtype=np.uint8).reshape(H, W, 3).astype(np.float32)
-            self._last = Image.fromarray((a * self._shade).astype(np.uint8))
-        if self._last is None:
+            self._raw = np.frombuffer(raw, dtype=np.uint8).reshape(H, W, 3)
+        if getattr(self, "_raw", None) is None:
             return background_frame(self.bg, 0, self.idx)
-        return self._last
+        ts = t - seg * SEG
+        p = min(1.0, ts / SEG)
+        # 짝수 컷은 확대, 홀수 컷은 축소 + 좌우로 살짝 흐름
+        z = 1.04 + 0.09 * (p if seg % 2 == 0 else 1 - p)
+        if seg > 0 and ts < 0.14:
+            z += 0.07 * (1 - ts / 0.14)  # 펀치 줌
+        cw, ch = int(W / z), int(H / z)
+        dx = int((W - cw) * (0.5 + 0.35 * (p - 0.5) * (1 if (seg + self.idx) % 2 else -1)))
+        dy = (H - ch) // 2
+        img = Image.fromarray(self._raw[dy:dy + ch, dx:dx + cw]).resize((W, H), Image.BILINEAR)
+        a = np.asarray(img, dtype=np.float32) * self._shade
+        if seg > 0 and ts < 2.0 / FPS:
+            a = a * 0.75 + 255 * 0.25  # 컷 순간 번쩍
+        return Image.fromarray(a.clip(0, 255).astype(np.uint8))
 
     def close(self):
         if self.reader is not None:
             self.reader.stdout.close()
             self.reader.kill()
+            self.reader.wait()
             self.reader = None
 
     def frame(self, t, dur):
         if self.broll is not None:
-            frame = self.broll_frame(dur).convert("RGBA")
+            frame = self.broll_frame(t, dur).convert("RGBA")
         else:
             frame = background_frame(self.bg, t / max(dur, 0.01), self.idx).convert("RGBA")
         self.text.draw(frame, t)
@@ -546,8 +571,8 @@ def shade_mask():
     """실제 영상 위 글자가 잘 보이도록: 전체 55% 밝기 + 위·아래는 더 어둡게."""
     if (W, H) not in _SHADE:
         y = np.linspace(0, 1, H, dtype=np.float32)
-        v = 0.62 - 0.30 * np.exp(-((y - 0.0) / 0.28) ** 2) - 0.25 * np.exp(-((y - 1.0) / 0.22) ** 2)
-        _SHADE[(W, H)] = np.clip(v, 0.25, 1)[:, None, None]
+        v = 0.90 - 0.42 * np.exp(-((y - 0.0) / 0.26) ** 2) - 0.34 * np.exp(-((y - 1.0) / 0.20) ** 2)
+        _SHADE[(W, H)] = np.clip(v, 0.35, 1)[:, None, None]
     return _SHADE[(W, H)]
 
 
@@ -560,6 +585,55 @@ def scene_frame(bg, text, idx, t, dur):
 
 def run(args):
     subprocess.run([FFMPEG, "-y", "-loglevel", "error", *args], check=True)
+
+
+def caption_chunks(say, max_chars):
+    """읽는 문장을 짧은 구절로 나눈다(어절 단위)."""
+    out, cur = [], ""
+    for w in say.split():
+        if cur and len(cur) + 1 + len(w) > max_chars:
+            out.append(cur)
+            cur = w
+        else:
+            cur = f"{cur} {w}".strip()
+        if cur.endswith((".", "?", "!", ",")) and len(cur) >= max_chars * 0.5:
+            out.append(cur)
+            cur = ""
+    if cur:
+        out.append(cur)
+    return out or [say]
+
+
+def draw_caption(frame, chunks, t, speak, cx, max_w, y):
+    """지금 읽는 구절을 아래쪽에 크게(톡 튀어나오며) 보여준다."""
+    if t > speak + 0.2 or not chunks:
+        return
+    weights = [max(1, len(c)) for c in chunks]
+    tot = sum(weights)
+    acc, k, start = 0.0, 0, 0.0
+    for k, w in enumerate(weights):
+        end = acc + speak * w / tot
+        if t < end or k == len(chunks) - 1:
+            start = acc
+            break
+        acc = end
+    txt = chunks[k]
+    size = 64 if W < H else 54
+    font = ImageFont.truetype(FONT, size)
+    probe = ImageDraw.Draw(Image.new("RGB", (8, 8)))
+    while probe.textlength(txt, font=font) > max_w - 60 and size > 36:
+        size -= 4
+        font = ImageFont.truetype(FONT, size)
+    tw = probe.textlength(txt, font=font)
+    pop = ease_out_back(min(1.0, (t - start) / 0.18))
+    box = Image.new("RGBA", (int(tw + 60), size + 40), (0, 0, 0, 0))
+    d = ImageDraw.Draw(box)
+    d.rounded_rectangle([0, 0, box.width - 1, box.height - 1], radius=22, fill=(0, 0, 0, 185))
+    d.text((30, 14), txt, font=font, fill=(255, 255, 255), stroke_width=2, stroke_fill=(0, 0, 0))
+    sc = 0.7 + 0.3 * pop
+    if sc != 1.0:
+        box = box.resize((max(1, int(box.width * sc)), max(1, int(box.height * sc))), Image.BILINEAR)
+    frame.alpha_composite(box, (int(cx - box.width / 2), int(y - box.height / 2)))
 
 
 def ad_notice(frame, text):
@@ -647,6 +721,9 @@ def make(script_path):
          "-shortest", "-movflags", "+faststart", str(video)],
         stdin=subprocess.PIPE,
     )
+    caps = None
+    if spec.get("captions", True):
+        caps = [caption_chunks(o.say, 16 if W < H else 30) for o in objs]
     prev_i = None
     for f in range(frames):
         t_global = f / FPS
@@ -673,6 +750,12 @@ def make(script_path):
             # 진행자는 전환 때도 제자리에 서서 계속 말한다
             host = V.presenter(t_global, float(amps[f]), objs[i].pose(t), scale=objs[i].L["host"])
             frame.alpha_composite(host, (10, H - BAR_H - host.height + int(40 * objs[i].L["host"])))
+        if caps:
+            host_here = host_on and objs[i].host
+            cx = W // 2 + (170 if host_here and W < H else 0)
+            mw = (W - 420 if host_here and W < H else W - 120) if W < H else int(W * 0.7)
+            cy = int(H * 0.80) if W < H else H - 190
+            draw_caption(frame, caps[i], t, durs[i] - TAIL, cx, mw, cy)
         overlay(frame, i, n, i == 0, t_global / total)
         notice = spec.get("adNotice")
         if notice and (t_global < 3.0 or (W > H and t_global > total - 6.0)):

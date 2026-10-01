@@ -77,34 +77,49 @@ def main(script_path):
                     print(f"장면 {i} 검색 실패: {e}", file=sys.stderr)
                 if hit:
                     used.add(hit["page"])
+                    # cuts: N이면 같은 검색어로 서로 다른 클립을 N개까지 더 고른다(장면 안 2초 컷용)
+                    extra = []
+                    for _ in range(max(0, int(b.get("cuts", 1)) - 1)):
+                        try:
+                            more = pexels_search(b["query"], orientation, used)
+                        except Exception:
+                            more = None
+                        if not more:
+                            break
+                        used.add(more["page"])
+                        extra.append(more)
+                    if extra:
+                        hit = {**hit, "extra": extra}
                     resolved[str(i)] = hit
                     b = {**b, **hit}
                 else:
                     fail += 1  # 검색어를 못 풀면 실패로 세서 get_broll.sh가 GitHub(키 있음)로 넘기게 한다
         if not b or not b.get("url"):
             continue
-        dst = out / f"s{i:02d}.mp4"
-        if b.get("credit"):
-            credits.append(f"{b['credit']} {b.get('page', '')}".strip())
-        if dst.exists() and dst.stat().st_size > 1000:
-            ok += 1
-            continue
-        tmp = out / f".raw{i:02d}.mp4"
-        try:
-            req = urllib.request.Request(b["url"], headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=60) as r, open(tmp, "wb") as f:
-                f.write(r.read())
-            subprocess.run([FF, "-y", "-loglevel", "error", "-ss", str(b.get("start", 0)), "-i", str(tmp),
-                            "-t", "15", "-an",
-                            "-vf", f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30",
-                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "26", "-pix_fmt", "yuv420p",
-                            str(dst)], check=True)
-            ok += 1
-        except Exception as e:  # 한 장면 실패는 전체를 막지 않는다
-            fail += 1
-            print(f"장면 {i} 실패: {e}", file=sys.stderr)
-        finally:
-            tmp.unlink(missing_ok=True)
+        jobs = [(out / f"s{i:02d}.mp4", b)] + [
+            (out / f"s{i:02d}_{k}.mp4", e) for k, e in enumerate(b.get("extra", []), 1)]
+        for n_job, (dst, clip) in enumerate(jobs):
+            if clip.get("credit"):
+                credits.append(f"{clip['credit']} {clip.get('page', '')}".strip())
+            if dst.exists() and dst.stat().st_size > 1000:
+                ok += n_job == 0
+                continue
+            tmp = out / f".raw{i:02d}_{n_job}.mp4"
+            try:
+                req = urllib.request.Request(clip["url"], headers={"User-Agent": "Mozilla/5.0"})
+                with urllib.request.urlopen(req, timeout=60) as r, open(tmp, "wb") as f:
+                    f.write(r.read())
+                subprocess.run([FF, "-y", "-loglevel", "error", "-ss", str(clip.get("start", 0)), "-i", str(tmp),
+                                "-t", "15", "-an",
+                                "-vf", f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30",
+                                "-c:v", "libx264", "-preset", "veryfast", "-crf", "26", "-pix_fmt", "yuv420p",
+                                str(dst)], check=True)
+                ok += n_job == 0
+            except Exception as e:  # 한 장면(추가 클립 포함) 실패는 전체를 막지 않는다
+                fail += n_job == 0
+                print(f"장면 {i} 클립 {n_job} 실패: {e}", file=sys.stderr)
+            finally:
+                tmp.unlink(missing_ok=True)
     if resolved:
         resolved_path.write_text(json.dumps(resolved, ensure_ascii=False, indent=1), encoding="utf-8")
     (out / "credits.txt").write_text("\n".join(dict.fromkeys(credits)) + "\n", encoding="utf-8")
