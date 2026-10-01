@@ -28,6 +28,14 @@ def pause_after(sentence):
     return random.uniform(0.25, 0.45)
 
 
+def trim(audio, thr=0.01):
+    """문장 앞뒤 무음을 잘라 낸다(쉼은 pause_after가 따로 넣는다)."""
+    idx = np.where(np.abs(audio) > thr)[0]
+    if len(idx) == 0:
+        return audio
+    return audio[max(0, idx[0] - 800): idx[-1] + 800]
+
+
 def main(jobs_path):
     jobs = json.load(open(jobs_path, encoding="utf-8"))
     model = TTS(language="KR", device="cpu")
@@ -37,8 +45,9 @@ def main(jobs_path):
     for job in jobs:
         chunks = []
         for s in sentences(job["text"]):
-            audio = model.tts_to_file(s, spk, None, speed=random.uniform(0.95, 1.05), quiet=True)
-            chunks.append(audio)
+            base = float(job.get("speed", 1.0))
+            audio = model.tts_to_file(s, spk, None, speed=base * random.uniform(0.97, 1.03), quiet=True)
+            chunks.append(trim(audio))
             chunks.append(np.zeros(int(sr * pause_after(s)), dtype=audio.dtype))
         if chunks:
             chunks.pop()  # 마지막 쉼은 make_short.py가 넣는다
