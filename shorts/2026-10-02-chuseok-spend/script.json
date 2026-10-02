@@ -1,0 +1,220 @@
+{
+ "id": "2026-10-02-chuseok-spend",
+ "format": "short",
+ "kind": "priority",
+ "topicDoc": "topics/priority-2026-10-01",
+ "title": "추석 지출 72만 8천원, 가장 큰 몫은 용돈 | 알고보면 돈 6편",
+ "thumbText": "추석 72만 원\n가장 큰 몫은?",
+ "series": "알고보면 돈",
+ "seriesNo": 6,
+ "sources": [
+  "https://www.mt.co.kr/society/2026/09/25/2026092509264673939",
+  "https://www.mhns.co.kr/news/articleView.html?idxno=760268"
+ ],
+ "brollUsed": [
+  "https://www.pexels.com/video/a-barista-serving-a-cup-of-coffee-13736675/",
+  "https://www.pexels.com/video/a-car-driving-down-a-road-at-night-16762623/",
+  "https://www.pexels.com/video/a-car-driving-on-the-highway-with-the-words-the-best-way-to-travel-27374055/",
+  "https://www.pexels.com/video/a-contactless-payment-7669659/",
+  "https://www.pexels.com/video/a-man-calling-while-holding-a-card-6898009/",
+  "https://www.pexels.com/video/a-man-in-a-black-jacket-is-talking-on-his-cell-phone-19329194/",
+  "https://www.pexels.com/video/a-man-is-walking-on-the-road-with-a-shovel-26288502/",
+  "https://www.pexels.com/video/a-panning-shot-of-a-person-using-calculator-6700250/",
+  "https://www.pexels.com/video/a-person-getting-some-slices-of-pear-from-the-cutting-board-5945049/",
+  "https://www.pexels.com/video/a-person-opening-a-box-containing-a-cloth-6568265/",
+  "https://www.pexels.com/video/a-person-putting-groceries-on-a-shopping-cart-9010435/",
+  "https://www.pexels.com/video/a-person-using-a-calculator-7710766/",
+  "https://www.pexels.com/video/a-seller-packing-the-purchase-7855142/",
+  "https://www.pexels.com/video/a-woman-looking-problematic-and-frustrated-5981347/",
+  "https://www.pexels.com/video/a-woman-waiting-for-her-car-to-be-charged-4818143/",
+  "https://www.pexels.com/video/aerial-drone-view-of-busy-toll-booth-29842321/",
+  "https://www.pexels.com/video/aerial-footage-of-a-traffic-in-a-multi-lane-expressway-2818521/",
+  "https://www.pexels.com/video/aerial-view-of-an-empty-toll-road-36153290/",
+  "https://www.pexels.com/video/aerial-view-of-empty-toll-plaza-in-rural-area-36153288/",
+  "https://www.pexels.com/video/aerial-view-of-highway-on-sunny-day-38510169/",
+  "https://www.pexels.com/video/aerial-view-of-highway-toll-plaza-with-cars-passing-36152745/",
+  "https://www.pexels.com/video/aerial-view-of-indian-highway-toll-plaza-33965633/",
+  "https://www.pexels.com/video/an-aerial-view-of-a-highway-with-cars-on-it-19452742/",
+  "https://www.pexels.com/video/an-elderly-couple-painting-eggs-7185649/",
+  "https://www.pexels.com/video/bank-exterior-with-logo-10218426/",
+  "https://www.pexels.com/video/bustling-indoor-market-with-vibrant-vegetables-36017942/",
+  "https://www.pexels.com/video/busy-highway-traffic-at-sunset-31779728/",
+  "https://www.pexels.com/video/cars-on-highway-12293819/",
+  "https://www.pexels.com/video/close-up-on-man-hand-scrolling-phone-gallery-10374888/",
+  "https://www.pexels.com/video/close-up-shot-of-a-woman-counting-money-using-calculator-6266261/",
+  "https://www.pexels.com/video/co-workers-discussing-their-work-6325853/",
+  "https://www.pexels.com/video/counting-cash-on-desk-with-smartphone-calculator-34839526/",
+  "https://www.pexels.com/video/driving-through-toll-plaza-on-sunny-day-34672583/",
+  "https://www.pexels.com/video/drone-footage-of-vehicles-on-road-11573674/",
+  "https://www.pexels.com/video/family-toasting-and-celebrating-5617254/",
+  "https://www.pexels.com/video/father-and-daughter-opening-christmas-present-5814325/",
+  "https://www.pexels.com/video/fresh-vegetables-variety-in-market-display-36483614/",
+  "https://www.pexels.com/video/girl-using-her-phone-device-inside-of-a-hipster-coffee-shop-17512949/",
+  "https://www.pexels.com/video/grocery-items-on-the-kitchen-shelf-4983686/",
+  "https://www.pexels.com/video/high-speed-train-arriving-at-busy-platform-29117385/",
+  "https://www.pexels.com/video/highway-at-night-11372907/",
+  "https://www.pexels.com/video/lively-outdoor-market-scene-with-vendors-31451486/",
+  "https://www.pexels.com/video/loni-toll-plaza-on-indian-highway-35594377/",
+  "https://www.pexels.com/video/mather-and-father-talking-together-7415436/",
+  "https://www.pexels.com/video/medicines-falling-on-palm-of-a-man-5453771/",
+  "https://www.pexels.com/video/men-walking-in-an-alley-7325946/",
+  "https://www.pexels.com/video/modern-skyscrapers-at-night-9921286/",
+  "https://www.pexels.com/video/monochrome-highway-with-passing-vehicles-36828748/",
+  "https://www.pexels.com/video/night-construction-site-with-workers-and-machinery-35379366/",
+  "https://www.pexels.com/video/night-drive-through-illuminated-urban-tunnel-30028386/",
+  "https://www.pexels.com/video/night-in-city-12282674/",
+  "https://www.pexels.com/video/night-traffic-jam-in-city-10297623/",
+  "https://www.pexels.com/video/nighttime-construction-at-urban-site-35039533/",
+  "https://www.pexels.com/video/nighttime-highway-drive-with-streetlights-28928755/",
+  "https://www.pexels.com/video/nighttime-highway-traffic-timelapse-39286036/",
+  "https://www.pexels.com/video/nighttime-traffic-jam-at-city-toll-booth-35095187/",
+  "https://www.pexels.com/video/panning-shot-of-christmas-presents-6396294/",
+  "https://www.pexels.com/video/people-eating-with-chopsticks-6645754/",
+  "https://www.pexels.com/video/people-walking-inside-the-mall-4750042/",
+  "https://www.pexels.com/video/person-shopping-online-6898096/",
+  "https://www.pexels.com/video/person-typing-on-a-mobile-phone-4671883/",
+  "https://www.pexels.com/video/rainy-night-highway-traffic-scene-36820213/",
+  "https://www.pexels.com/video/rush-hour-crowd-at-busy-train-station-36035831/",
+  "https://www.pexels.com/video/scenic-drive-in-mountainous-landscape-32793923/",
+  "https://www.pexels.com/video/scenic-mountain-road-with-vehicles-in-motion-33883236/",
+  "https://www.pexels.com/video/sunset-city-traffic-with-vibrant-skyline-34504957/",
+  "https://www.pexels.com/video/time-lapse-video-of-the-sky-5562942/",
+  "https://www.pexels.com/video/top-view-of-street-12294370/",
+  "https://www.pexels.com/video/traffic-on-highway-at-night-11372919/",
+  "https://www.pexels.com/video/traffic-on-the-highway-in-a-city-26804237/",
+  "https://www.pexels.com/video/urban-construction-site-with-workers-and-machinery-38414842/",
+  "https://www.pexels.com/video/video-of-a-cooking-pancakes-7677227/",
+  "https://www.pexels.com/video/woman-buying-on-internet-5981981/",
+  "https://www.pexels.com/video/woman-holding-money-while-thinking-7735867/",
+  "https://www.pexels.com/video/woman-preparing-red-envelopes-for-lunar-new-year-30325369/",
+  "https://www.pexels.com/video/woman-scrolling-social-media-10238038/",
+  "https://www.pexels.com/video/woman-shopping-in-grocery-aisle-29846459/",
+  "https://www.pexels.com/video/workers-are-working-on-a-construction-site-19832493/"
+ ],
+ "style": {
+  "layout": "숫자 훅 + 실사 위 막대·사례 카드",
+  "structure": "총액→가장 큰 몫 반전→알보 계산→가구별 비교→부담 증가→해석→A/B→되감기",
+  "tone": "대화형 구어체"
+ },
+ "scenes": [
+  {
+   "text": "추석 지출\n72만 8,630원",
+   "say": "칠십이만 팔천육백삼십 원, 올해 추석 지출로 예상한 평균 금액이에요.",
+   "broll": {
+    "query": "counting cash money hands calculator"
+   },
+   "motion": "숫자 0에서 72만 8,630원까지 카운트업",
+   "source": "머니투데이·메디컬헤럴드뉴스(2026.9.25, 소비자공익네트워크 조사)"
+  },
+  {
+   "text": "가장 큰 몫?\n용돈 30만 4,900원",
+   "say": "제일 많이 나간 건 상차림이 아니라, 부모님 용돈 삼십만 사천구백 원이었어요.",
+   "broll": {
+    "query": "family giving money envelope grandparents korean"
+   },
+   "motion": "막대 3개(용돈·상차림·교통)가 각각 자라는 애니메이션",
+   "chart": {
+    "items": [
+     [
+      "용돈",
+      30.49,
+      "만원"
+     ],
+     [
+      "상차림",
+      22.39,
+      "만원"
+     ],
+     [
+      "교통·숙박",
+      19.23,
+      "만원"
+     ]
+    ]
+   },
+   "case": {
+    "date": "2026-09-25",
+    "headline": "추석 예상 지출 평균 72만 8,630원, 10명 중 6명 '매우 부담'",
+    "outlet": "머니투데이"
+   },
+   "source": "머니투데이·메디컬헤럴드뉴스(2026.9.25, 소비자공익네트워크 조사)"
+  },
+  {
+   "text": "알보 계산\n30.49÷72.86=41.8%",
+   "say": "알보가 계산해보면, 용돈이 전체 지출의 약 사십일 점 팔 퍼센트예요.",
+   "broll": {
+    "query": "person using calculator counting money table"
+   },
+   "motion": "계산식이 한 글자씩 등장, 결과 숫자 강조색",
+   "source": "알보 계산 · 머니투데이·메디컬헤럴드뉴스(2026.9.25, 소비자공익네트워크 조사)"
+  },
+  {
+   "text": "4인+ 90만 7천\n1인 52만 7천",
+   "say": "가구 크기로 보면 차이가 커요. 네 명 이상은 구십만 칠천삼백 원, 일인 가구는 오십이만 육천칠백 원이었죠.",
+   "broll": {
+    "query": "large family dinner table eating together home"
+   },
+   "motion": "두 막대가 양쪽에서 자라며 비교",
+   "chart": {
+    "items": [
+     [
+      "1인가구",
+      52.67,
+      "만원"
+     ],
+     [
+      "4인이상",
+      90.73,
+      "만원"
+     ]
+    ]
+   },
+   "source": "머니투데이·메디컬헤럴드뉴스(2026.9.25, 소비자공익네트워크 조사)"
+  },
+  {
+   "text": "체감 부담\n60.8%",
+   "say": "그래서인지 명절 지출이 매우 부담된다는 답이 육십 점 팔 퍼센트, 작년보다 늘었어요.",
+   "broll": {
+    "query": "worried woman looking at bills wallet home"
+   },
+   "motion": "원형 게이지가 51.2%에서 60.8%로 차오름",
+   "chart": {
+    "items": [
+     [
+      "작년",
+      51.2,
+      "%"
+     ],
+     [
+      "올해",
+      60.8,
+      "%"
+     ]
+    ]
+   },
+   "source": "머니투데이·메디컬헤럴드뉴스(2026.9.25, 소비자공익네트워크 조사)"
+  },
+  {
+   "text": "그래서 내게 뜻하는 건",
+   "say": "그래서 나한테 뜻하는 건, 다음 명절에도 이 칠십이만 팔천육백삼십 원을 다시 마주하게 된다는 거예요.",
+   "broll": {
+    "query": "korean holiday table traditional food family gathering"
+   },
+   "motion": "처음 장면 숫자가 다시 작게 나타나며 화면 페이드"
+  },
+  {
+   "text": "A 용돈부터 정한다\nB 그때그때 쓴다",
+   "say": "여러분 집은요? A 용돈부터 정한다, B 그때그때 쓴다. 댓글로 골라 주세요.",
+   "broll": {
+    "query": "family talking together living room"
+   }
+  },
+  {
+   "text": "처음 그 숫자,\n다시 볼까요?",
+   "say": "그럼 처음 그 숫자, 다시 볼까요?",
+   "broll": {
+    "query": "counting money banknotes close up"
+   }
+  }
+ ]
+}
