@@ -783,7 +783,7 @@ def make(script_path):
             # 진행자는 전환 때도 제자리에 서서 계속 말한다
             host = V.presenter(t_global, float(amps[f]), objs[i].pose(t), scale=objs[i].L["host"])
             frame.alpha_composite(host, (10, H - BAR_H - host.height + int(40 * objs[i].L["host"])))
-        if caps:
+        if caps and not (objs[i].case and W < H):  # 세로 화면 사례 카드 장면은 카드와 겹쳐서 말 자막을 쉰다
             host_here = host_on and objs[i].host
             cx = W // 2 + (170 if host_here and W < H else 0)
             mw = (W - 420 if host_here and W < H else W - 120) if W < H else int(W * 0.7)
