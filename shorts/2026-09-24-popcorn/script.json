@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-24-popcorn",
+  "format": "short",
+  "kind": "priority",
+  "topicDoc": "topics/priority-2026-09-24",
+  "title": "영화관 팝콘이 비싼 진짜 이유 🍿 | Why Movie Popcorn Costs So Much #알고보면 #shorts",
+  "thumbText": "팝콘이\n표보다 남는다?",
+  "sources": [
+    "https://www.hankyung.com/article/2024090223381",
+    "https://www.etoday.co.kr/news/view/751137",
+    "https://www.hankookilbo.com/news/article/201406021737639965",
+    "https://zdnet.co.kr/view/?no=20140602154048",
+    "https://thehustle.co/why-is-movie-theater-popcorn-so-outrageously-expensive",
+    "https://sherwood.news/business/popcorn-profits-arent-enough-for-amc/"
+  ],
+  "style": {"layout": "숫자 카드", "structure": "궁금증→숫자 반전→참여 질문", "tone": "대화형 구어체"},
+  "scenes": [
+    {"text": "팝콘이 비싼\n진짜 이유", "say": "영화관 팝콘, 왜 영화표만큼 비쌀까요?"},
+    {"text": "표 값의 주인은?\n극장 몫 45%", "say": "표 값 만오천 원, 극장이 다 가질 것 같죠? 세금이랑 기금을 떼고요, 남은 돈의 사십오 퍼센트만 극장 몫이에요."},
+    {"text": "15,000원 표 한 장\n극장 몫 약 6,000원", "say": "그러니까 만오천 원짜리 표 한 장에서, 극장 손에 남는 건 육천 원 정도예요."},
+    {"text": "팝콘 = 재료 원가의\n4.7~8.2배", "say": "그런데 팝콘은 얘기가 달라요. 이천십사 년 한 소비자단체 조사에선, 팝콘 값이 재료 원가의 네 배 반에서 여덟 배가 넘었거든요."},
+    {"text": "매점 이익률 80%+\n표는 미끼, 돈은 팝콘", "say": "미국 대형 극장 체인들도 매점 이익률이 팔십 퍼센트를 넘어요. 표는 손님을 부르는 미끼고, 진짜 돈은 팝콘에서 버는 거죠."},
+    {"text": "팝콘 사는 파?\n안 사는 파?", "say": "여러분은 영화 볼 때 팝콘 꼭 사세요? 댓글로 알려주세요!"}
+  ]
+}
