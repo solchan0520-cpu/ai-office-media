@@ -184,7 +184,25 @@
    "text": "조회수 29만\n좋아요는 2개",
    "say": "조회수 이십구만, 좋아요는 딱 두 개.",
    "broll": {
-    "query": "calculator app phone hands"
+    "query": "calculator app phone hands",
+    "url": "https://videos.pexels.com/video-files/6927297/6927297-hd_1080_1920_30fps.mp4",
+    "page": "https://www.pexels.com/video/a-person-calculating-using-a-smart-phone-6927297/",
+    "credit": "Polina Tankilevitch / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6781912/6781912-hd_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/person-using-calculator-on-iphone-6781912/",
+      "credit": "Artem Podrez / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/7247831/7247831-hd_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/person-using-calculator-on-phone-7247831/",
+      "credit": "Leeloo The First / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "강조",
    "source": "자체 계산(유튜브 공개 수치, 2026.10.04 조회)"
@@ -193,7 +211,25 @@
    "text": "이 비율,\n같이 계산해볼까요?",
    "say": "이 비율, 우리가 직접 계산해볼까요?",
    "broll": {
-    "query": "person typing calculator"
+    "query": "person typing calculator",
+    "url": "https://videos.pexels.com/video-files/6266437/6266437-hd_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-person-using-a-calculator-and-typing-6266437/",
+    "credit": "Tima Miroshnichenko / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7688135/7688135-hd_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/a-person-using-a-calculator-7688135/",
+      "credit": "Kindel Media / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/8513120/8513120-hd_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/a-person-using-calculator-on-mobile-phone-8513120/",
+      "credit": "Artem Podrez / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "전환"
   },
@@ -201,7 +237,25 @@
    "text": "0.0007%\nvs 2.44%",
    "say": "좋아요 두 개를 조회수 약 이십구만으로 나누고 백을 곱하면, 영 점 영영영칠 퍼센트예요. 반응 좋은 영상은 보통 이 점 사사 퍼센트 정도거든요.",
    "broll": {
-    "query": "woman looking at smartphone screen"
+    "query": "woman looking at smartphone screen",
+    "url": "https://videos.pexels.com/video-files/8066973/8066973-hd_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/woman-using-smartphone-8066973/",
+    "credit": "Anna Tarazevich / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6353346/6353346-hd_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/a-woman-scrolling-through-her-cellphone-6353346/",
+      "credit": "Anete Lusina / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6988764/6988764-hd_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/a-young-woman-putting-on-wireless-headphones-6988764/",
+      "credit": "Polina Tankilevitch / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "chart": {
     "items": [
@@ -224,7 +278,25 @@
    "text": "차이는 약\n3,500배",
    "say": "이 점 사사를 영 점 영영영칠로 나누면, 약 삼천오백 배 차이예요.",
    "broll": {
-    "query": "surprised woman looking at phone"
+    "query": "surprised woman looking at phone",
+    "url": "https://videos.pexels.com/video-files/27155328/12086306_1080_1920_24fps.mp4",
+    "page": "https://www.pexels.com/video/couple-surprise-27155328/",
+    "credit": "RingTheBell.com Task Manager / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6462485/6462485-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/shocked-woman-looking-a-pregnancy-test-6462485/",
+      "credit": "Tima Miroshnichenko / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/5801992/5801992-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/woman-with-string-shopping-bag-5801992/",
+      "credit": "Ivan S / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "chart": {
     "items": [
@@ -242,7 +314,25 @@
    "text": "여러분 채널도\n계산해보세요",
    "say": "여러분이 구독한 채널 영상도, 좋아요를 조회수로 나누고 백을 곱해보세요. 숫자가 너무 낮으면 한 번 더 의심해보는 거예요.",
    "broll": {
-    "query": "young man scrolling phone sofa"
+    "query": "young man scrolling phone sofa",
+    "url": "https://videos.pexels.com/video-files/6533831/6533831-hd_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/young-woman-surprising-young-man-6533831/",
+    "credit": "Thirdman / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7131726/7131726-hd_720_1366_30fps.mp4",
+      "page": "https://www.pexels.com/video/video-of-a-man-using-smartphone-7131726/",
+      "credit": "KATRIN  BOLOVTSOVA / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6031853/6031853-hd_720_1366_25fps.mp4",
+      "page": "https://www.pexels.com/video/sad-person-scrolling-on-cell-phone-6031853/",
+      "credit": "https://kaboompics.com/ / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "등장"
   },
@@ -250,7 +340,25 @@
    "text": "실제 피해\n186억 원",
    "say": "실제로 유명인을 사칭한 투자 사기 조직이 붙잡혔는데, 피해액이 백팔십육억 원이었어요.",
    "broll": {
-    "query": "police car lights night city"
+    "query": "police car lights night city",
+    "url": "https://videos.pexels.com/video-files/10476419/10476419-hd_720_1366_25fps.mp4",
+    "page": "https://www.pexels.com/video/policeman-in-police-car-talking-on-radio-10476419/",
+    "credit": "cottonbro studio / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/5450601/5450601-hd_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/woman-standing-while-looking-at-the-road-5450601/",
+      "credit": "Gustavo Fring / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/10476434/10476434-hd_720_1366_25fps.mp4",
+      "page": "https://www.pexels.com/video/police-officers-with-criminal-in-police-car-10476434/",
+      "credit": "cottonbro studio / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "case": {
     "date": "2026.9",
@@ -264,7 +372,25 @@
    "text": "그럼 처음 그 숫자,\n다시 볼까요?",
    "say": "그럼 처음 그 숫자, 다시 볼까요? 전체 이야기는 롱폼에서 더 보세요.",
    "broll": {
-    "query": "hands using calculator desk"
+    "query": "hands using calculator desk",
+    "url": "https://videos.pexels.com/video-files/6782252/6782252-hd_1080_1920_30fps.mp4",
+    "page": "https://www.pexels.com/video/person-using-calculator-on-smartphone-6782252/",
+    "credit": "Artem Podrez / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7710753/7710753-hd_720_1366_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-person-using-a-calculator-7710753/",
+      "credit": "https://kaboompics.com/ / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/7491324/7491324-hd_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/a-woman-using-a-calculator-7491324/",
+      "credit": "RDNE Stock project / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "전환"
   }
