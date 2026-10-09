@@ -293,7 +293,25 @@
    "text": "보장 표현\n4개 중 4개",
    "say": "직접 뜯어본 광고형 영상들, 네 개 중 네 개 모두 비슷한 보장 표현을 썼어요. 백 퍼센트예요.",
    "broll": {
-    "query": "man counting on fingers thinking"
+    "query": "man counting on fingers thinking",
+    "url": "https://videos.pexels.com/video-files/9017835/9017835-hd_1080_1920_24fps.mp4",
+    "page": "https://www.pexels.com/video/a-hand-doing-sign-language-9017835/",
+    "credit": "Kevin  Malik / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/8484821/8484821-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/close-up-footage-of-a-man-s-hand-8484821/",
+      "credit": "Ivan S / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/18504012/18504012-hd_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/a-man-in-a-blue-shirt-is-looking-at-something-18504012/",
+      "credit": "Denjel Labooum / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "카운트업",
    "chart": {
