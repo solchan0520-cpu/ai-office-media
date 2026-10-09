@@ -1,0 +1,80 @@
+{
+ "pass": true,
+ "fail": 0,
+ "warn": 0,
+ "checks": [
+  {
+   "item": "길이",
+   "result": "pass",
+   "value": "44.6초",
+   "rule": "25~60초"
+  },
+  {
+   "item": "용량",
+   "result": "pass",
+   "value": "9.5MB",
+   "rule": "80MB 미만(GitHub 100MB 한도·업로드 안정)"
+  },
+  {
+   "item": "음량",
+   "result": "pass",
+   "value": "-14.8 LUFS",
+   "rule": "-16~-12 LUFS"
+  },
+  {
+   "item": "검은 화면",
+   "result": "pass",
+   "value": "0곳",
+   "rule": "0.4초 이상 검은 화면 없음"
+  },
+  {
+   "item": "멈춘 화면",
+   "result": "pass",
+   "value": "0곳",
+   "rule": "2.5초 넘게 멈춘 화면 없음(움직임 규칙)"
+  },
+  {
+   "item": "첫 문장 숫자",
+   "result": "pass",
+   "value": "매달 1만 4천5백 원, 조용히 빠지",
+   "rule": "첫 문장은 숫자로 시작(지시 8번②)"
+  },
+  {
+   "item": "출처 표시",
+   "result": "pass",
+   "value": "출처 없는 숫자 장면 []",
+   "rule": "숫자 장면마다 source(지시 9번⑤)"
+  },
+  {
+   "item": "실제 사례",
+   "result": "pass",
+   "value": "1개",
+   "rule": "1개 이상(지시 10번②)"
+  },
+  {
+   "item": "실제 영상 비율",
+   "result": "pass",
+   "value": "5/8장면",
+   "rule": "절반 이상(지시 10번①). 못 받은 날은 경고만"
+  },
+  {
+   "item": "영상 라이선스",
+   "result": "pass",
+   "value": "허용 밖 주소 0개",
+   "rule": "Pexels·Pixabay 무료 영상만(지시 10번⑤)"
+  },
+  {
+   "item": "촬영자 표기",
+   "result": "pass",
+   "value": "credits.txt",
+   "rule": "설명란 마지막 줄에 '영상 자료: Pexels — 촬영자'"
+  },
+  {
+   "item": "제작기",
+   "result": "pass",
+   "value": "v2",
+   "rule": "제작기 v2"
+  }
+ ],
+ "sheet": "qc_sheet.jpg"
+}

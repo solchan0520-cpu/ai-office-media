@@ -1,0 +1,171 @@
+{
+ "id": "2026-09-25-chaeryesang",
+ "format": "short",
+ "kind": "priority",
+ "topicDoc": "topics/priority-2026-09-25",
+ "title": "차례상 비용 19만 원? 39만 원? 두 배 차이 난 이유 | 알고보면 돈 2편",
+ "thumbText": "차례상\n19만? 39만?",
+ "series": "알고보면 돈",
+ "seriesNo": 2,
+ "adNotice": "쿠팡 파트너스 활동으로 수수료를 받습니다",
+ "sources": [
+  "https://www.mt.co.kr/policy/2026/09/21/2026092110015017096",
+  "https://www.dailian.co.kr/news/view/1692543/",
+  "https://www.seoul.co.kr/news/economy/2026/09/07/20260907029003",
+  "https://www.ccdn.co.kr/news/articleView.html?idxno=1098868",
+  "https://www.mt.co.kr/society/2026/09/21/2026092120075430538",
+  "https://www.imaeil.com/page/view/2026092216052684517",
+  "https://www.hankookilbo.com/News/Read/A2022090512250001195"
+ ],
+ "style": {
+  "layout": "두 숫자 대결 + 실사 위 그래프",
+  "structure": "두 숫자 대결→알보 계산→원인 반전→A/B 질문→되감기",
+  "tone": "대화형 구어체"
+ },
+ "scenes": [
+  {
+   "text": "19만? 39만?\n같은 4인 차례상",
+   "say": "19만 원? 39만 원? 같은 4인 가족 차례상 비용인데, 두 배 차이예요.",
+   "motion": "두 숫자가 좌우에서 동시에 0부터 카운트업(노란색) → 가운데 'VS' 톡 튀어나옴 → 0.3초 멈춤 + 딩",
+   "source": "한국농수산식품유통공사·한국물가정보(2026)",
+   "chart": {
+    "items": [
+     [
+      "aT 평균",
+      19.7,
+      "만 원"
+     ],
+     [
+      "한국물가정보 대형마트",
+      39.8,
+      "만 원"
+     ]
+    ]
+   },
+   "broll": {
+    "credit": "FREE VIDEO HAPPY",
+    "license": "Pexels License(상업 무료)",
+    "page": "https://www.pexels.com/video/bustling-day-at-outdoor-market-in-seoul-36718309/",
+    "start": 0,
+    "url": "https://videos.pexels.com/video-files/36718309/15562075_360_480_30fps.mp4"
+   }
+  },
+  {
+   "text": "전국 53곳 평균\n19만 6,630원",
+   "say": "농수산식품유통공사는 전국 쉰세 곳을 조사해, 평균 19만 6천 원이라고 했어요.",
+   "motion": "실사 위 숫자 카운트업, '53곳' 점 53개가 지도처럼 흩어졌다 모임",
+   "source": "한국농수산식품유통공사(2026.9.18 조사)",
+   "case": {
+    "date": "2026-09-21",
+    "headline": "4인 차례상 평균 19만 6,630원, 작년보다 1.5% 내려",
+    "outlet": "머니투데이"
+   },
+   "broll": {
+    "credit": "Airam Dato-on",
+    "license": "Pexels License(상업 무료)",
+    "page": "https://www.pexels.com/video/vibrant-market-display-of-fresh-produce-36108518/",
+    "start": 2,
+    "url": "https://videos.pexels.com/video-files/36108518/15313529_360_640_24fps.mp4"
+   }
+  },
+  {
+   "text": "다른 조사는\n시장 30만·마트 39만",
+   "say": "그런데 한국물가정보 조사는, 시장 30만 원, 마트 39만 원이었죠.",
+   "motion": "막대 2개가 아래서 자라남, 마트 막대 끝에서 흔들림",
+   "source": "한국물가정보(2026.9)",
+   "chart": {
+    "items": [
+     [
+      "전통시장",
+      30.25,
+      "만 원"
+     ],
+     [
+      "대형마트",
+      39.77,
+      "만 원"
+     ]
+    ]
+   },
+   "broll": {
+    "credit": "Kevin Malik",
+    "license": "Pexels License(상업 무료)",
+    "page": "https://www.pexels.com/video/woman-doing-grocery-9015583/",
+    "start": 0,
+    "url": "https://videos.pexels.com/video-files/9015583/9015583-hd_1080_1920_24fps.mp4"
+   }
+  },
+  {
+   "text": "알보 계산\n39.8 − 19.7 = 20.1만 원",
+   "say": "알보가 계산해 보면 차이는 20만 원, 딱 두 배예요. 물가가 두 배로 뛴 게 아니에요.",
+   "motion": "계산식이 한 칸씩 써지고, 결과 20.1만이 카운트업 → '×2.0' 도장 쾅",
+   "source": "한국농수산식품유통공사·한국물가정보(2026)",
+   "chart": {
+    "items": [
+     [
+      "aT 평균",
+      19.66,
+      "만 원"
+     ],
+     [
+      "물가정보 마트",
+      39.77,
+      "만 원"
+     ]
+    ]
+   }
+  },
+  {
+   "text": "차이는 '장바구니'\n몇 개·어디서·할인",
+   "say": "차이는 장바구니예요. 몇 가지를, 어디서, 할인 받고 사느냐죠. 공사 조사에선 할인 덕에 마트가 4천 원 쌌어요.",
+   "motion": "장바구니 아이콘 3개가 차례로 떨어짐(품목 수·장소·할인), 마지막 '마트 19.2만 < 시장 19.6만' 카드 등장",
+   "source": "한국농수산식품유통공사(2026.9.18 조사)",
+   "chart": {
+    "items": [
+     [
+      "aT 대형유통",
+      19.15,
+      "만 원"
+     ],
+     [
+      "aT 전통시장",
+      19.59,
+      "만 원"
+     ]
+    ]
+   },
+   "broll": {
+    "credit": "Peggy Anke",
+    "license": "Pexels License(상업 무료)",
+    "page": "https://www.pexels.com/video/food-market-supermarket-foodstuff-4251604/",
+    "start": 3,
+    "url": "https://videos.pexels.com/video-files/4251604/4251604-hd_1080_1920_30fps.mp4"
+   }
+  },
+  {
+   "text": "표준안은 9가지까지\n전은 없어도 OK",
+   "say": "성균관 표준안은 많아야 아홉 가지예요. 우리 집 목록으로 계산한 게, 진짜 차례상 비용이에요.",
+   "motion": "접시 6개가 차례로 놓이고 +3개가 희미하게 추가, '전' 접시는 옆으로 밀려남",
+   "source": "성균관의례정립위원회 표준안(2022)·매일신문(2026)",
+   "broll": {
+    "credit": "Gayan Prakash",
+    "license": "Pexels License(상업 무료)",
+    "page": "https://www.pexels.com/video/time-lapse-video-of-a-person-doing-grocery-8799885/",
+    "start": 4,
+    "url": "https://videos.pexels.com/video-files/8799885/8799885-hd_1080_1920_30fps.mp4"
+   },
+   "icon": "store"
+  },
+  {
+   "text": "우리 집은?\nA 19만 · B 39만",
+   "say": "여러분 집은요? A는 19만 원 쪽, B는 39만 원 쪽. 댓글로 골라 주세요.",
+   "motion": "A/B 버튼 두 개가 좌우로 흔들리며 번갈아 반짝, 알보가 손으로 가리킴",
+   "source": "한국농수산식품유통공사·한국물가정보(2026)"
+  },
+  {
+   "text": "처음 그 숫자,\n다시 볼까요?",
+   "say": "그럼 처음 그 두 숫자, 다시 볼까요?",
+   "motion": "화면이 빠르게 되감기 효과로 첫 장면 두 숫자 쪽으로 밀려남(반복 재생 연결), 알보 손 흔들기"
+  }
+ ]
+}

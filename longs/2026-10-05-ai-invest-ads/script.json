@@ -1,0 +1,735 @@
+{
+ "id": "2026-10-05-ai-invest-ads",
+ "format": "long",
+ "kind": "priority",
+ "topicDoc": "topics/priority-2026-10-05",
+ "title": "유튜브 AI 투자 영상, 진짜와 가짜 가르는 법",
+ "thumbText": "AI 투자 영상\n진짜 vs 가짜",
+ "series": "AI 투자광고 허와 실",
+ "chapterStarts": [
+  0,
+  6,
+  13
+ ],
+ "chapterTitles": [
+  "유튜브 AI 투자 영상, 세 가지 얼굴",
+  "허 — 틀렸다고 확인된 말 4가지",
+  "실 — 진짜로 있는 것과 3초 체크리스트"
+ ],
+ "sources": [
+  "https://m.news.nate.com/view/20260126n30834",
+  "https://m.news.nate.com/view/20260126n31690",
+  "https://www.sidae.com/article/2026092616051997577",
+  "https://www.seoulilbo.co.kr/news/articleView.html?idxno=21869",
+  "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03043846638852512",
+  "https://dgmbc.com/NewsArticle/845860",
+  "https://biz.sbs.co.kr/amp/article/20000287460"
+ ],
+ "brollUsed": [
+  "https://www.pexels.com/video/a-barista-serving-a-cup-of-coffee-13736675/",
+  "https://www.pexels.com/video/a-car-driving-down-a-road-at-night-16762623/",
+  "https://www.pexels.com/video/a-car-driving-on-the-highway-with-the-words-the-best-way-to-travel-27374055/",
+  "https://www.pexels.com/video/a-contactless-payment-7669659/",
+  "https://www.pexels.com/video/a-man-and-a-woman-watching-on-a-tablet-7415209/",
+  "https://www.pexels.com/video/a-man-calling-while-holding-a-card-6898009/",
+  "https://www.pexels.com/video/a-man-in-a-black-jacket-is-talking-on-his-cell-phone-19329194/",
+  "https://www.pexels.com/video/a-man-is-walking-on-the-road-with-a-shovel-26288502/",
+  "https://www.pexels.com/video/a-man-talking-while-eating-and-drinking-6953898/",
+  "https://www.pexels.com/video/a-mother-giving-money-envelope-and-hugs-her-daughter-7362870/",
+  "https://www.pexels.com/video/a-panning-shot-of-a-person-using-calculator-6700250/",
+  "https://www.pexels.com/video/a-person-counting-money-7710775/",
+  "https://www.pexels.com/video/a-person-getting-some-slices-of-pear-from-the-cutting-board-5945049/",
+  "https://www.pexels.com/video/a-person-opening-a-box-containing-a-cloth-6568265/",
+  "https://www.pexels.com/video/a-person-putting-groceries-on-a-shopping-cart-9010435/",
+  "https://www.pexels.com/video/a-person-using-a-calculator-7710766/",
+  "https://www.pexels.com/video/a-seller-packing-the-purchase-7855142/",
+  "https://www.pexels.com/video/a-woman-checking-her-phone-while-staring-blankly-6964003/",
+  "https://www.pexels.com/video/a-woman-crying-and-depressed-by-the-table-5981349/",
+  "https://www.pexels.com/video/a-woman-giving-money-envelope-to-children-7361985/",
+  "https://www.pexels.com/video/a-woman-looking-problematic-and-frustrated-5981347/",
+  "https://www.pexels.com/video/a-woman-waiting-for-her-car-to-be-charged-4818143/",
+  "https://www.pexels.com/video/a-woman-worries-in-over-spending-5981446/",
+  "https://www.pexels.com/video/aerial-drone-view-of-busy-toll-booth-29842321/",
+  "https://www.pexels.com/video/aerial-footage-of-a-traffic-in-a-multi-lane-expressway-2818521/",
+  "https://www.pexels.com/video/aerial-view-of-an-empty-toll-road-36153290/",
+  "https://www.pexels.com/video/aerial-view-of-empty-toll-plaza-in-rural-area-36153288/",
+  "https://www.pexels.com/video/aerial-view-of-highway-on-sunny-day-38510169/",
+  "https://www.pexels.com/video/aerial-view-of-highway-toll-plaza-with-cars-passing-36152745/",
+  "https://www.pexels.com/video/aerial-view-of-indian-highway-toll-plaza-33965633/",
+  "https://www.pexels.com/video/an-aerial-view-of-a-highway-with-cars-on-it-19452742/",
+  "https://www.pexels.com/video/an-elderly-couple-painting-eggs-7185649/",
+  "https://www.pexels.com/video/bank-exterior-with-logo-10218426/",
+  "https://www.pexels.com/video/bustling-indoor-market-with-vibrant-vegetables-36017942/",
+  "https://www.pexels.com/video/busy-highway-traffic-at-sunset-31779728/",
+  "https://www.pexels.com/video/calculating-finances-with-smartphone-and-cash-34829282/",
+  "https://www.pexels.com/video/cars-on-highway-12293819/",
+  "https://www.pexels.com/video/close-up-on-man-hand-scrolling-phone-gallery-10374888/",
+  "https://www.pexels.com/video/close-up-shot-of-a-woman-counting-money-using-calculator-6266261/",
+  "https://www.pexels.com/video/co-workers-discussing-their-work-6325853/",
+  "https://www.pexels.com/video/counting-argentinian-pesos-currency-close-up-38905452/",
+  "https://www.pexels.com/video/counting-cash-and-using-calculator-for-financial-budgeting-34828872/",
+  "https://www.pexels.com/video/counting-cash-on-desk-with-smartphone-calculator-34839526/",
+  "https://www.pexels.com/video/counting-polish-zloty-at-office-desk-34987276/",
+  "https://www.pexels.com/video/counting-polish-zloty-banknotes-in-office-setting-34993441/",
+  "https://www.pexels.com/video/driving-through-toll-plaza-on-sunny-day-34672583/",
+  "https://www.pexels.com/video/drone-footage-of-vehicles-on-road-11573674/",
+  "https://www.pexels.com/video/elderly-woman-giving-present-to-a-boy-7355483/",
+  "https://www.pexels.com/video/family-eating-together-8051342/",
+  "https://www.pexels.com/video/family-toasting-and-celebrating-5617254/",
+  "https://www.pexels.com/video/father-and-daughter-opening-christmas-present-5814325/",
+  "https://www.pexels.com/video/fresh-vegetables-variety-in-market-display-36483614/",
+  "https://www.pexels.com/video/girl-using-her-phone-device-inside-of-a-hipster-coffee-shop-17512949/",
+  "https://www.pexels.com/video/grocery-items-on-the-kitchen-shelf-4983686/",
+  "https://www.pexels.com/video/high-speed-train-arriving-at-busy-platform-29117385/",
+  "https://www.pexels.com/video/highway-at-night-11372907/",
+  "https://www.pexels.com/video/korean-bbq-samgyeopsal-on-grill-34753874/",
+  "https://www.pexels.com/video/lively-outdoor-market-scene-with-vendors-31451486/",
+  "https://www.pexels.com/video/loni-toll-plaza-on-indian-highway-35594377/",
+  "https://www.pexels.com/video/man-arranging-some-money-on-the-wooden-table-6326863/",
+  "https://www.pexels.com/video/man-calculating-his-money-6693624/",
+  "https://www.pexels.com/video/mather-and-father-talking-together-7415436/",
+  "https://www.pexels.com/video/medicines-falling-on-palm-of-a-man-5453771/",
+  "https://www.pexels.com/video/men-walking-in-an-alley-7325946/",
+  "https://www.pexels.com/video/modern-skyscrapers-at-night-9921286/",
+  "https://www.pexels.com/video/monochrome-highway-with-passing-vehicles-36828748/",
+  "https://www.pexels.com/video/mother-and-daughter-looking-at-tablet-7938989/",
+  "https://www.pexels.com/video/night-construction-site-with-workers-and-machinery-35379366/",
+  "https://www.pexels.com/video/night-drive-through-illuminated-urban-tunnel-30028386/",
+  "https://www.pexels.com/video/night-in-city-12282674/",
+  "https://www.pexels.com/video/night-traffic-jam-in-city-10297623/",
+  "https://www.pexels.com/video/nighttime-construction-at-urban-site-35039533/",
+  "https://www.pexels.com/video/nighttime-highway-drive-with-streetlights-28928755/",
+  "https://www.pexels.com/video/nighttime-highway-traffic-timelapse-39286036/",
+  "https://www.pexels.com/video/nighttime-traffic-jam-at-city-toll-booth-35095187/",
+  "https://www.pexels.com/video/panning-shot-of-christmas-presents-6396294/",
+  "https://www.pexels.com/video/people-eating-together-7491825/",
+  "https://www.pexels.com/video/people-eating-with-chopsticks-6645754/",
+  "https://www.pexels.com/video/people-walking-inside-the-mall-4750042/",
+  "https://www.pexels.com/video/person-shopping-online-6898096/",
+  "https://www.pexels.com/video/person-typing-on-a-mobile-phone-4671883/",
+  "https://www.pexels.com/video/rainy-night-highway-traffic-scene-36820213/",
+  "https://www.pexels.com/video/ramadan-table-with-shared-meal-and-food-36579901/",
+  "https://www.pexels.com/video/rush-hour-crowd-at-busy-train-station-36035831/",
+  "https://www.pexels.com/video/scenic-drive-in-mountainous-landscape-32793923/",
+  "https://www.pexels.com/video/scenic-mountain-road-with-vehicles-in-motion-33883236/",
+  "https://www.pexels.com/video/sunset-city-traffic-with-vibrant-skyline-34504957/",
+  "https://www.pexels.com/video/time-lapse-video-of-the-sky-5562942/",
+  "https://www.pexels.com/video/top-view-of-street-12294370/",
+  "https://www.pexels.com/video/traffic-on-highway-at-night-11372919/",
+  "https://www.pexels.com/video/traffic-on-the-highway-in-a-city-26804237/",
+  "https://www.pexels.com/video/urban-construction-site-with-workers-and-machinery-38414842/",
+  "https://www.pexels.com/video/vibrant-korean-hansik-meal-spread-35196990/",
+  "https://www.pexels.com/video/video-of-a-cooking-pancakes-7677227/",
+  "https://www.pexels.com/video/woman-buying-on-internet-5981981/",
+  "https://www.pexels.com/video/woman-counting-money-7735919/",
+  "https://www.pexels.com/video/woman-holding-baby-6623650/",
+  "https://www.pexels.com/video/woman-holding-money-while-thinking-7735867/",
+  "https://www.pexels.com/video/woman-preparing-red-envelopes-for-lunar-new-year-30325369/",
+  "https://www.pexels.com/video/woman-scrolling-social-media-10238038/",
+  "https://www.pexels.com/video/woman-shopping-in-grocery-aisle-29846459/",
+  "https://www.pexels.com/video/workers-are-working-on-a-construction-site-19832493/"
+ ],
+ "scenes": [
+  {
+   "text": "조회수 29만\n좋아요 2개?",
+   "say": "조회수 이십구만, 좋아요는 딱 두 개. 이 영상, 믿어도 될까요?",
+   "broll": {
+    "query": "person watching phone confused",
+    "url": "https://videos.pexels.com/video-files/5981979/5981979-hd_1366_720_25fps.mp4",
+    "page": "https://www.pexels.com/video/woman-using-her-iphone-5981979/",
+    "credit": "https://kaboompics.com/ / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/26281515/11944702_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/confusion-26281515/",
+      "credit": "Rozariyo Reodan / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/7280528/7280528-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/emotional-man-using-his-phone-7280528/",
+      "credit": "MART  PRODUCTION / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "강조",
+   "source": "자체 계산(유튜브 공개 수치, 2026.10.04 조회)"
+  },
+  {
+   "text": "AI 투자 영상,\n세 장으로 가릅니다",
+   "say": "오늘은 유튜브에 올라온 AI 투자 영상들을 직접 뜯어봤어요. 허와 실, 세 장으로 가를게요.",
+   "broll": {
+    "query": "person analyzing charts on laptop",
+    "url": "https://videos.pexels.com/video-files/8512857/8512857-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/woman-using-a-laptop-8512857/",
+    "credit": "Artem Podrez / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/8480483/8480483-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/close-up-video-of-a-laptop-8480483/",
+      "credit": "ArtHouse Studio / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/7580430/7580430-hd_1366_720_25fps.mp4",
+      "page": "https://www.pexels.com/video/man-in-front-of-a-big-screen-using-his-laptop-7580430/",
+      "credit": "Tima Miroshnichenko / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "전환"
+  },
+  {
+   "text": "세 가지 얼굴\n광고·성공담·실험",
+   "say": "AI 투자 영상은 크게 세 가지예요. 광고형, 성공담형, 실험형.",
+   "broll": {
+    "query": "person scrolling phone at night",
+    "url": "https://videos.pexels.com/video-files/7987510/7987510-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/people-browsing-on-their-phone-7987510/",
+    "credit": "SHVETS production / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6943542/6943542-hd_1366_720_25fps.mp4",
+      "page": "https://www.pexels.com/video/man-in-bed-looking-at-phone-and-alarm-clock-6943542/",
+      "credit": "cottonbro studio / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6279142/6279142-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/hands-using-smartphone-close-up-6279142/",
+      "credit": "Artem Podrez / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "등장"
+  },
+  {
+   "text": "좋아요율\n0.0007% vs 2.44%",
+   "say": "알보가 계산해봤어요. 조회수 이십구만 오백오십팔에 좋아요 두 개면, 좋아요율이 영 점 영영영칠 퍼센트예요. 반응 좋은 인기 영상은 보통 이 점 사사 퍼센트 정도거든요.",
+   "broll": {
+    "query": "person looking at smartphone screen closeup",
+    "url": "https://videos.pexels.com/video-files/6133772/6133772-hd_1366_720_25fps.mp4",
+    "page": "https://www.pexels.com/video/boy-trying-to-make-a-phone-call-6133772/",
+    "credit": "cottonbro studio / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/854321/854321-hd_1920_1080_24fps.mp4",
+      "page": "https://www.pexels.com/video/scrolling-through-smartphone-854321/",
+      "credit": "Pixabay / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/36367843/15424324_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/hand-holding-smartphone-with-green-screen-indoors-36367843/",
+      "credit": "Jakub Zerdzicki / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "chart": {
+    "items": [
+     [
+      "광고형 좋아요율",
+      0.0007,
+      "%"
+     ],
+     [
+      "인기영상 좋아요율",
+      2.44,
+      "%"
+     ]
+    ]
+   },
+   "source": "자체 계산(유튜브 공개 수치, 2026.10.04 조회)",
+   "motion": "카운트업"
+  },
+  {
+   "text": "그 차이, 약\n3,500배",
+   "say": "이 점 사사를 영 점 영영영칠로 나누면, 약 삼천오백 배 차이예요.",
+   "broll": {
+    "query": "surprised man looking at phone",
+    "url": "https://videos.pexels.com/video-files/6612144/6612144-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/man-holding-a-mobile-phone-6612144/",
+    "credit": "Tima Miroshnichenko / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6306264/6306264-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/an-elderly-man-using-a-phone-6306264/",
+      "credit": "Kampus Production / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6963495/6963495-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/man-and-woman-surprised-upon-looking-at-phone-6963495/",
+      "credit": "Mikhail Nilov / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "chart": {
+    "items": [
+     [
+      "차이",
+      3500,
+      "배"
+     ]
+    ]
+   },
+   "source": "자체 계산(2026.10.04 조회)",
+   "motion": "카운트업"
+  },
+  {
+   "text": "승률 26.7%\n→62.5%",
+   "say": "그런데 다 거짓은 아니에요. 한 개인 실험 채널은 삼월에 이기는 비율 이십육 점 칠 퍼센트였다가, 사월엔 육십이 점 오 퍼센트로 뛰었어요. 본인도 버그를 고친 덕인지, 시장이 좋았던 건지, 한 달은 더 봐야 안다고 했죠. 그래서 나한테 뜻하는 건, 조회수만 보지 말고 좋아요 같은 반응을 함께 보라는 거예요.",
+   "broll": {
+    "query": "man working laptop home office",
+    "url": "https://videos.pexels.com/video-files/7597571/7597571-hd_1366_720_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-man-using-his-laptop-7597571/",
+    "credit": "MART  PRODUCTION / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/4251333/4251333-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/video-of-a-man-using-a-laptop-4251333/",
+      "credit": "Michelangelo Buonarroti / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6332867/6332867-hd_1366_720_25fps.mp4",
+      "page": "https://www.pexels.com/video/man-taking-out-work-materials-from-bag-and-arranging-it-on-work-desk-6332867/",
+      "credit": "https://kaboompics.com/ / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "case": {
+    "date": "2026",
+    "headline": "한 개인 실험 채널, 3월 승률 26.7%→4월 62.5%, 본인도 '버그 수정 덕인지 시장 덕인지 한 달 더 봐야' 인정",
+    "outlet": "유튜브 공개 영상(익명 요약)"
+   },
+   "motion": "확대",
+   "source": "자체 계산(유튜브 공개 수치, 2026.10.04 조회)"
+  },
+  {
+   "text": "허, 네 가지만\n골랐습니다",
+   "say": "지금부터는 허, 틀렸다고 확인된 말 네 가지예요.",
+   "broll": {
+    "query": "red x mark warning sign",
+    "url": "https://videos.pexels.com/video-files/5849648/5849648-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/illustration-of-risk-5849648/",
+    "credit": "Monstera Production / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/3134591/3134591-hd_1920_1080_24fps.mp4",
+      "page": "https://www.pexels.com/video/a-lighted-exit-sign-for-direction-3134591/",
+      "credit": "Caleb Oquendo / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/4648173/4648173-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/stop-sign-4648173/",
+      "credit": "Hannah Alicbusan / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "전환"
+  },
+  {
+   "text": "'상승장도 하락장도\n완벽 대응'",
+   "say": "첫 번째, 상승장도 하락장도 완벽 대응한다는 말. 모든 장에서 이기는 매매법은 없어요. 금융감독원은 이런 수익 보장 문구를 불법 리딩방의 특징으로 경고했어요.",
+   "broll": {
+    "query": "stock market trader screens",
+    "url": "https://videos.pexels.com/video-files/38875223/16527237_1920_1080_50fps.mp4",
+    "page": "https://www.pexels.com/video/dynamic-financial-market-data-display-38875223/",
+    "credit": "Rafael Minguet Delgado / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/30445099/13047042_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/hands-typing-on-laptop-with-financial-charts-30445099/",
+      "credit": "Artem Shutkin / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/30445105/13047017_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/dynamic-crypto-trading-on-dual-screens-30445105/",
+      "credit": "Artem Shutkin / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "case": {
+    "date": "2026.01",
+    "headline": "금융감독원, 전문가 사칭·수익보장 리딩방에 소비자경보 발령",
+    "outlet": "금융감독원(2026.1)"
+   },
+   "source": "금융감독원(2026.1)",
+   "motion": "강조"
+  },
+  {
+   "text": "'특허출원\n=검증 완료'",
+   "say": "두 번째, 특허출원 했다는 말. 출원은 신청일 뿐이에요. 심사를 거쳐 등록까지 가야 하고, 수익을 보장한다는 뜻은 아니에요.",
+   "broll": {
+    "query": "signing documents office paper",
+    "url": "https://videos.pexels.com/video-files/8439245/8439245-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-person-signing-a-document-8439245/",
+    "credit": "Kampus Production / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/5778854/5778854-hd_1920_1080_24fps.mp4",
+      "page": "https://www.pexels.com/video/person-putting-signature-on-a-document-5778854/",
+      "credit": "RDNE Stock project / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/8061370/8061370-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/man-signing-the-paper-8061370/",
+      "credit": "Pavel Danilyuk / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "등장"
+  },
+  {
+   "text": "'500만→34억'\n'3억 번 남자'",
+   "say": "세 번째, 오백만 원으로 삼십사억 원 벌었다처럼 큰 금액을 제목에 내건 말. 검증된 자료가 없는 개인 주장이에요. 실제로 유명인을 사칭한 투자 사기 조직이 붙잡혔는데, 피해액이 백팔십육억 원이었어요.",
+   "broll": {
+    "query": "stacks of cash money",
+    "url": "https://videos.pexels.com/video-files/6266286/6266286-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/pile-of-money-6266286/",
+    "credit": "Tima Miroshnichenko / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/31750574/13527179_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/close-up-of-hands-handling-stacks-of-currency-31750574/",
+      "credit": "Dominik Zítka / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/9675966/9675966-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/close-up-of-euro-banknotes-9675966/",
+      "credit": "Sergey  Meshkov / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "case": {
+    "date": "2026.9",
+    "headline": "SNS 유명인 사칭 투자사기 조직 검거, 피해액 186억 원",
+    "outlet": "보도자료(2026.9)"
+   },
+   "source": "보도자료(2026.9)",
+   "motion": "카운트업"
+  },
+  {
+   "text": "'시키는 대로만,\n조기 마감'",
+   "say": "네 번째, 시키는 대로만 하세요, 조기 마감 같은 말. 판단할 시간을 빼앗고 서두르게 만드는 전형적인 압박이에요.",
+   "broll": {
+    "query": "hourglass time running out",
+    "url": "https://videos.pexels.com/video-files/37223255/15768856_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/tri-hourglasses-with-flowing-sand-outdoors-37223255/",
+    "credit": "Dominiquemel16 Ramos / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/37127207/15728565_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/elegant-hourglasses-with-flowing-sand-37127207/",
+      "credit": "Dominiquemel16 Ramos / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/39488458/16821239_1920_1080_50fps.mp4",
+      "page": "https://www.pexels.com/video/time-passing-concept-with-hourglass-and-neon-glow-39488458/",
+      "credit": "Horst Dreisbach / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "강조"
+  },
+  {
+   "text": "네 가지 모두\n'보장' 표현 100%",
+   "say": "직접 뜯어본 광고형 영상 네 개, 모두 비슷한 보장 표현을 썼어요. 백 퍼센트예요.",
+   "broll": {
+    "query": "man frustrated laptop",
+    "url": "https://videos.pexels.com/video-files/6290482/6290482-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/man-wearing-headset-shouting-6290482/",
+    "credit": "Gustavo Fring / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7660481/7660481-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-problematic-man-7660481/",
+      "credit": "Alena Darmel / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/8688050/8688050-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/upset-man-sitting-on-a-couch-8688050/",
+      "credit": "ANTONI SHKRABA production / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "chart": {
+    "items": [
+     [
+      "보장 표현 쓴 영상",
+      4,
+      "개"
+     ],
+     [
+      "확인된 광고형 영상",
+      4,
+      "개"
+     ]
+    ]
+   },
+   "source": "자체 집계(2026.10.04)",
+   "motion": "카운트업"
+  },
+  {
+   "text": "'보장한다'는 말이\n가장 위험해요",
+   "say": "그래서 나한테 뜻하는 건, 무조건 번다는 말이 나오면 거기서 멈추는 게 안전하다는 거예요.",
+   "broll": {
+    "query": "stop sign street",
+    "url": "https://videos.pexels.com/video-files/5873416/5873416-hd_1920_1080_24fps.mp4",
+    "page": "https://www.pexels.com/video/stop-sign-5873416/",
+    "credit": "Marta Wave / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/4265495/4265495-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/city-lights-pedestrian-city-light-stop-sign-4265495/",
+      "credit": "CityXcape / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/3933519/3933519-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/a-road-signage-3933519/",
+      "credit": "CityXcape / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "전환"
+  },
+  {
+   "text": "실, 진짜로 있는\n것 세 가지",
+   "say": "이번엔 실, 진짜로 있는 것 세 가지예요.",
+   "broll": {
+    "query": "green check mark approval",
+    "url": "https://videos.pexels.com/video-files/38611417/16398573_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/efficient-checklist-management-in-workspace-38611417/",
+    "credit": "Jakub Zerdzicki / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/29031537/12551083_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/man-writing-a-checklist-in-notebook-on-desk-29031537/",
+      "credit": "Jakub Zerdzicki / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/34170260/14485847_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/efficient-task-management-on-digital-tablet-34170260/",
+      "credit": "Jakub Zerdzicki / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "전환"
+  },
+  {
+   "text": "증권사 API로\n자동매매",
+   "say": "첫 번째, 증권사 에이피아이로 자동매매 프로그램을 만드는 것 자체는 실제로 가능해요.",
+   "broll": {
+    "query": "programmer coding computer",
+    "url": "https://videos.pexels.com/video-files/6804109/6804109-hd_1366_720_25fps.mp4",
+    "page": "https://www.pexels.com/video/people-coding-on-computer-6804109/",
+    "credit": "cottonbro studio / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6964235/6964235-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/man-programming-6964235/",
+      "credit": "Mikhail Nilov / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6804123/6804123-hd_1366_720_25fps.mp4",
+      "page": "https://www.pexels.com/video/working-men-in-the-office-6804123/",
+      "credit": "cottonbro studio / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "등장"
+  },
+  {
+   "text": "백테스트는\n'도구'일 뿐",
+   "say": "두 번째, 백테스트는 실제로 쓰는 도구예요. 다만 과거를 시험해본 것일 뿐, 미래를 보장하진 않아요.",
+   "broll": {
+    "query": "financial charts screen data",
+    "url": "https://videos.pexels.com/video-files/38395147/16303546_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/dynamic-stock-market-trading-data-visualization-38395147/",
+    "credit": "Rafael Minguet Delgado / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/38484636/16343738_1920_1080_50fps.mp4",
+      "page": "https://www.pexels.com/video/stock-market-data-analysis-on-dual-screens-38484636/",
+      "credit": "Rafael Minguet Delgado / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/38687557/16433260_1920_1080_50fps.mp4",
+      "page": "https://www.pexels.com/video/crypto-market-analysis-with-trading-charts-38687557/",
+      "credit": "Rafael Minguet Delgado / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "강조"
+  },
+  {
+   "text": "반복 업무엔\nAI가 유용",
+   "say": "세 번째, 뉴스 정리나 브리핑 같은 반복 업무엔 AI가 실제로 유용해요. 한 채널은 에이아이가 주식 판단까지 대신할 수 있다면, 쓰는 사람 모두 부자가 됐을 거라고 말했어요.",
+   "broll": {
+    "query": "woman reading news tablet coffee",
+    "url": "https://videos.pexels.com/video-files/4630099/4630099-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/video-of-woman-looking-on-tablet-4630099/",
+    "credit": "Ketut Subiyanto / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/8344123/8344123-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/elegant-lady-drinking-coffee-and-reading-a-newspaper-8344123/",
+      "credit": "Pavel Danilyuk / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6024548/6024548-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-woman-using-a-tablet-6024548/",
+      "credit": "Pavel Danilyuk / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "case": {
+    "date": "2026",
+    "headline": "한 AI 비서 채널, 'AI가 주식 판단을 대신한다면 쓰는 사람 모두 부자가 됐을 것'",
+    "outlet": "유튜브 공개 영상(익명 요약)"
+   },
+   "motion": "확대"
+  },
+  {
+   "text": "셋 다 '도구'일 뿐\n판단은 0/3",
+   "say": "세 가지 모두 도구이거나 보조일 뿐, 투자 판단을 대신하는 건 하나도 없어요. 영 분의 삼이에요.",
+   "broll": {
+    "query": "person thinking decision window",
+    "url": "https://videos.pexels.com/video-files/8136509/8136509-hd_1366_720_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-woman-in-deep-thought-8136509/",
+    "credit": "https://kaboompics.com/ / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/9305777/9305777-hd_1366_720_30fps.mp4",
+      "page": "https://www.pexels.com/video/woman-reading-her-notes-on-her-notebook-9305777/",
+      "credit": "Monstera Production / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/7744229/7744229-hd_1366_720_25fps.mp4",
+      "page": "https://www.pexels.com/video/woman-in-front-of-a-laptop-7744229/",
+      "credit": "MART  PRODUCTION / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "chart": {
+    "items": [
+     [
+      "판단을 대신하는 것",
+      0,
+      "개"
+     ],
+     [
+      "실제로 있는 것",
+      3,
+      "개"
+     ]
+    ]
+   },
+   "source": "자체 집계(2026.10.04)",
+   "motion": "카운트업"
+  },
+  {
+   "text": "3초 체크리스트\n보장·마감·출원",
+   "say": "삼초 체크리스트예요. 수익을 보장한다는 말, 조기 마감 압박, 출원이 곧 검증이라는 말. 하나라도 있으면 멈추세요.",
+   "broll": {
+    "query": "woman checking list notebook",
+    "url": "https://videos.pexels.com/video-files/36343656/15414996_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/hand-writing-checklist-in-notebook-for-task-management-36343656/",
+    "credit": "Jakub Zerdzicki / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/29568794/12727336_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/hand-writing-checklist-at-work-desk-29568794/",
+      "credit": "Jakub Zerdzicki / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/32082737/13675721_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/close-up-of-handwriting-completing-checklist-32082737/",
+      "credit": "Jakub Zerdzicki / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "강조",
+   "source": "자체 집계(2026.10.04)"
+  },
+  {
+   "text": "신고: 금감원 1332\n경찰 112",
+   "say": "그래서 나한테 뜻하는 건, 도구는 실제로 쓸모 있지만 판단은 끝까지 내 몫이라는 거예요. 피해를 입었거나 의심되면 금융감독원 천삼백삼십이, 경찰 백십이로 신고하세요.",
+   "broll": {
+    "query": "person making phone call serious",
+    "url": "https://videos.pexels.com/video-files/6962696/6962696-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/man-talking-on-the-phone-6962696/",
+    "credit": "Mikhail Nilov / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7100923/7100923-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/man-talking-on-the-phone-7100923/",
+      "credit": "Gustavo Fring / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/32132504/13699905_1706_720_25fps.mp4",
+      "page": "https://www.pexels.com/video/young-man-focused-on-phone-call-at-home-32132504/",
+      "credit": "Roland Pierre / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "전환",
+   "source": "자체 집계(2026.10.04)"
+  }
+ ]
+}
