@@ -323,9 +323,11 @@ class SceneText:
     def render_line(self, i, t):
         """i번째 줄을 RGBA 이미지로. 숫자는 t에 맞춰 세어 올린다."""
         ln, pos = self.lines[i]
-        p = ease_out_cubic((t - self.line_start(i)) / COUNT)
+        # p를 캐시 키와 같은 값으로 반올림한다. 0.9996처럼 1로 반올림되는 p가 덜 센 숫자(22,999)를
+        # '최종' 키로 캐시해 끝까지 남던 버그(2026-10-12) 방지.
+        p = round(ease_out_cubic((t - self.line_start(i)) / COUNT), 3)
         counting = [n for n in self.nums if pos <= n["s"] < pos + len(ln)]
-        key = (i, round(p, 3) if counting and p < 1 else 1)
+        key = (i, p if counting and p < 1 else "final")
         if key in self._cache:
             return self._cache[key]
         # 조각(글자, 강조 여부)으로 나눈다. 숫자 조각은 현재 값으로 바꾼다.
