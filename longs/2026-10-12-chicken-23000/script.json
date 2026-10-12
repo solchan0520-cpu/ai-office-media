@@ -261,7 +261,8 @@
     ]
    },
    "motion": "숫자 0→23,000 카운트업",
-   "source": "아시아경제·다음뉴스(2026)"
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "One fried chicken costs 23,000 won. How much of it does the owner actually keep?"
   },
   {
    "text": "결론부터\n배달 24% · 포장 49%",
@@ -302,7 +303,8 @@
      ]
     ]
    },
-   "source": "알보 계산(아시아경제·다음뉴스 2026)"
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "Here's the answer first. Delivery: 24 percent. Pickup: 49 percent. Same chicken, twice the share."
   },
   {
    "text": "오늘 순서\n돈의 길 · 포장 · 내 선택",
@@ -328,7 +330,8 @@
      }
     ]
    },
-   "motion": "목차 세 줄 차례로 등장"
+   "motion": "목차 세 줄 차례로 등장",
+   "say_en": "We'll follow three things. Where the 23,000 won goes, what changes with pickup, and what we can do."
   },
   {
    "text": "치킨 한 마리\n2만 3천원",
@@ -341,7 +344,8 @@
     "license": "Pexels License(상업 무료)"
    },
    "motion": "카메라 천천히 확대",
-   "source": "아시아경제·다음뉴스(2026)"
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "Let's take one 23,000-won delivery chicken. We'll split it using the reported figures."
   },
   {
    "text": "원재료\n1만 1,756원",
@@ -377,7 +381,8 @@
      ]
     ]
    },
-   "source": "아시아경제·다음뉴스(2026)"
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "The biggest part is ingredients. Chicken, oil and other ingredients cost 11,756 won."
   },
   {
    "text": "알보 계산\n11,756÷23,000=51%",
@@ -404,7 +409,8 @@
     ]
    },
    "motion": "계산식 타이핑 효과",
-   "source": "알보 계산(아시아경제·다음뉴스 2026)"
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "Let's do the math. 11,756 divided by 23,000 is about 51 percent. More than half."
   },
   {
    "text": "배달 수수료\n5,729원",
@@ -445,7 +451,8 @@
      ]
     ]
    },
-   "source": "아시아경제·다음뉴스(2026)"
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "Next is the fee paid to the delivery platform. It's 5,729 won."
   },
   {
    "text": "알보 계산\n5,729÷23,000=25%",
@@ -472,7 +479,8 @@
     ]
    },
    "motion": "계산식 타이핑 + 치킨 아이콘 4개 중 1개 강조",
-   "source": "알보 계산(아시아경제·다음뉴스 2026)"
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "5,729 divided by 23,000 is about 25 percent. Sell four, and one goes to fees."
   },
   {
    "text": "사장님 몫\n5,516원",
@@ -518,7 +526,8 @@
      ]
     ]
    },
-   "source": "아시아경제·다음뉴스(2026)"
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "After tax, the owner keeps 5,516 won. Less than half of the ingredient cost."
   },
   {
    "text": "알보 계산\n5,516÷23,000=24%",
@@ -545,7 +554,8 @@
     ]
    },
    "motion": "계산식 타이핑 효과",
-   "source": "알보 계산(아시아경제·다음뉴스 2026)"
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "5,516 divided by 23,000 is about 24 percent. Split four ways, the owner gets one slice."
   },
   {
    "text": "세 줄 요약\n51% · 25% · 24%",
@@ -591,7 +601,8 @@
      ]
     ]
    },
-   "source": "알보 계산(아시아경제·다음뉴스 2026)"
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "In short: ingredients 51, fees 25, owner 24 percent. Together, almost 100."
   },
   {
    "text": "5,516원,\n다 사장님 돈일까?",
@@ -618,7 +629,8 @@
     ]
    },
    "motion": "글자 강조 등장",
-   "source": "아시아경제·다음뉴스(2026)"
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "But does all 5,516 won go into the owner's pocket? Some costs aren't taken out yet."
   },
   {
    "text": "인건비·임대료는\n아직 안 뺐어요",
@@ -645,7 +657,8 @@
     ]
    },
    "motion": "카메라 옆으로 이동",
-   "source": "아시아경제·다음뉴스(2026)"
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "Labor and rent. The owner's share in this data doesn't subtract those two yet."
   },
   {
    "text": "하루 50마리\n팔면? (예시)",
@@ -672,7 +685,8 @@
     ]
    },
    "motion": "숫자 50 튀어나옴",
-   "source": "알보 계산(예시, 하루 50마리 가정)"
+   "source": "알보 계산(예시, 하루 50마리 가정)",
+   "say_en": "Let's try an example. Say the shop sells 50 chickens a day. This is just an assumption."
   },
   {
    "text": "알보 계산(예시)\n5,516×50=27만 5,800원",
@@ -713,7 +727,8 @@
      ]
     ]
    },
-   "source": "알보 계산(예시, 하루 50마리 가정)"
+   "source": "알보 계산(예시, 하루 50마리 가정)",
+   "say_en": "5,516 times 50 is 275,800 won. That's from 1,150,000 won in daily sales."
   },
   {
    "text": "여기서 또 빠져요\n직원·가게·전기",
@@ -739,7 +754,8 @@
      }
     ]
    },
-   "motion": "항목 세 개 하나씩 지워짐"
+   "motion": "항목 세 개 하나씩 지워짐",
+   "say_en": "Then come staff wages, shop rent, and electricity and gas. The real take-home is even smaller."
   },
   {
    "text": "매출이 크다고\n남는 게 큰 건 아니에요",
@@ -765,7 +781,8 @@
      }
     ]
    },
-   "motion": "카메라 천천히 당김"
+   "motion": "카메라 천천히 당김",
+   "say_en": "So bigger sales don't mean bigger profit. You need to look at the ratios."
   },
   {
    "text": "포장 주문이면\n수수료가 없어요",
@@ -791,7 +808,8 @@
      }
     ]
    },
-   "motion": "수수료 막대 사라짐"
+   "motion": "수수료 막대 사라짐",
+   "say_en": "Now let's order the same chicken for pickup. If you collect it yourself, the platform fee disappears."
   },
   {
    "text": "알보 계산\n5,516+5,729=1만 1,245원",
@@ -827,7 +845,8 @@
      ]
     ]
    },
-   "source": "알보 계산(아시아경제·다음뉴스 2026)"
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "Let's add it up. 5,516 plus the 5,729 fee is 11,245 won for the owner."
   },
   {
    "text": "전체의\n49%",
@@ -868,7 +887,8 @@
      ]
     ]
    },
-   "source": "알보 계산(아시아경제·다음뉴스 2026)"
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "That's 49 percent, almost half. More than twice the delivery share."
   },
   {
    "text": "알보 계산\n11,245÷5,516=2.04배",
@@ -895,7 +915,8 @@
     ]
    },
    "motion": "숫자 2배 크게 튀어나옴",
-   "source": "알보 계산(아시아경제·다음뉴스 2026)"
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "11,245 divided by 5,516 is 2.04. One change in how you order doubles the share."
   },
   {
    "text": "하루 50마리 모두\n포장이라면? (예시)",
@@ -922,7 +943,8 @@
     ]
    },
    "motion": "카메라 옆으로 이동",
-   "source": "알보 계산(예시, 하루 50마리 가정)"
+   "source": "알보 계산(예시, 하루 50마리 가정)",
+   "say_en": "Back to our example. What if all 50 chickens a day were pickup orders?"
   },
   {
    "text": "알보 계산(예시)\n11,245×50=56만 2,250원",
@@ -963,7 +985,8 @@
      ]
     ]
    },
-   "source": "알보 계산(예시, 하루 50마리 가정)"
+   "source": "알보 계산(예시, 하루 50마리 가정)",
+   "say_en": "11,245 times 50 is 562,250 won. That's over 280,000 won more than delivery."
   },
   {
    "text": "물론 모두 포장일 순\n없어요",
@@ -989,7 +1012,8 @@
      }
     ]
    },
-   "motion": "글자 강조 등장"
+   "motion": "글자 강조 등장",
+   "say_en": "Of course, not every order can be pickup. On rainy or busy days, delivery is a must."
   },
   {
    "text": "그래서 나한테\n뜻하는 건",
@@ -1015,7 +1039,8 @@
      }
     ]
    },
-   "motion": "글자 강조"
+   "motion": "글자 강조",
+   "say_en": "So what do these numbers mean for me? Here are three takeaways."
   },
   {
    "text": "① 가까우면\n포장 주문",
@@ -1041,7 +1066,8 @@
      }
     ]
    },
-   "motion": "번호 1 등장 + 카메라 이동"
+   "motion": "번호 1 등장 + 카메라 이동",
+   "say_en": "First, if the shop is close, order pickup. You pay the same, but the owner keeps much more."
   },
   {
    "text": "② 단골 가게는\n직접 가보기",
@@ -1067,7 +1093,8 @@
      }
     ]
    },
-   "motion": "번호 2 등장"
+   "motion": "번호 2 등장",
+   "say_en": "Second, if it's your neighborhood favorite, drop by in person. Shops love those customers."
   },
   {
    "text": "③ 가격표 뒤의\n숫자 보기",
@@ -1093,7 +1120,8 @@
      }
     ]
    },
-   "motion": "번호 3 등장"
+   "motion": "번호 3 등장",
+   "say_en": "Third, look at the numbers behind the price. Knowing how 23,000 won splits changes your choice."
   },
   {
    "text": "배달이 나쁜 건\n아니에요",
@@ -1119,7 +1147,8 @@
      }
     ]
    },
-   "motion": "카메라 천천히 확대"
+   "motion": "카메라 천천히 확대",
+   "say_en": "This doesn't mean delivery is bad. Convenience has a price, and it matters who pays it."
   },
   {
    "text": "한 번에 보기\n배달 vs 포장",
@@ -1160,7 +1189,8 @@
      ]
     ]
    },
-   "source": "알보 계산(아시아경제·다음뉴스 2026)"
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "One last look. The owner keeps 5,516 won on delivery and 11,245 won on pickup."
   },
   {
    "text": "숫자는 자료\n기준이에요",
@@ -1187,7 +1217,8 @@
     ]
    },
    "motion": "출처 자막 등장",
-   "source": "아시아경제·다음뉴스(2026, 연도 재확인 필요)"
+   "source": "아시아경제·다음뉴스(2026, 연도 재확인 필요)",
+   "say_en": "These figures come from published news data. Actual amounts vary by shop, region and platform."
   },
   {
    "text": "여러분은\n배달파? 포장파?",
@@ -1213,7 +1244,8 @@
      }
     ]
    },
-   "motion": "질문 말풍선 등장"
+   "motion": "질문 말풍선 등장",
+   "say_en": "Are you a delivery person or a pickup person? Tell us in the comments. We'll dig deeper next time."
   },
   {
    "text": "처음 그 숫자,\n다시 볼까요?",
@@ -1241,7 +1273,8 @@
    },
    "motion": "되감기 효과",
    "ending": true,
-   "source": "알보 계산(아시아경제·다음뉴스 2026)"
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "So, shall we look at that first number again? Out of 23,000 won, the owner's share was 24 percent."
   }
  ]
 }

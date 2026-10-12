@@ -1,0 +1,313 @@
+1
+00:00:00,000 --> 00:00:02,469
+One fried chicken costs 23,000 won.
+
+2
+00:00:02,469 --> 00:00:05,573
+How much of it does the owner actually
+keep?
+
+3
+00:00:06,023 --> 00:00:08,415
+Here's the answer first.
+
+4
+00:00:08,415 --> 00:00:10,507
+Delivery: 24 percent.
+
+5
+00:00:10,507 --> 00:00:12,401
+Pickup: 49 percent.
+
+6
+00:00:12,401 --> 00:00:15,390
+Same chicken, twice the share.
+
+7
+00:00:15,840 --> 00:00:18,387
+We'll follow three things.
+
+8
+00:00:18,387 --> 00:00:25,441
+Where the 23,000 won goes, what changes
+with pickup, and what we can do.
+
+9
+00:00:25,891 --> 00:00:29,271
+Let's take one 23,000-won delivery
+chicken.
+
+10
+00:00:29,271 --> 00:00:32,573
+We'll split it using the reported figures.
+
+11
+00:00:33,023 --> 00:00:35,319
+The biggest part is ingredients.
+
+12
+00:00:35,319 --> 00:00:38,979
+Chicken, oil and other ingredients cost
+11,756 won.
+
+13
+00:00:39,429 --> 00:00:41,412
+Let's do the math.
+
+14
+00:00:41,412 --> 00:00:46,370
+11,756 divided by 23,000 is about 51
+percent.
+
+15
+00:00:46,370 --> 00:00:48,022
+More than half.
+
+16
+00:00:48,472 --> 00:00:52,057
+Next is the fee paid to the delivery
+platform.
+
+17
+00:00:52,057 --> 00:00:53,225
+It's 5,729 won.
+
+18
+00:00:53,675 --> 00:00:58,240
+5,729 divided by 23,000 is about 25
+percent.
+
+19
+00:00:58,240 --> 00:01:01,559
+Sell four, and one goes to fees.
+
+20
+00:01:02,009 --> 00:01:05,064
+After tax, the owner keeps 5,516 won.
+
+21
+00:01:05,064 --> 00:01:08,201
+Less than half of the ingredient cost.
+
+22
+00:01:08,651 --> 00:01:13,360
+5,516 divided by 23,000 is about 24
+percent.
+
+23
+00:01:13,360 --> 00:01:17,854
+Split four ways, the owner gets one slice.
+
+24
+00:01:18,304 --> 00:01:24,337
+In short: ingredients 51, fees 25, owner
+24 percent.
+
+25
+00:01:24,337 --> 00:01:26,773
+Together, almost 100.
+
+26
+00:01:27,223 --> 00:01:31,669
+But does all 5,516 won go into the owner's
+pocket?
+
+27
+00:01:31,669 --> 00:01:34,514
+Some costs aren't taken out yet.
+
+28
+00:01:34,964 --> 00:01:36,166
+Labor and rent.
+
+29
+00:01:36,166 --> 00:01:41,133
+The owner's share in this data doesn't
+subtract those two yet.
+
+30
+00:01:41,583 --> 00:01:43,180
+Let's try an example.
+
+31
+00:01:43,180 --> 00:01:45,994
+Say the shop sells 50 chickens a day.
+
+32
+00:01:45,994 --> 00:01:48,048
+This is just an assumption.
+
+33
+00:01:48,498 --> 00:01:51,781
+5,516 times 50 is 275,800 won.
+
+34
+00:01:51,781 --> 00:01:56,267
+That's from 1,150,000 won in daily sales.
+
+35
+00:01:56,717 --> 00:02:01,585
+Then come staff wages, shop rent, and
+electricity and gas.
+
+36
+00:02:01,585 --> 00:02:04,522
+The real take-home is even smaller.
+
+37
+00:02:04,972 --> 00:02:08,112
+So bigger sales don't mean bigger profit.
+
+38
+00:02:08,112 --> 00:02:10,486
+You need to look at the ratios.
+
+39
+00:02:10,936 --> 00:02:14,314
+Now let's order the same chicken for
+pickup.
+
+40
+00:02:14,314 --> 00:02:18,613
+If you collect it yourself, the platform
+fee disappears.
+
+41
+00:02:19,063 --> 00:02:21,014
+Let's add it up.
+
+42
+00:02:21,014 --> 00:02:27,478
+5,516 plus the 5,729 fee is 11,245 won for
+the owner.
+
+43
+00:02:27,928 --> 00:02:30,869
+That's 49 percent, almost half.
+
+44
+00:02:30,869 --> 00:02:34,190
+More than twice the delivery share.
+
+45
+00:02:34,640 --> 00:02:37,769
+11,245 divided by 5,516 is 2.04.
+
+46
+00:02:37,769 --> 00:02:42,268
+One change in how you order doubles the
+share.
+
+47
+00:02:42,718 --> 00:02:44,191
+Back to our example.
+
+48
+00:02:44,191 --> 00:02:47,800
+What if all 50 chickens a day were pickup
+orders?
+
+49
+00:02:48,250 --> 00:02:51,715
+11,245 times 50 is 562,250 won.
+
+50
+00:02:51,715 --> 00:02:56,523
+That's over 280,000 won more than
+delivery.
+
+51
+00:02:56,973 --> 00:02:59,818
+Of course, not every order can be pickup.
+
+52
+00:02:59,818 --> 00:03:02,732
+On rainy or busy days, delivery is a must.
+
+53
+00:03:03,182 --> 00:03:06,254
+So what do these numbers mean for me?
+
+54
+00:03:06,254 --> 00:03:08,330
+Here are three takeaways.
+
+55
+00:03:08,780 --> 00:03:11,720
+First, if the shop is close, order pickup.
+
+56
+00:03:11,720 --> 00:03:15,081
+You pay the same, but the owner keeps much
+more.
+
+57
+00:03:15,531 --> 00:03:20,718
+Second, if it's your neighborhood
+favorite, drop by in person.
+
+58
+00:03:20,718 --> 00:03:22,977
+Shops love those customers.
+
+59
+00:03:23,427 --> 00:03:27,266
+Third, look at the numbers behind the
+price.
+
+60
+00:03:27,266 --> 00:03:31,630
+Knowing how 23,000 won splits changes your
+choice.
+
+61
+00:03:32,080 --> 00:03:34,955
+This doesn't mean delivery is bad.
+
+62
+00:03:34,955 --> 00:03:39,351
+Convenience has a price, and it matters
+who pays it.
+
+63
+00:03:39,801 --> 00:03:41,354
+One last look.
+
+64
+00:03:41,354 --> 00:03:48,340
+The owner keeps 5,516 won on delivery and
+11,245 won on pickup.
+
+65
+00:03:48,790 --> 00:03:51,904
+These figures come from published news
+data.
+
+66
+00:03:51,904 --> 00:03:55,373
+Actual amounts vary by shop, region and
+platform.
+
+67
+00:03:55,823 --> 00:03:59,402
+Are you a delivery person or a pickup
+person?
+
+68
+00:03:59,402 --> 00:04:01,311
+Tell us in the comments.
+
+69
+00:04:01,311 --> 00:04:03,459
+We'll dig deeper next time.
+
+70
+00:04:03,909 --> 00:04:07,421
+So, shall we look at that first number
+again?
+
+71
+00:04:07,421 --> 00:04:11,478
+Out of 23,000 won, the owner's share was
+24 percent.
+
