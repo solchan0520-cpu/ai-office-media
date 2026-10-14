@@ -327,7 +327,25 @@
    "text": "치킨 한 마리\n2만 3천원",
    "say": "치킨 한 마리, 이만 삼천 원이에요.",
    "broll": {
-    "query": "fried chicken box table"
+    "query": "fried chicken box table",
+    "url": "https://videos.pexels.com/video-files/31605029/13466478_1080_1920_30fps.mp4",
+    "page": "https://www.pexels.com/video/delicious-fast-food-burger-meal-on-marble-table-31605029/",
+    "credit": "Deen Docs / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/39077558/16628153_1080_1920_60fps.mp4",
+      "page": "https://www.pexels.com/video/delicious-roasted-turkey-leg-on-wooden-table-39077558/",
+      "credit": "Kuiyibo Campos / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/36695819/15555517_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/crispy-chicken-wings-with-dipping-sauce-36695819/",
+      "credit": "Max Griss / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "숫자 카운트업",
    "source": "아시아경제·다음뉴스(2026)"
@@ -336,7 +354,25 @@
    "text": "사장님 손에 남는 돈은\n얼마일까요?",
    "say": "이 중에 사장님 손에 남는 돈은 얼마일까요?",
    "broll": {
-    "query": "restaurant owner thinking"
+    "query": "restaurant owner thinking",
+    "url": "https://videos.pexels.com/video-files/13736678/13736678-hd_1080_1920_24fps.mp4",
+    "page": "https://www.pexels.com/video/person-putting-the-menu-board-outside-13736678/",
+    "credit": "Mizuno K / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6201679/6201679-hd_1080_1920_24fps.mp4",
+      "page": "https://www.pexels.com/video/woman-changing-close-sign-to-open-sign-6201679/",
+      "credit": "Tim Douglas / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/8428492/8428492-hd_720_1366_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-woman-looking-at-a-crate-of-assorted-fruits-at-a-cafe-8428492/",
+      "credit": "Ron Lach / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "질문 말풍선, 3초 정지"
   },
@@ -344,7 +380,25 @@
    "text": "원재료 1만 1,756원\n수수료 5,729원",
    "say": "원재료가 만 천칠백오십육 원, 배달 수수료가 오천칠백이십구 원이에요.",
    "broll": {
-    "query": "chef frying chicken kitchen"
+    "query": "chef frying chicken kitchen",
+    "url": "https://videos.pexels.com/video-files/18105249/18105249-hd_1080_1920_30fps.mp4",
+    "page": "https://www.pexels.com/video/a-pan-on-a-gas-stove-with-a-frying-pan-18105249/",
+    "credit": "Kuiyibo Campos / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/31735802/13521735_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/chef-grilling-meat-in-a-busy-kitchen-31735802/",
+      "credit": "Allan González / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/11557009/11557009-hd_1080_1920_24fps.mp4",
+      "page": "https://www.pexels.com/video/a-chef-cutting-fried-chicken-11557009/",
+      "credit": "Dyon Siregar / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "막대 2개 자라남",
    "chart": {
@@ -367,7 +421,25 @@
    "text": "정답은\n5,516원(24%)",
    "say": "정답은 오천오백십육 원, 전체의 이십사 퍼센트예요.",
    "broll": {
-    "query": "hands counting cash"
+    "query": "hands counting cash",
+    "url": "https://videos.pexels.com/video-files/6326861/6326861-hd_720_1366_25fps.mp4",
+    "page": "https://www.pexels.com/video/man-counting-banknotes-6326861/",
+    "credit": "https://kaboompics.com/ / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6700265/6700265-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-person-counting-cash-6700265/",
+      "credit": "Tima Miroshnichenko / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6266433/6266433-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/close-up-shot-of-man-counting-money-6266433/",
+      "credit": "Tima Miroshnichenko / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "정답 효과음+막대 완성",
    "chart": {
@@ -395,7 +467,25 @@
    "text": "알보 계산\n5,516+5,729=1만 1,245원",
    "say": "포장이면 수수료가 사장님 몫이 돼요. 만 천이백사십오 원, 사십구 퍼센트예요.",
    "broll": {
-    "query": "person picking up takeout"
+    "query": "person picking up takeout",
+    "url": "https://videos.pexels.com/video-files/6956686/6956686-hd_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/person-picking-up-paper-bag-6956686/",
+    "credit": "Cup of  Couple / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6613748/6613748-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/person-unpacking-takeaway-food-6613748/",
+      "credit": "Mikhail Nilov / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6956681/6956681-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/person-holding-paper-bag-6956681/",
+      "credit": "Cup of  Couple / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "막대 합쳐짐 + 계산식 타이핑",
    "chart": {
@@ -418,7 +508,25 @@
    "text": "당신은 치킨\n포장파? 배달파?",
    "say": "여러분은 치킨, 포장파예요 배달파예요? 댓글로 알려주세요.",
    "broll": {
-    "query": "friends eating chicken laughing"
+    "query": "friends eating chicken laughing",
+    "url": "https://videos.pexels.com/video-files/7337217/7337217-hd_1080_1920_30fps.mp4",
+    "page": "https://www.pexels.com/video/five-women-eating-cakes-together-7337217/",
+    "credit": "Polina Tankilevitch / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/9579104/9579104-hd_720_1366_25fps.mp4",
+      "page": "https://www.pexels.com/video/man-and-woman-eating-together-9579104/",
+      "credit": "Ron Lach / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/5019314/5019314-hd_720_1366_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-man-eating-a-banana-with-a-knife-and-fork-5019314/",
+      "credit": "cottonbro studio / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "질문 자막 강조",
    "ending": true
