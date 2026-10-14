@@ -660,15 +660,29 @@ def draw_caption(frame, chunks, t, speak, cx, max_w, y):
 
 
 def ad_notice(frame, text):
-    """쿠팡 파트너스 등 대가성 표시(의장 지시 17번): 화면 아래 작은 자막."""
+    """쿠팡 파트너스 등 대가성 표시(기준서 8장): 첫 3초 화면 아래 작은 자막.
+    화면 폭에 맞춰 줄바꿈하고(잘림 방지), 출처 꼬리표(맨 아래)와 말 자막 사이에 둔다."""
     d = ImageDraw.Draw(frame)
     size = 30 if W < H else 28
     font = ImageFont.truetype(FONT, size)
-    tw = d.textlength(text, font=font)
-    x = int(W - tw - 40)  # 오른쪽 위(띠 바로 아래) — 출처 표시·진행자와 겹치지 않게
-    y = BAND_H + 16
-    d.rounded_rectangle((x - 18, y - 10, x + tw + 18, y + size + 12), radius=12, fill=(0, 0, 0, 175))
-    d.text((x, y), text, font=font, fill=(255, 255, 255, 255))
+    max_w = W - 140
+    lines, cur = [], ""
+    for word in text.split(" "):
+        trial = (cur + " " + word).strip()
+        if cur and d.textlength(trial, font=font) > max_w:
+            lines.append(cur)
+            cur = word
+        else:
+            cur = trial
+    lines.append(cur)
+    lh = size + 10
+    tw = max(d.textlength(ln, font=font) for ln in lines)
+    bottom = H - BAR_H - (120 if W < H else 90)
+    top = bottom - lh * len(lines)
+    d.rounded_rectangle((W / 2 - tw / 2 - 18, top - 12, W / 2 + tw / 2 + 18, bottom + 8), radius=12,
+                        fill=(0, 0, 0, 175))
+    for i, ln in enumerate(lines):
+        d.text((W / 2 - d.textlength(ln, font=font) / 2, top + i * lh), ln, font=font, fill=(255, 255, 255, 255))
 
 
 def make(script_path):

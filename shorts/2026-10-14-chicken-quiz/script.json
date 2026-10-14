@@ -348,10 +348,11 @@
     ]
    },
    "motion": "숫자 카운트업",
-   "source": "아시아경제·다음뉴스(2026)"
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "One fried chicken costs 23,000 won."
   },
   {
-   "text": "사장님 손에 남는 돈은\n얼마일까요?",
+   "text": "사장님 몫은\n얼마일까요?",
    "say": "이 중에 사장님 손에 남는 돈은 얼마일까요?",
    "broll": {
     "query": "restaurant owner thinking",
@@ -374,7 +375,8 @@
      }
     ]
    },
-   "motion": "질문 말풍선, 3초 정지"
+   "motion": "질문 말풍선, 3초 정지",
+   "say_en": "How much of it stays with the owner?"
   },
   {
    "text": "원재료 1만 1,756원\n수수료 5,729원",
@@ -415,7 +417,8 @@
      ]
     ]
    },
-   "source": "아시아경제·다음뉴스(2026)"
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "Ingredients cost 11,756 won, and the delivery fee is 5,729 won."
   },
   {
    "text": "정답은\n5,516원(24%)",
@@ -461,10 +464,11 @@
      ]
     ]
    },
-   "source": "알보 계산(아시아경제·다음뉴스 2026)"
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "The answer is 5,516 won, 24 percent of the total."
   },
   {
-   "text": "알보 계산\n5,516+5,729=1만 1,245원",
+   "text": "5,516+5,729\n=1만 1,245원",
    "say": "포장이면 수수료가 사장님 몫이 돼요. 만 천이백사십오 원, 사십구 퍼센트예요.",
    "broll": {
     "query": "person picking up takeout",
@@ -502,7 +506,8 @@
      ]
     ]
    },
-   "source": "알보 계산(아시아경제·다음뉴스 2026)"
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "With pickup, the fee goes to the owner instead. 11,245 won, or 49 percent."
   },
   {
    "text": "당신은 치킨\n포장파? 배달파?",
@@ -529,7 +534,8 @@
     ]
    },
    "motion": "질문 자막 강조",
-   "ending": true
+   "ending": true,
+   "say_en": "Are you team pickup or team delivery? Tell us in the comments."
   }
  ]
 }
