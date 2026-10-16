@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:02,195
+One fried chicken costs 23,000 won.
+
+2
+00:00:02,645 --> 00:00:05,278
+How much of it stays with the owner?
+
+3
+00:00:05,728 --> 00:00:10,935
+Ingredients cost 11,756 won, and the
+delivery fee is 5,729 won.
+
+4
+00:00:11,385 --> 00:00:15,651
+The answer is 5,516 won, 24 percent of the
+total.
+
+5
+00:00:16,101 --> 00:00:19,967
+With pickup, the fee goes to the owner
+instead.
+
+6
+00:00:19,967 --> 00:00:22,105
+11,245 won, or 49 percent.
+
+7
+00:00:22,555 --> 00:00:25,326
+Are you team pickup or team delivery?
+
+8
+00:00:25,326 --> 00:00:27,124
+Tell us in the comments.
+

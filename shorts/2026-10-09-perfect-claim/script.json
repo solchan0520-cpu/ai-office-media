@@ -1,0 +1,412 @@
+{
+ "id": "2026-10-09-perfect-claim",
+ "format": "short",
+ "kind": "priority",
+ "topicDoc": "topics/priority-2026-10-09",
+ "title": "'하락장도 완벽 대응' 이 말이 나오면 멈추세요",
+ "thumbText": "'하락장도 완벽'?\n이 말이 나오면 멈춤",
+ "series": "AI 투자광고 허와 실",
+ "sources": [
+  "https://m.news.nate.com/view/20260126n30834",
+  "https://m.news.nate.com/view/20260126n31690",
+  "https://biz.sbs.co.kr/amp/article/20000287460"
+ ],
+ "brollUsed": [
+  "https://www.pexels.com/video/a-barista-serving-a-cup-of-coffee-13736675/",
+  "https://www.pexels.com/video/a-car-driving-down-a-road-at-night-16762623/",
+  "https://www.pexels.com/video/a-car-driving-on-the-highway-with-the-words-the-best-way-to-travel-27374055/",
+  "https://www.pexels.com/video/a-contactless-payment-7669659/",
+  "https://www.pexels.com/video/a-lighted-exit-sign-for-direction-3134591/",
+  "https://www.pexels.com/video/a-man-and-a-woman-watching-on-a-tablet-7415209/",
+  "https://www.pexels.com/video/a-man-calling-while-holding-a-card-6898009/",
+  "https://www.pexels.com/video/a-man-in-a-black-jacket-is-talking-on-his-cell-phone-19329194/",
+  "https://www.pexels.com/video/a-man-is-walking-on-the-road-with-a-shovel-26288502/",
+  "https://www.pexels.com/video/a-man-talking-while-eating-and-drinking-6953898/",
+  "https://www.pexels.com/video/a-man-using-his-laptop-7597571/",
+  "https://www.pexels.com/video/a-mother-giving-money-envelope-and-hugs-her-daughter-7362870/",
+  "https://www.pexels.com/video/a-panning-shot-of-a-person-using-calculator-6700250/",
+  "https://www.pexels.com/video/a-person-counting-money-7710775/",
+  "https://www.pexels.com/video/a-person-getting-some-slices-of-pear-from-the-cutting-board-5945049/",
+  "https://www.pexels.com/video/a-person-opening-a-box-containing-a-cloth-6568265/",
+  "https://www.pexels.com/video/a-person-putting-groceries-on-a-shopping-cart-9010435/",
+  "https://www.pexels.com/video/a-person-signing-a-document-8439245/",
+  "https://www.pexels.com/video/a-person-using-a-calculator-7710766/",
+  "https://www.pexels.com/video/a-problematic-man-7660481/",
+  "https://www.pexels.com/video/a-road-signage-3933519/",
+  "https://www.pexels.com/video/a-seller-packing-the-purchase-7855142/",
+  "https://www.pexels.com/video/a-woman-checking-her-phone-while-staring-blankly-6964003/",
+  "https://www.pexels.com/video/a-woman-crying-and-depressed-by-the-table-5981349/",
+  "https://www.pexels.com/video/a-woman-giving-money-envelope-to-children-7361985/",
+  "https://www.pexels.com/video/a-woman-in-deep-thought-8136509/",
+  "https://www.pexels.com/video/a-woman-looking-problematic-and-frustrated-5981347/",
+  "https://www.pexels.com/video/a-woman-using-a-tablet-6024548/",
+  "https://www.pexels.com/video/a-woman-waiting-for-her-car-to-be-charged-4818143/",
+  "https://www.pexels.com/video/a-woman-worries-in-over-spending-5981446/",
+  "https://www.pexels.com/video/aerial-drone-view-of-busy-toll-booth-29842321/",
+  "https://www.pexels.com/video/aerial-footage-of-a-traffic-in-a-multi-lane-expressway-2818521/",
+  "https://www.pexels.com/video/aerial-view-of-an-empty-toll-road-36153290/",
+  "https://www.pexels.com/video/aerial-view-of-empty-toll-plaza-in-rural-area-36153288/",
+  "https://www.pexels.com/video/aerial-view-of-highway-on-sunny-day-38510169/",
+  "https://www.pexels.com/video/aerial-view-of-highway-toll-plaza-with-cars-passing-36152745/",
+  "https://www.pexels.com/video/aerial-view-of-indian-highway-toll-plaza-33965633/",
+  "https://www.pexels.com/video/an-aerial-view-of-a-highway-with-cars-on-it-19452742/",
+  "https://www.pexels.com/video/an-elderly-couple-painting-eggs-7185649/",
+  "https://www.pexels.com/video/an-elderly-man-using-a-phone-6306264/",
+  "https://www.pexels.com/video/bank-exterior-with-logo-10218426/",
+  "https://www.pexels.com/video/boy-trying-to-make-a-phone-call-6133772/",
+  "https://www.pexels.com/video/bustling-indoor-market-with-vibrant-vegetables-36017942/",
+  "https://www.pexels.com/video/busy-highway-traffic-at-sunset-31779728/",
+  "https://www.pexels.com/video/calculating-finances-with-smartphone-and-cash-34829282/",
+  "https://www.pexels.com/video/cars-on-highway-12293819/",
+  "https://www.pexels.com/video/city-lights-pedestrian-city-light-stop-sign-4265495/",
+  "https://www.pexels.com/video/close-up-of-euro-banknotes-9675966/",
+  "https://www.pexels.com/video/close-up-of-hands-handling-stacks-of-currency-31750574/",
+  "https://www.pexels.com/video/close-up-of-handwriting-completing-checklist-32082737/",
+  "https://www.pexels.com/video/close-up-on-man-hand-scrolling-phone-gallery-10374888/",
+  "https://www.pexels.com/video/close-up-shot-of-a-woman-counting-money-using-calculator-6266261/",
+  "https://www.pexels.com/video/close-up-video-of-a-laptop-8480483/",
+  "https://www.pexels.com/video/co-workers-discussing-their-work-6325853/",
+  "https://www.pexels.com/video/confusion-26281515/",
+  "https://www.pexels.com/video/counting-argentinian-pesos-currency-close-up-38905452/",
+  "https://www.pexels.com/video/counting-cash-and-using-calculator-for-financial-budgeting-34828872/",
+  "https://www.pexels.com/video/counting-cash-on-desk-with-smartphone-calculator-34839526/",
+  "https://www.pexels.com/video/counting-polish-zloty-at-office-desk-34987276/",
+  "https://www.pexels.com/video/counting-polish-zloty-banknotes-in-office-setting-34993441/",
+  "https://www.pexels.com/video/crypto-market-analysis-with-trading-charts-38687557/",
+  "https://www.pexels.com/video/driving-through-toll-plaza-on-sunny-day-34672583/",
+  "https://www.pexels.com/video/drone-footage-of-vehicles-on-road-11573674/",
+  "https://www.pexels.com/video/dynamic-crypto-trading-on-dual-screens-30445105/",
+  "https://www.pexels.com/video/dynamic-financial-market-data-display-38875223/",
+  "https://www.pexels.com/video/dynamic-stock-market-trading-data-visualization-38395147/",
+  "https://www.pexels.com/video/efficient-checklist-management-in-workspace-38611417/",
+  "https://www.pexels.com/video/efficient-task-management-on-digital-tablet-34170260/",
+  "https://www.pexels.com/video/elderly-woman-giving-present-to-a-boy-7355483/",
+  "https://www.pexels.com/video/elegant-hourglasses-with-flowing-sand-37127207/",
+  "https://www.pexels.com/video/elegant-lady-drinking-coffee-and-reading-a-newspaper-8344123/",
+  "https://www.pexels.com/video/emotional-man-using-his-phone-7280528/",
+  "https://www.pexels.com/video/family-eating-together-8051342/",
+  "https://www.pexels.com/video/family-toasting-and-celebrating-5617254/",
+  "https://www.pexels.com/video/father-and-daughter-opening-christmas-present-5814325/",
+  "https://www.pexels.com/video/fresh-vegetables-variety-in-market-display-36483614/",
+  "https://www.pexels.com/video/girl-using-her-phone-device-inside-of-a-hipster-coffee-shop-17512949/",
+  "https://www.pexels.com/video/grocery-items-on-the-kitchen-shelf-4983686/",
+  "https://www.pexels.com/video/hand-holding-smartphone-with-green-screen-indoors-36367843/",
+  "https://www.pexels.com/video/hand-writing-checklist-at-work-desk-29568794/",
+  "https://www.pexels.com/video/hand-writing-checklist-in-notebook-for-task-management-36343656/",
+  "https://www.pexels.com/video/hands-typing-on-laptop-with-financial-charts-30445099/",
+  "https://www.pexels.com/video/hands-using-smartphone-close-up-6279142/",
+  "https://www.pexels.com/video/high-speed-train-arriving-at-busy-platform-29117385/",
+  "https://www.pexels.com/video/highway-at-night-11372907/",
+  "https://www.pexels.com/video/illustration-of-risk-5849648/",
+  "https://www.pexels.com/video/korean-bbq-samgyeopsal-on-grill-34753874/",
+  "https://www.pexels.com/video/lively-outdoor-market-scene-with-vendors-31451486/",
+  "https://www.pexels.com/video/loni-toll-plaza-on-indian-highway-35594377/",
+  "https://www.pexels.com/video/man-and-woman-surprised-upon-looking-at-phone-6963495/",
+  "https://www.pexels.com/video/man-arranging-some-money-on-the-wooden-table-6326863/",
+  "https://www.pexels.com/video/man-calculating-his-money-6693624/",
+  "https://www.pexels.com/video/man-holding-a-mobile-phone-6612144/",
+  "https://www.pexels.com/video/man-in-bed-looking-at-phone-and-alarm-clock-6943542/",
+  "https://www.pexels.com/video/man-in-front-of-a-big-screen-using-his-laptop-7580430/",
+  "https://www.pexels.com/video/man-programming-6964235/",
+  "https://www.pexels.com/video/man-signing-the-paper-8061370/",
+  "https://www.pexels.com/video/man-taking-out-work-materials-from-bag-and-arranging-it-on-work-desk-6332867/",
+  "https://www.pexels.com/video/man-talking-on-the-phone-6962696/",
+  "https://www.pexels.com/video/man-talking-on-the-phone-7100923/",
+  "https://www.pexels.com/video/man-wearing-headset-shouting-6290482/",
+  "https://www.pexels.com/video/man-writing-a-checklist-in-notebook-on-desk-29031537/",
+  "https://www.pexels.com/video/mather-and-father-talking-together-7415436/",
+  "https://www.pexels.com/video/medicines-falling-on-palm-of-a-man-5453771/",
+  "https://www.pexels.com/video/men-walking-in-an-alley-7325946/",
+  "https://www.pexels.com/video/modern-skyscrapers-at-night-9921286/",
+  "https://www.pexels.com/video/monochrome-highway-with-passing-vehicles-36828748/",
+  "https://www.pexels.com/video/mother-and-daughter-looking-at-tablet-7938989/",
+  "https://www.pexels.com/video/night-construction-site-with-workers-and-machinery-35379366/",
+  "https://www.pexels.com/video/night-drive-through-illuminated-urban-tunnel-30028386/",
+  "https://www.pexels.com/video/night-in-city-12282674/",
+  "https://www.pexels.com/video/night-traffic-jam-in-city-10297623/",
+  "https://www.pexels.com/video/nighttime-construction-at-urban-site-35039533/",
+  "https://www.pexels.com/video/nighttime-highway-drive-with-streetlights-28928755/",
+  "https://www.pexels.com/video/nighttime-highway-traffic-timelapse-39286036/",
+  "https://www.pexels.com/video/nighttime-traffic-jam-at-city-toll-booth-35095187/",
+  "https://www.pexels.com/video/panning-shot-of-christmas-presents-6396294/",
+  "https://www.pexels.com/video/people-browsing-on-their-phone-7987510/",
+  "https://www.pexels.com/video/people-coding-on-computer-6804109/",
+  "https://www.pexels.com/video/people-eating-together-7491825/",
+  "https://www.pexels.com/video/people-eating-with-chopsticks-6645754/",
+  "https://www.pexels.com/video/people-walking-inside-the-mall-4750042/",
+  "https://www.pexels.com/video/person-putting-signature-on-a-document-5778854/",
+  "https://www.pexels.com/video/person-shopping-online-6898096/",
+  "https://www.pexels.com/video/person-typing-on-a-mobile-phone-4671883/",
+  "https://www.pexels.com/video/pile-of-money-6266286/",
+  "https://www.pexels.com/video/rainy-night-highway-traffic-scene-36820213/",
+  "https://www.pexels.com/video/ramadan-table-with-shared-meal-and-food-36579901/",
+  "https://www.pexels.com/video/rush-hour-crowd-at-busy-train-station-36035831/",
+  "https://www.pexels.com/video/scenic-drive-in-mountainous-landscape-32793923/",
+  "https://www.pexels.com/video/scenic-mountain-road-with-vehicles-in-motion-33883236/",
+  "https://www.pexels.com/video/scrolling-through-smartphone-854321/",
+  "https://www.pexels.com/video/stock-market-data-analysis-on-dual-screens-38484636/",
+  "https://www.pexels.com/video/stop-sign-4648173/",
+  "https://www.pexels.com/video/stop-sign-5873416/",
+  "https://www.pexels.com/video/sunset-city-traffic-with-vibrant-skyline-34504957/",
+  "https://www.pexels.com/video/time-lapse-video-of-the-sky-5562942/",
+  "https://www.pexels.com/video/time-passing-concept-with-hourglass-and-neon-glow-39488458/",
+  "https://www.pexels.com/video/top-view-of-street-12294370/",
+  "https://www.pexels.com/video/traffic-on-highway-at-night-11372919/",
+  "https://www.pexels.com/video/traffic-on-the-highway-in-a-city-26804237/",
+  "https://www.pexels.com/video/tri-hourglasses-with-flowing-sand-outdoors-37223255/",
+  "https://www.pexels.com/video/upset-man-sitting-on-a-couch-8688050/",
+  "https://www.pexels.com/video/urban-construction-site-with-workers-and-machinery-38414842/",
+  "https://www.pexels.com/video/vibrant-korean-hansik-meal-spread-35196990/",
+  "https://www.pexels.com/video/video-of-a-cooking-pancakes-7677227/",
+  "https://www.pexels.com/video/video-of-a-man-using-a-laptop-4251333/",
+  "https://www.pexels.com/video/video-of-woman-looking-on-tablet-4630099/",
+  "https://www.pexels.com/video/woman-buying-on-internet-5981981/",
+  "https://www.pexels.com/video/woman-counting-money-7735919/",
+  "https://www.pexels.com/video/woman-holding-baby-6623650/",
+  "https://www.pexels.com/video/woman-holding-money-while-thinking-7735867/",
+  "https://www.pexels.com/video/woman-in-front-of-a-laptop-7744229/",
+  "https://www.pexels.com/video/woman-preparing-red-envelopes-for-lunar-new-year-30325369/",
+  "https://www.pexels.com/video/woman-reading-her-notes-on-her-notebook-9305777/",
+  "https://www.pexels.com/video/woman-scrolling-social-media-10238038/",
+  "https://www.pexels.com/video/woman-shopping-in-grocery-aisle-29846459/",
+  "https://www.pexels.com/video/woman-using-a-laptop-8512857/",
+  "https://www.pexels.com/video/woman-using-her-iphone-5981979/",
+  "https://www.pexels.com/video/workers-are-working-on-a-construction-site-19832493/",
+  "https://www.pexels.com/video/working-men-in-the-office-6804123/",
+  "https://www.pexels.com/video/young-man-focused-on-phone-call-at-home-32132504/",
+  "https://www.pexels.com/video/a-person-calculating-using-a-smart-phone-6927297/",
+  "https://www.pexels.com/video/person-using-calculator-on-iphone-6781912/",
+  "https://www.pexels.com/video/person-using-calculator-on-phone-7247831/",
+  "https://www.pexels.com/video/a-person-using-a-calculator-and-typing-6266437/",
+  "https://www.pexels.com/video/a-person-using-a-calculator-7688135/",
+  "https://www.pexels.com/video/a-person-using-calculator-on-mobile-phone-8513120/",
+  "https://www.pexels.com/video/woman-using-smartphone-8066973/",
+  "https://www.pexels.com/video/a-woman-scrolling-through-her-cellphone-6353346/",
+  "https://www.pexels.com/video/a-young-woman-putting-on-wireless-headphones-6988764/",
+  "https://www.pexels.com/video/couple-surprise-27155328/",
+  "https://www.pexels.com/video/shocked-woman-looking-a-pregnancy-test-6462485/",
+  "https://www.pexels.com/video/woman-with-string-shopping-bag-5801992/",
+  "https://www.pexels.com/video/young-woman-surprising-young-man-6533831/",
+  "https://www.pexels.com/video/video-of-a-man-using-smartphone-7131726/",
+  "https://www.pexels.com/video/sad-person-scrolling-on-cell-phone-6031853/",
+  "https://www.pexels.com/video/policeman-in-police-car-talking-on-radio-10476419/",
+  "https://www.pexels.com/video/woman-standing-while-looking-at-the-road-5450601/",
+  "https://www.pexels.com/video/police-officers-with-criminal-in-police-car-10476434/",
+  "https://www.pexels.com/video/person-using-calculator-on-smartphone-6782252/",
+  "https://www.pexels.com/video/a-person-using-a-calculator-7710753/",
+  "https://www.pexels.com/video/a-woman-using-a-calculator-7491324/",
+  "https://www.pexels.com/video/scrolling-through-social-media-on-smartphone-38410501/",
+  "https://www.pexels.com/video/sales-posting-on-instagram-6115070/",
+  "https://www.pexels.com/video/a-person-using-a-smartphone-9785305/"
+ ],
+ "style": {
+  "layout": "오해 vs 진실(빨강→초록)",
+  "structure": "흔한 말(오해)→확인→금감원 경고→4개 중 4개→진짜 도구→3초 체크→댓글 질문",
+  "tone": "대화형 구어체"
+ },
+ "scenes": [
+  {
+   "text": "AI가 하락장도\n완벽 대응한다?",
+   "say": "에이아이가 하락장도 완벽하게 대응한다, 그런 말 들어보셨어요?",
+   "broll": {
+    "query": "man stressed looking at falling stock chart laptop",
+    "url": "https://videos.pexels.com/video-files/5716223/5716223-hd_1080_1920_30fps.mp4",
+    "page": "https://www.pexels.com/video/a-man-looking-problematic-while-looking-at-his-laptop-5716223/",
+    "credit": "Artem Podrez / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7578620/7578620-hd_720_1366_25fps.mp4",
+      "page": "https://www.pexels.com/video/tired-man-using-laptop-7578620/",
+      "credit": "Tima Miroshnichenko / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/5716221/5716221-hd_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/a-man-looking-problematic-while-looking-at-his-laptop-5716221/",
+      "credit": "Artem Podrez / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "강조"
+  },
+  {
+   "text": "그 말,\n진짜일까요?",
+   "say": "그 말, 진짜인지 알보가 확인해봤어요.",
+   "broll": {
+    "query": "skeptical woman thinking looking at phone",
+    "url": "https://videos.pexels.com/video-files/7279746/7279746-hd_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-lonely-woman-thinking-while-holding-her-mobile-phone-7279746/",
+    "credit": "MART  PRODUCTION / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7597953/7597953-hd_1080_1920_24fps.mp4",
+      "page": "https://www.pexels.com/video/woman-using-a-smartphone-7597953/",
+      "credit": "Miriam Alonso / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6381261/6381261-hd_1080_1920_24fps.mp4",
+      "page": "https://www.pexels.com/video/thoughtful-young-woman-6381261/",
+      "credit": "Liza Summer / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "전환"
+  },
+  {
+   "text": "모든 장에서 이기는\n매매법은 없어요",
+   "say": "모든 장에서 이기는 매매법은 없어요. 그런 수익 보장 문구, 금융감독원이 불법 리딩방의 특징으로 경고했어요.",
+   "broll": {
+    "query": "serious man reading news on smartphone",
+    "url": "https://videos.pexels.com/video-files/6324882/6324882-hd_1080_1920_24fps.mp4",
+    "page": "https://www.pexels.com/video/man-in-business-attire-using-his-smartphone-while-sitting-in-a-coffee-shop-6324882/",
+    "credit": "Vanessa Garcia / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7424097/7424097-hd_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/an-elderly-man-using-a-cell-phone-7424097/",
+      "credit": "Gustavo Fring / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/8246977/8246977-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-man-texting-on-his-cellphone-8246977/",
+      "credit": "Henri Mathieu-Saint-Laurent / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "강조",
+   "case": {
+    "date": "2026.01",
+    "headline": "금융감독원, 전문가 사칭·수익보장 리딩방에 소비자경보 발령",
+    "outlet": "금융감독원(2026.1)"
+   },
+   "source": "금융감독원(2026.1)"
+  },
+  {
+   "text": "보장 표현\n4개 중 4개",
+   "say": "직접 뜯어본 광고형 영상들, 네 개 중 네 개 모두 비슷한 보장 표현을 썼어요. 백 퍼센트예요.",
+   "broll": {
+    "query": "man counting on fingers thinking",
+    "url": "https://videos.pexels.com/video-files/9017835/9017835-hd_1080_1920_24fps.mp4",
+    "page": "https://www.pexels.com/video/a-hand-doing-sign-language-9017835/",
+    "credit": "Kevin  Malik / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/8484821/8484821-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/close-up-footage-of-a-man-s-hand-8484821/",
+      "credit": "Ivan S / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/18504012/18504012-hd_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/a-man-in-a-blue-shirt-is-looking-at-something-18504012/",
+      "credit": "Denjel Labooum / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "카운트업",
+   "chart": {
+    "items": [
+     [
+      "보장 표현 쓴 영상",
+      4,
+      "개"
+     ],
+     [
+      "확인된 광고형 영상",
+      4,
+      "개"
+     ]
+    ]
+   },
+   "source": "자체 집계(2026.10.04)"
+  },
+  {
+   "text": "백테스트는\n'도구'일 뿐",
+   "say": "그럼 뭐가 진짜일까요. 백테스트는 실제 도구예요. 다만 과거 시험일 뿐, 미래를 보장하진 않아요.",
+   "broll": {
+    "query": "trader analyzing charts on multiple monitors",
+    "url": "https://videos.pexels.com/video-files/36824993/15602501_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/professional-trader-analyzing-financial-data-36824993/",
+    "credit": "Jakub Zerdzicki / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/8480284/8480284-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/person-looking-a-stock-market-8480284/",
+      "credit": "ArtHouse Studio / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/33402723/14218742_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/interactive-trading-desk-with-crypto-charts-33402723/",
+      "credit": "Jakub Zerdzicki / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "등장"
+  },
+  {
+   "text": "3초 체크\n하나라도 있으면 멈춤",
+   "say": "삼초 체크예요. 수익 보장, 조기 마감 압박, 출원이 곧 검증이라는 말. 하나라도 있으면 멈추세요.",
+   "broll": {
+    "query": "woman raising hand stop gesture",
+    "url": "https://videos.pexels.com/video-files/8689953/8689953-hd_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/woman-with-the-word-stop-written-on-her-palm-8689953/",
+    "credit": "Mikael Blomkvist / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/8689954/8689954-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-woman-with-written-stop-on-her-palm-8689954/",
+      "credit": "Mikael Blomkvist / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6904090/6904090-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/person-saying-stop-6904090/",
+      "credit": "Anna Shvets / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "확대"
+  },
+  {
+   "text": "여러분이 본 영상엔\n이런 말 있었나요?",
+   "say": "여러분이 본 투자 영상엔 이런 말 있었나요? 댓글로 알려주세요. 전체 이야기는 롱폼에서 더 보세요.",
+   "broll": {
+    "query": "friends talking together looking at phone",
+    "url": "https://videos.pexels.com/video-files/5835713/5835713-hd_1080_1920_24fps.mp4",
+    "page": "https://www.pexels.com/video/two-young-girls-looking-into-phone-and-talking-5835713/",
+    "credit": "Tim  Samuel / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/5381977/5381977-hd_720_1366_30fps.mp4",
+      "page": "https://www.pexels.com/video/two-women-talking-while-looking-at-the-smartphone-5381977/",
+      "credit": "Monstera Production / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/8216952/8216952-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/girls-looking-at-a-cellphone-8216952/",
+      "credit": "Polina Tankilevitch / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "전환"
+  }
+ ]
+}

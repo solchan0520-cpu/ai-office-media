@@ -1,0 +1,1280 @@
+{
+ "id": "2026-10-12-chicken-23000",
+ "format": "long",
+ "kind": "priority",
+ "topicDoc": "topics/priority-2026-10-12",
+ "title": "치킨 2만 3천원, 사장님 손에 남는 돈은? | 알고보면 돈 7편",
+ "thumbText": "치킨 2만 3천원\n남는 돈 24%",
+ "series": "알고보면 돈",
+ "chapterStarts": [
+  0,
+  3,
+  11,
+  17,
+  24,
+  29
+ ],
+ "chapterTitles": [
+  "치킨 2만 3천원, 결론부터",
+  "1. 2만 3천원은 어디로 가나",
+  "2. 사장님 몫 5,516원의 진짜 의미",
+  "3. 포장 주문이면, 몫이 바뀐다",
+  "4. 그래서 나한테 뜻하는 건",
+  "5. 한 번에 보기"
+ ],
+ "sources": [
+  "https://www.asiae.co.kr/visual-news/article/2026033111030590793",
+  "https://v.daum.net/v/2d6hYVYCTs"
+ ],
+ "brollUsed": [
+  "https://www.pexels.com/video/a-barista-serving-a-cup-of-coffee-13736675/",
+  "https://www.pexels.com/video/a-car-driving-down-a-road-at-night-16762623/",
+  "https://www.pexels.com/video/a-car-driving-on-the-highway-with-the-words-the-best-way-to-travel-27374055/",
+  "https://www.pexels.com/video/a-contactless-payment-7669659/",
+  "https://www.pexels.com/video/a-lighted-exit-sign-for-direction-3134591/",
+  "https://www.pexels.com/video/a-man-and-a-woman-watching-on-a-tablet-7415209/",
+  "https://www.pexels.com/video/a-man-calling-while-holding-a-card-6898009/",
+  "https://www.pexels.com/video/a-man-in-a-black-jacket-is-talking-on-his-cell-phone-19329194/",
+  "https://www.pexels.com/video/a-man-is-walking-on-the-road-with-a-shovel-26288502/",
+  "https://www.pexels.com/video/a-man-talking-while-eating-and-drinking-6953898/",
+  "https://www.pexels.com/video/a-man-using-his-laptop-7597571/",
+  "https://www.pexels.com/video/a-mother-giving-money-envelope-and-hugs-her-daughter-7362870/",
+  "https://www.pexels.com/video/a-panning-shot-of-a-person-using-calculator-6700250/",
+  "https://www.pexels.com/video/a-person-counting-money-7710775/",
+  "https://www.pexels.com/video/a-person-getting-some-slices-of-pear-from-the-cutting-board-5945049/",
+  "https://www.pexels.com/video/a-person-opening-a-box-containing-a-cloth-6568265/",
+  "https://www.pexels.com/video/a-person-putting-groceries-on-a-shopping-cart-9010435/",
+  "https://www.pexels.com/video/a-person-signing-a-document-8439245/",
+  "https://www.pexels.com/video/a-person-using-a-calculator-7710766/",
+  "https://www.pexels.com/video/a-problematic-man-7660481/",
+  "https://www.pexels.com/video/a-road-signage-3933519/",
+  "https://www.pexels.com/video/a-seller-packing-the-purchase-7855142/",
+  "https://www.pexels.com/video/a-woman-checking-her-phone-while-staring-blankly-6964003/",
+  "https://www.pexels.com/video/a-woman-crying-and-depressed-by-the-table-5981349/",
+  "https://www.pexels.com/video/a-woman-giving-money-envelope-to-children-7361985/",
+  "https://www.pexels.com/video/a-woman-in-deep-thought-8136509/",
+  "https://www.pexels.com/video/a-woman-looking-problematic-and-frustrated-5981347/",
+  "https://www.pexels.com/video/a-woman-using-a-tablet-6024548/",
+  "https://www.pexels.com/video/a-woman-waiting-for-her-car-to-be-charged-4818143/",
+  "https://www.pexels.com/video/a-woman-worries-in-over-spending-5981446/",
+  "https://www.pexels.com/video/aerial-drone-view-of-busy-toll-booth-29842321/",
+  "https://www.pexels.com/video/aerial-footage-of-a-traffic-in-a-multi-lane-expressway-2818521/",
+  "https://www.pexels.com/video/aerial-view-of-an-empty-toll-road-36153290/",
+  "https://www.pexels.com/video/aerial-view-of-empty-toll-plaza-in-rural-area-36153288/",
+  "https://www.pexels.com/video/aerial-view-of-highway-on-sunny-day-38510169/",
+  "https://www.pexels.com/video/aerial-view-of-highway-toll-plaza-with-cars-passing-36152745/",
+  "https://www.pexels.com/video/aerial-view-of-indian-highway-toll-plaza-33965633/",
+  "https://www.pexels.com/video/an-aerial-view-of-a-highway-with-cars-on-it-19452742/",
+  "https://www.pexels.com/video/an-elderly-couple-painting-eggs-7185649/",
+  "https://www.pexels.com/video/an-elderly-man-using-a-phone-6306264/",
+  "https://www.pexels.com/video/bank-exterior-with-logo-10218426/",
+  "https://www.pexels.com/video/boy-trying-to-make-a-phone-call-6133772/",
+  "https://www.pexels.com/video/bustling-indoor-market-with-vibrant-vegetables-36017942/",
+  "https://www.pexels.com/video/busy-highway-traffic-at-sunset-31779728/",
+  "https://www.pexels.com/video/calculating-finances-with-smartphone-and-cash-34829282/",
+  "https://www.pexels.com/video/cars-on-highway-12293819/",
+  "https://www.pexels.com/video/city-lights-pedestrian-city-light-stop-sign-4265495/",
+  "https://www.pexels.com/video/close-up-of-euro-banknotes-9675966/",
+  "https://www.pexels.com/video/close-up-of-hands-handling-stacks-of-currency-31750574/",
+  "https://www.pexels.com/video/close-up-of-handwriting-completing-checklist-32082737/",
+  "https://www.pexels.com/video/close-up-on-man-hand-scrolling-phone-gallery-10374888/",
+  "https://www.pexels.com/video/close-up-shot-of-a-woman-counting-money-using-calculator-6266261/",
+  "https://www.pexels.com/video/close-up-video-of-a-laptop-8480483/",
+  "https://www.pexels.com/video/co-workers-discussing-their-work-6325853/",
+  "https://www.pexels.com/video/confusion-26281515/",
+  "https://www.pexels.com/video/counting-argentinian-pesos-currency-close-up-38905452/",
+  "https://www.pexels.com/video/counting-cash-and-using-calculator-for-financial-budgeting-34828872/",
+  "https://www.pexels.com/video/counting-cash-on-desk-with-smartphone-calculator-34839526/",
+  "https://www.pexels.com/video/counting-polish-zloty-at-office-desk-34987276/",
+  "https://www.pexels.com/video/counting-polish-zloty-banknotes-in-office-setting-34993441/",
+  "https://www.pexels.com/video/crypto-market-analysis-with-trading-charts-38687557/",
+  "https://www.pexels.com/video/driving-through-toll-plaza-on-sunny-day-34672583/",
+  "https://www.pexels.com/video/drone-footage-of-vehicles-on-road-11573674/",
+  "https://www.pexels.com/video/dynamic-crypto-trading-on-dual-screens-30445105/",
+  "https://www.pexels.com/video/dynamic-financial-market-data-display-38875223/",
+  "https://www.pexels.com/video/dynamic-stock-market-trading-data-visualization-38395147/",
+  "https://www.pexels.com/video/efficient-checklist-management-in-workspace-38611417/",
+  "https://www.pexels.com/video/efficient-task-management-on-digital-tablet-34170260/",
+  "https://www.pexels.com/video/elderly-woman-giving-present-to-a-boy-7355483/",
+  "https://www.pexels.com/video/elegant-hourglasses-with-flowing-sand-37127207/",
+  "https://www.pexels.com/video/elegant-lady-drinking-coffee-and-reading-a-newspaper-8344123/",
+  "https://www.pexels.com/video/emotional-man-using-his-phone-7280528/",
+  "https://www.pexels.com/video/family-eating-together-8051342/",
+  "https://www.pexels.com/video/family-toasting-and-celebrating-5617254/",
+  "https://www.pexels.com/video/father-and-daughter-opening-christmas-present-5814325/",
+  "https://www.pexels.com/video/fresh-vegetables-variety-in-market-display-36483614/",
+  "https://www.pexels.com/video/girl-using-her-phone-device-inside-of-a-hipster-coffee-shop-17512949/",
+  "https://www.pexels.com/video/grocery-items-on-the-kitchen-shelf-4983686/",
+  "https://www.pexels.com/video/hand-holding-smartphone-with-green-screen-indoors-36367843/",
+  "https://www.pexels.com/video/hand-writing-checklist-at-work-desk-29568794/",
+  "https://www.pexels.com/video/hand-writing-checklist-in-notebook-for-task-management-36343656/",
+  "https://www.pexels.com/video/hands-typing-on-laptop-with-financial-charts-30445099/",
+  "https://www.pexels.com/video/hands-using-smartphone-close-up-6279142/",
+  "https://www.pexels.com/video/high-speed-train-arriving-at-busy-platform-29117385/",
+  "https://www.pexels.com/video/highway-at-night-11372907/",
+  "https://www.pexels.com/video/illustration-of-risk-5849648/",
+  "https://www.pexels.com/video/korean-bbq-samgyeopsal-on-grill-34753874/",
+  "https://www.pexels.com/video/lively-outdoor-market-scene-with-vendors-31451486/",
+  "https://www.pexels.com/video/loni-toll-plaza-on-indian-highway-35594377/",
+  "https://www.pexels.com/video/man-and-woman-surprised-upon-looking-at-phone-6963495/",
+  "https://www.pexels.com/video/man-arranging-some-money-on-the-wooden-table-6326863/",
+  "https://www.pexels.com/video/man-calculating-his-money-6693624/",
+  "https://www.pexels.com/video/man-holding-a-mobile-phone-6612144/",
+  "https://www.pexels.com/video/man-in-bed-looking-at-phone-and-alarm-clock-6943542/",
+  "https://www.pexels.com/video/man-in-front-of-a-big-screen-using-his-laptop-7580430/",
+  "https://www.pexels.com/video/man-programming-6964235/",
+  "https://www.pexels.com/video/man-signing-the-paper-8061370/",
+  "https://www.pexels.com/video/man-taking-out-work-materials-from-bag-and-arranging-it-on-work-desk-6332867/",
+  "https://www.pexels.com/video/man-talking-on-the-phone-6962696/",
+  "https://www.pexels.com/video/man-talking-on-the-phone-7100923/",
+  "https://www.pexels.com/video/man-wearing-headset-shouting-6290482/",
+  "https://www.pexels.com/video/man-writing-a-checklist-in-notebook-on-desk-29031537/",
+  "https://www.pexels.com/video/mather-and-father-talking-together-7415436/",
+  "https://www.pexels.com/video/medicines-falling-on-palm-of-a-man-5453771/",
+  "https://www.pexels.com/video/men-walking-in-an-alley-7325946/",
+  "https://www.pexels.com/video/modern-skyscrapers-at-night-9921286/",
+  "https://www.pexels.com/video/monochrome-highway-with-passing-vehicles-36828748/",
+  "https://www.pexels.com/video/mother-and-daughter-looking-at-tablet-7938989/",
+  "https://www.pexels.com/video/night-construction-site-with-workers-and-machinery-35379366/",
+  "https://www.pexels.com/video/night-drive-through-illuminated-urban-tunnel-30028386/",
+  "https://www.pexels.com/video/night-in-city-12282674/",
+  "https://www.pexels.com/video/night-traffic-jam-in-city-10297623/",
+  "https://www.pexels.com/video/nighttime-construction-at-urban-site-35039533/",
+  "https://www.pexels.com/video/nighttime-highway-drive-with-streetlights-28928755/",
+  "https://www.pexels.com/video/nighttime-highway-traffic-timelapse-39286036/",
+  "https://www.pexels.com/video/nighttime-traffic-jam-at-city-toll-booth-35095187/",
+  "https://www.pexels.com/video/panning-shot-of-christmas-presents-6396294/",
+  "https://www.pexels.com/video/people-browsing-on-their-phone-7987510/",
+  "https://www.pexels.com/video/people-coding-on-computer-6804109/",
+  "https://www.pexels.com/video/people-eating-together-7491825/",
+  "https://www.pexels.com/video/people-eating-with-chopsticks-6645754/",
+  "https://www.pexels.com/video/people-walking-inside-the-mall-4750042/",
+  "https://www.pexels.com/video/person-putting-signature-on-a-document-5778854/",
+  "https://www.pexels.com/video/person-shopping-online-6898096/",
+  "https://www.pexels.com/video/person-typing-on-a-mobile-phone-4671883/",
+  "https://www.pexels.com/video/pile-of-money-6266286/",
+  "https://www.pexels.com/video/rainy-night-highway-traffic-scene-36820213/",
+  "https://www.pexels.com/video/ramadan-table-with-shared-meal-and-food-36579901/",
+  "https://www.pexels.com/video/rush-hour-crowd-at-busy-train-station-36035831/",
+  "https://www.pexels.com/video/scenic-drive-in-mountainous-landscape-32793923/",
+  "https://www.pexels.com/video/scenic-mountain-road-with-vehicles-in-motion-33883236/",
+  "https://www.pexels.com/video/scrolling-through-smartphone-854321/",
+  "https://www.pexels.com/video/stock-market-data-analysis-on-dual-screens-38484636/",
+  "https://www.pexels.com/video/stop-sign-4648173/",
+  "https://www.pexels.com/video/stop-sign-5873416/",
+  "https://www.pexels.com/video/sunset-city-traffic-with-vibrant-skyline-34504957/",
+  "https://www.pexels.com/video/time-lapse-video-of-the-sky-5562942/",
+  "https://www.pexels.com/video/time-passing-concept-with-hourglass-and-neon-glow-39488458/",
+  "https://www.pexels.com/video/top-view-of-street-12294370/",
+  "https://www.pexels.com/video/traffic-on-highway-at-night-11372919/",
+  "https://www.pexels.com/video/traffic-on-the-highway-in-a-city-26804237/",
+  "https://www.pexels.com/video/tri-hourglasses-with-flowing-sand-outdoors-37223255/",
+  "https://www.pexels.com/video/upset-man-sitting-on-a-couch-8688050/",
+  "https://www.pexels.com/video/urban-construction-site-with-workers-and-machinery-38414842/",
+  "https://www.pexels.com/video/vibrant-korean-hansik-meal-spread-35196990/",
+  "https://www.pexels.com/video/video-of-a-cooking-pancakes-7677227/",
+  "https://www.pexels.com/video/video-of-a-man-using-a-laptop-4251333/",
+  "https://www.pexels.com/video/video-of-woman-looking-on-tablet-4630099/",
+  "https://www.pexels.com/video/woman-buying-on-internet-5981981/",
+  "https://www.pexels.com/video/woman-counting-money-7735919/",
+  "https://www.pexels.com/video/woman-holding-baby-6623650/",
+  "https://www.pexels.com/video/woman-holding-money-while-thinking-7735867/",
+  "https://www.pexels.com/video/woman-in-front-of-a-laptop-7744229/",
+  "https://www.pexels.com/video/woman-preparing-red-envelopes-for-lunar-new-year-30325369/",
+  "https://www.pexels.com/video/woman-reading-her-notes-on-her-notebook-9305777/",
+  "https://www.pexels.com/video/woman-scrolling-social-media-10238038/",
+  "https://www.pexels.com/video/woman-shopping-in-grocery-aisle-29846459/",
+  "https://www.pexels.com/video/woman-using-a-laptop-8512857/",
+  "https://www.pexels.com/video/woman-using-her-iphone-5981979/",
+  "https://www.pexels.com/video/workers-are-working-on-a-construction-site-19832493/",
+  "https://www.pexels.com/video/working-men-in-the-office-6804123/",
+  "https://www.pexels.com/video/young-man-focused-on-phone-call-at-home-32132504/",
+  "https://www.pexels.com/video/a-person-calculating-using-a-smart-phone-6927297/",
+  "https://www.pexels.com/video/person-using-calculator-on-iphone-6781912/",
+  "https://www.pexels.com/video/person-using-calculator-on-phone-7247831/",
+  "https://www.pexels.com/video/a-person-using-a-calculator-and-typing-6266437/",
+  "https://www.pexels.com/video/a-person-using-a-calculator-7688135/",
+  "https://www.pexels.com/video/a-person-using-calculator-on-mobile-phone-8513120/",
+  "https://www.pexels.com/video/woman-using-smartphone-8066973/",
+  "https://www.pexels.com/video/a-woman-scrolling-through-her-cellphone-6353346/",
+  "https://www.pexels.com/video/a-young-woman-putting-on-wireless-headphones-6988764/",
+  "https://www.pexels.com/video/couple-surprise-27155328/",
+  "https://www.pexels.com/video/shocked-woman-looking-a-pregnancy-test-6462485/",
+  "https://www.pexels.com/video/woman-with-string-shopping-bag-5801992/",
+  "https://www.pexels.com/video/young-woman-surprising-young-man-6533831/",
+  "https://www.pexels.com/video/video-of-a-man-using-smartphone-7131726/",
+  "https://www.pexels.com/video/sad-person-scrolling-on-cell-phone-6031853/",
+  "https://www.pexels.com/video/policeman-in-police-car-talking-on-radio-10476419/",
+  "https://www.pexels.com/video/woman-standing-while-looking-at-the-road-5450601/",
+  "https://www.pexels.com/video/police-officers-with-criminal-in-police-car-10476434/",
+  "https://www.pexels.com/video/person-using-calculator-on-smartphone-6782252/",
+  "https://www.pexels.com/video/a-person-using-a-calculator-7710753/",
+  "https://www.pexels.com/video/a-woman-using-a-calculator-7491324/",
+  "https://www.pexels.com/video/scrolling-through-social-media-on-smartphone-38410501/",
+  "https://www.pexels.com/video/sales-posting-on-instagram-6115070/",
+  "https://www.pexels.com/video/a-person-using-a-smartphone-9785305/",
+  "https://www.pexels.com/video/a-man-looking-problematic-while-looking-at-his-laptop-5716223/",
+  "https://www.pexels.com/video/tired-man-using-laptop-7578620/",
+  "https://www.pexels.com/video/a-man-looking-problematic-while-looking-at-his-laptop-5716221/",
+  "https://www.pexels.com/video/a-lonely-woman-thinking-while-holding-her-mobile-phone-7279746/",
+  "https://www.pexels.com/video/woman-using-a-smartphone-7597953/",
+  "https://www.pexels.com/video/thoughtful-young-woman-6381261/",
+  "https://www.pexels.com/video/man-in-business-attire-using-his-smartphone-while-sitting-in-a-coffee-shop-6324882/",
+  "https://www.pexels.com/video/an-elderly-man-using-a-cell-phone-7424097/",
+  "https://www.pexels.com/video/a-man-texting-on-his-cellphone-8246977/",
+  "https://www.pexels.com/video/a-hand-doing-sign-language-9017835/",
+  "https://www.pexels.com/video/close-up-footage-of-a-man-s-hand-8484821/",
+  "https://www.pexels.com/video/a-man-in-a-blue-shirt-is-looking-at-something-18504012/",
+  "https://www.pexels.com/video/professional-trader-analyzing-financial-data-36824993/",
+  "https://www.pexels.com/video/person-looking-a-stock-market-8480284/",
+  "https://www.pexels.com/video/interactive-trading-desk-with-crypto-charts-33402723/",
+  "https://www.pexels.com/video/woman-with-the-word-stop-written-on-her-palm-8689953/",
+  "https://www.pexels.com/video/a-woman-with-written-stop-on-her-palm-8689954/",
+  "https://www.pexels.com/video/person-saying-stop-6904090/",
+  "https://www.pexels.com/video/two-young-girls-looking-into-phone-and-talking-5835713/",
+  "https://www.pexels.com/video/two-women-talking-while-looking-at-the-smartphone-5381977/",
+  "https://www.pexels.com/video/girls-looking-at-a-cellphone-8216952/"
+ ],
+ "scenes": [
+  {
+   "text": "치킨 2만 3천원\n사장님 몫은?",
+   "say": "치킨 한 마리, 이만 삼천 원. 이 돈에서 사장님 손에 남는 건 얼마일까요?",
+   "broll": {
+    "query": "fried chicken box delivery",
+    "url": "https://videos.pexels.com/video-files/5780300/5780300-hd_1920_1080_24fps.mp4",
+    "page": "https://www.pexels.com/video/food-in-a-box-5780300/",
+    "credit": "RDNE Stock project / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/4253728/4253728-hd_1366_720_50fps.mp4",
+      "page": "https://www.pexels.com/video/a-person-is-preparing-food-in-a-kitchen-4253728/",
+      "credit": "cottonbro studio / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/5794173/5794173-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/person-putting-pasta-on-a-food-packaging-5794173/",
+      "credit": "Tima Miroshnichenko / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "숫자 0→23,000 카운트업",
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "One fried chicken costs 23,000 won. How much of it does the owner actually keep?"
+  },
+  {
+   "text": "결론부터\n배달 24% · 포장 49%",
+   "say": "결론부터 말할게요. 배달이면 이십사 퍼센트, 포장이면 사십구 퍼센트예요. 같은 치킨인데 두 배 차이가 나요.",
+   "broll": {
+    "query": "person opening takeout box",
+    "url": "https://videos.pexels.com/video-files/7437534/7437534-hd_1366_658_30fps.mp4",
+    "page": "https://www.pexels.com/video/a-person-having-chinese-food-7437534/",
+    "credit": "ROMAN ODINTSOV / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/8519392/8519392-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/close-up-shot-of-maki-rolls-8519392/",
+      "credit": "Artem Podrez / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/5332657/5332657-hd_1366_720_30fps.mp4",
+      "page": "https://www.pexels.com/video/person-writing-a-name-on-the-food-container-5332657/",
+      "credit": "ROMAN ODINTSOV / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "막대 두 개 자라남",
+   "chart": {
+    "items": [
+     [
+      "배달 주문",
+      24,
+      "%"
+     ],
+     [
+      "포장 주문",
+      49,
+      "%"
+     ]
+    ]
+   },
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "Here's the answer first. Delivery: 24 percent. Pickup: 49 percent. Same chicken, twice the share."
+  },
+  {
+   "text": "오늘 순서\n돈의 길 · 포장 · 내 선택",
+   "say": "오늘은 세 가지를 따라가요. 이만 삼천 원이 어디로 가는지, 포장이면 뭐가 바뀌는지, 그리고 우리가 할 수 있는 것.",
+   "broll": {
+    "query": "woman ordering food phone",
+    "url": "https://videos.pexels.com/video-files/6667261/6667261-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/elderly-woman-checking-her-vegetable-deliveries-6667261/",
+    "credit": "Kampus Production / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6667352/6667352-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/elderly-woman-checking-her-purchase-6667352/",
+      "credit": "Kampus Production / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6322500/6322500-hd_1366_720_25fps.mp4",
+      "page": "https://www.pexels.com/video/coffee-being-ordered-through-a-written-text-6322500/",
+      "credit": "cottonbro studio / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "목차 세 줄 차례로 등장",
+   "say_en": "We'll follow three things. Where the 23,000 won goes, what changes with pickup, and what we can do."
+  },
+  {
+   "text": "치킨 한 마리\n2만 3천원",
+   "say": "먼저 이만 삼천 원짜리 배달 치킨 한 마리를 놓고 볼게요. 자료에 나온 금액을 그대로 나눠볼게요.",
+   "broll": {
+    "query": "chicken frying kitchen worker",
+    "url": "https://videos.pexels.com/video-files/34438330/14592143_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/sizzling-chicken-fry-in-hot-oil-close-up-34438330/",
+    "credit": "Food_Lenz_Vlogs / Pexels",
+    "license": "Pexels License(상업 무료)"
+   },
+   "motion": "카메라 천천히 확대",
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "Let's take one 23,000-won delivery chicken. We'll split it using the reported figures."
+  },
+  {
+   "text": "원재료\n1만 1,756원",
+   "say": "가장 큰 몫은 원재료비예요. 닭과 기름 같은 재료값이 만 천칠백오십육 원이에요.",
+   "broll": {
+    "query": "cook preparing raw chicken",
+    "url": "https://videos.pexels.com/video-files/6107292/6107292-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/person-seasoning-chicken-meat-6107292/",
+    "credit": "alleksana / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6107296/6107296-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-person-seasoning-chicken-breasts-6107296/",
+      "credit": "alleksana / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6107301/6107301-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/person-preparing-chicken-breast-for-cooking-6107301/",
+      "credit": "alleksana / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "막대 자라남(원재료)",
+   "chart": {
+    "items": [
+     [
+      "원재료",
+      11756,
+      "원"
+     ]
+    ]
+   },
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "The biggest part is ingredients. Chicken, oil and other ingredients cost 11,756 won."
+  },
+  {
+   "text": "알보 계산\n11,756÷23,000=51%",
+   "say": "알보가 계산해볼게요. 만 천칠백오십육을 이만 삼천으로 나누면, 약 오십일 퍼센트. 절반이 넘어요.",
+   "broll": {
+    "query": "hands using calculator desk",
+    "url": "https://videos.pexels.com/video-files/6963484/6963484-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-person-using-a-calculator-6963484/",
+    "credit": "Mikhail Nilov / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/8276001/8276001-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/a-person-using-a-calculator-8276001/",
+      "credit": "PNW Production / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/8479055/8479055-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/person-calculating-using-a-cellphone-8479055/",
+      "credit": "ArtHouse Studio / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "계산식 타이핑 효과",
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "Let's do the math. 11,756 divided by 23,000 is about 51 percent. More than half."
+  },
+  {
+   "text": "배달 수수료\n5,729원",
+   "say": "다음은 배달 플랫폼에 내는 수수료예요. 오천칠백이십구 원이에요.",
+   "broll": {
+    "query": "delivery rider motorcycle city",
+    "url": "https://videos.pexels.com/video-files/36067569/15295830_1920_1080_24fps.mp4",
+    "page": "https://www.pexels.com/video/urban-commuters-on-motorcycles-in-greenery-36067569/",
+    "credit": "Airam Dato-on / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6867866/6867866-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/red-and-silver-motorbike-with-carrier-box-and-delivery-sticker-6867866/",
+      "credit": "Kindel Media / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6867870/6867870-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/guy-delivering-a-parcel-6867870/",
+      "credit": "Kindel Media / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "막대 추가(수수료)",
+   "chart": {
+    "items": [
+     [
+      "원재료",
+      11756,
+      "원"
+     ],
+     [
+      "배달 수수료",
+      5729,
+      "원"
+     ]
+    ]
+   },
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "Next is the fee paid to the delivery platform. It's 5,729 won."
+  },
+  {
+   "text": "알보 계산\n5,729÷23,000=25%",
+   "say": "오천칠백이십구를 이만 삼천으로 나누면, 약 이십오 퍼센트. 네 마리 팔면 한 마리 값이 수수료예요.",
+   "broll": {
+    "query": "delivery driver handing food bag",
+    "url": "https://videos.pexels.com/video-files/6867875/6867875-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/a-delivery-man-checking-his-parcels-to-deliver-6867875/",
+    "credit": "Kindel Media / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6867876/6867876-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/a-delivery-man-riding-on-his-motorbike-6867876/",
+      "credit": "Kindel Media / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/7362576/7362576-hd_1920_1080_24fps.mp4",
+      "page": "https://www.pexels.com/video/a-man-checking-the-grocery-bag-7362576/",
+      "credit": "RDNE Stock project / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "계산식 타이핑 + 치킨 아이콘 4개 중 1개 강조",
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "5,729 divided by 23,000 is about 25 percent. Sell four, and one goes to fees."
+  },
+  {
+   "text": "사장님 몫\n5,516원",
+   "say": "세금을 빼고 사장님께 남는 돈은 오천오백십육 원이에요. 원재료비의 절반도 안 돼요.",
+   "broll": {
+    "query": "restaurant owner counting money",
+    "url": "https://videos.pexels.com/video-files/5466769/5466769-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-person-counting-money-5466769/",
+    "credit": "olia danilevich / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/39740470/16945257_1920_1080_60fps.mp4",
+      "page": "https://www.pexels.com/video/woman-counting-money-indoors-with-close-up-view-39740470/",
+      "credit": "Samuel Benjamin Hernandez Lopez / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6197173/6197173-hd_1366_586_30fps.mp4",
+      "page": "https://www.pexels.com/video/a-person-counting-bank-notes-on-the-table-6197173/",
+      "credit": "Please donation / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "막대 추가(남는 돈)",
+   "chart": {
+    "items": [
+     [
+      "원재료",
+      11756,
+      "원"
+     ],
+     [
+      "배달 수수료",
+      5729,
+      "원"
+     ],
+     [
+      "남는 돈",
+      5516,
+      "원"
+     ]
+    ]
+   },
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "After tax, the owner keeps 5,516 won. Less than half of the ingredient cost."
+  },
+  {
+   "text": "알보 계산\n5,516÷23,000=24%",
+   "say": "알보 계산이에요. 오천오백십육 나누기 이만 삼천, 약 이십사 퍼센트. 네 명이 나누면 사장님은 한 조각이에요.",
+   "broll": {
+    "query": "person typing calculator",
+    "url": "https://videos.pexels.com/video-files/7593564/7593564-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/person-punching-in-numbers-at-a-calculator-7593564/",
+    "credit": "Pavel Danilyuk / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/9056542/9056542-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-person-typing-on-calculator-while-writing-on-a-paper-9056542/",
+      "credit": "SHVETS production / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/8298072/8298072-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/person-working-in-office-8298072/",
+      "credit": "Mikhail Nilov / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "계산식 타이핑 효과",
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "5,516 divided by 23,000 is about 24 percent. Split four ways, the owner gets one slice."
+  },
+  {
+   "text": "세 줄 요약\n51% · 25% · 24%",
+   "say": "정리하면 이래요. 원재료 오십일, 수수료 이십오, 사장님 이십사 퍼센트. 합치면 거의 백이에요.",
+   "broll": {
+    "query": "man reviewing papers desk",
+    "url": "https://videos.pexels.com/video-files/26654076/11984907_1920_1080_60fps.mp4",
+    "page": "https://www.pexels.com/video/a-man-sitting-on-the-floor-reading-a-book-26654076/",
+    "credit": "Max Medyk / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6101146/6101146-hd_1366_720_30fps.mp4",
+      "page": "https://www.pexels.com/video/man-drinking-coffee-and-working-6101146/",
+      "credit": "KATRIN  BOLOVTSOVA / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/19288030/19288030-hd_1920_1080_60fps.mp4",
+      "page": "https://www.pexels.com/video/checking-documents-19288030/",
+      "credit": "Max Medyk / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "요약 그래프 세 칸 채워짐",
+   "chart": {
+    "items": [
+     [
+      "원재료",
+      51,
+      "%"
+     ],
+     [
+      "수수료",
+      25,
+      "%"
+     ],
+     [
+      "사장님",
+      24,
+      "%"
+     ]
+    ]
+   },
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "In short: ingredients 51, fees 25, owner 24 percent. Together, almost 100."
+  },
+  {
+   "text": "5,516원,\n다 사장님 돈일까?",
+   "say": "그런데 이 오천오백십육 원, 전부 사장님 주머니로 갈까요? 아직 빠지지 않은 게 있어요.",
+   "broll": {
+    "query": "small restaurant kitchen empty",
+    "url": "https://videos.pexels.com/video-files/29229032/12615489_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/cozy-asian-kitchen-interior-with-empty-shelves-29229032/",
+    "credit": "LayG Traveller / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/36066758/15295365_1920_1080_24fps.mp4",
+      "page": "https://www.pexels.com/video/authentic-filipino-carinderia-kitchen-scene-36066758/",
+      "credit": "Airam Dato-on / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/29229040/12615446_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/cozy-cambodian-restaurant-interior-29229040/",
+      "credit": "LayG Traveller / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "글자 강조 등장",
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "But does all 5,516 won go into the owner's pocket? Some costs aren't taken out yet."
+  },
+  {
+   "text": "인건비·임대료는\n아직 안 뺐어요",
+   "say": "바로 인건비와 임대료예요. 이 자료의 사장님 몫에는 아직 이 두 가지가 빠져 있지 않아요.",
+   "broll": {
+    "query": "restaurant staff cleaning tables",
+    "url": "https://videos.pexels.com/video-files/4254302/4254302-hd_1366_720_50fps.mp4",
+    "page": "https://www.pexels.com/video/restaurant-sign-typography-cafe-4254302/",
+    "credit": "cottonbro studio / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/4254318/4254318-hd_1366_720_50fps.mp4",
+      "page": "https://www.pexels.com/video/a-person-cleaning-a-wooden-table-with-a-cloth-4254318/",
+      "credit": "cottonbro studio / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6683366/6683366-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/waitress-wiping-the-tables-6683366/",
+      "credit": "Kampus Production / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "카메라 옆으로 이동",
+   "source": "아시아경제·다음뉴스(2026)",
+   "say_en": "Labor and rent. The owner's share in this data doesn't subtract those two yet."
+  },
+  {
+   "text": "하루 50마리\n팔면? (예시)",
+   "say": "예시로 계산해볼게요. 하루에 오십 마리를 판다고 해볼게요. 이건 설명을 위한 가정이에요.",
+   "broll": {
+    "query": "busy kitchen cooking orders",
+    "url": "https://videos.pexels.com/video-files/4170498/4170498-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/food-restaurant-man-meal-4170498/",
+    "credit": "Norma Mortenson / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/4170503/4170503-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/delivery-man-picking-up-food-orders-4170503/",
+      "credit": "Norma Mortenson / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/5780026/5780026-hd_1920_1080_24fps.mp4",
+      "page": "https://www.pexels.com/video/wrapping-fast-food-5780026/",
+      "credit": "RDNE Stock project / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "숫자 50 튀어나옴",
+   "source": "알보 계산(예시, 하루 50마리 가정)",
+   "say_en": "Let's try an example. Say the shop sells 50 chickens a day. This is just an assumption."
+  },
+  {
+   "text": "알보 계산(예시)\n5,516×50=27만 5,800원",
+   "say": "오천오백십육 곱하기 오십, 이십칠만 오천팔백 원이에요. 하루 매출은 백십오만 원인데 말이에요.",
+   "broll": {
+    "query": "hands counting cash restaurant",
+    "url": "https://videos.pexels.com/video-files/34579094/14652651_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/counting-polish-zloty-banknotes-hand-close-up-34579094/",
+    "credit": "SHOX ART / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/34579090/14652663_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/counting-money-close-up-of-hands-handling-bills-34579090/",
+      "credit": "SHOX ART / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6326929/6326929-hd_1366_720_25fps.mp4",
+      "page": "https://www.pexels.com/video/person-couting-money-6326929/",
+      "credit": "https://kaboompics.com/ / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "계산식 타이핑 + 두 숫자 비교",
+   "chart": {
+    "items": [
+     [
+      "하루 매출(예시)",
+      1150000,
+      "원"
+     ],
+     [
+      "사장님 몫(예시)",
+      275800,
+      "원"
+     ]
+    ]
+   },
+   "source": "알보 계산(예시, 하루 50마리 가정)",
+   "say_en": "5,516 times 50 is 275,800 won. That's from 1,150,000 won in daily sales."
+  },
+  {
+   "text": "여기서 또 빠져요\n직원·가게·전기",
+   "say": "여기서 다시 직원 월급, 가게 월세, 전기와 가스 요금이 나가요. 실제 손에 쥐는 돈은 더 줄어요.",
+   "broll": {
+    "query": "worker frying chicken night",
+    "url": "https://videos.pexels.com/video-files/7504944/7504944-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/person-cooking-food-in-kitchen-7504944/",
+    "credit": "Recep Rıdvan Kızılağaç / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/2882115/2882115-hd_1920_1080_24fps.mp4",
+      "page": "https://www.pexels.com/video/cooking-fried-rice-in-a-wok-2882115/",
+      "credit": "K / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/17958067/17958067-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/cuisson-viande-17958067/",
+      "credit": "ulrich Keutchatang / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "항목 세 개 하나씩 지워짐",
+   "say_en": "Then come staff wages, shop rent, and electricity and gas. The real take-home is even smaller."
+  },
+  {
+   "text": "매출이 크다고\n남는 게 큰 건 아니에요",
+   "say": "그래서 매출이 크다고 남는 돈이 큰 건 아니에요. 비율로 봐야 진짜 모습이 보여요.",
+   "broll": {
+    "query": "restaurant owner thinking worried",
+    "url": "https://videos.pexels.com/video-files/7320152/7320152-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/elderly-man-leaning-on-a-desk-looking-stressed-7320152/",
+    "credit": "Alena Darmel / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/5920133/5920133-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/writing-on-a-food-truck-menu-5920133/",
+      "credit": "Kampus Production / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/7426424/7426424-hd_1366_576_50fps.mp4",
+      "page": "https://www.pexels.com/video/a-man-sitting-at-the-table-7426424/",
+      "credit": "Pavel Danilyuk / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "카메라 천천히 당김",
+   "say_en": "So bigger sales don't mean bigger profit. You need to look at the ratios."
+  },
+  {
+   "text": "포장 주문이면\n수수료가 없어요",
+   "say": "이제 같은 치킨을 포장으로 주문해볼게요. 내가 직접 가지러 가면, 배달 플랫폼 수수료가 빠져요.",
+   "broll": {
+    "query": "person picking up takeout bag",
+    "url": "https://videos.pexels.com/video-files/4170497/4170497-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-delivery-man-picking-up-the-order-at-the-restaurant-4170497/",
+    "credit": "Norma Mortenson / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6613749/6613749-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/person-unpacking-takeaway-food-6613749/",
+      "credit": "Mikhail Nilov / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6613752/6613752-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/person-unpacking-takeaway-food-6613752/",
+      "credit": "Mikhail Nilov / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "수수료 막대 사라짐",
+   "say_en": "Now let's order the same chicken for pickup. If you collect it yourself, the platform fee disappears."
+  },
+  {
+   "text": "알보 계산\n5,516+5,729=1만 1,245원",
+   "say": "알보 계산이에요. 사장님 몫 오천오백십육에 수수료 오천칠백이십구를 더하면, 만 천이백사십오 원이에요.",
+   "broll": {
+    "query": "person typing calculator",
+    "url": "https://videos.pexels.com/video-files/7535085/7535085-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/person-using-a-calculator-7535085/",
+    "credit": "Mikhail Nilov / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/9364450/9364450-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-woman-typing-on-calculator-9364450/",
+      "credit": "Mikhail Nilov / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/7308093/7308093-hd_1920_1080_24fps.mp4",
+      "page": "https://www.pexels.com/video/a-person-using-a-laptop-for-research-and-calculations-7308093/",
+      "credit": "RDNE Stock project / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "막대 합쳐지는 애니메이션",
+   "chart": {
+    "items": [
+     [
+      "포장 시 사장님 몫",
+      11245,
+      "원"
+     ]
+    ]
+   },
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "Let's add it up. 5,516 plus the 5,729 fee is 11,245 won for the owner."
+  },
+  {
+   "text": "전체의\n49%",
+   "say": "전체의 사십구 퍼센트, 거의 절반이에요. 배달일 때보다 두 배 넘게 남아요.",
+   "broll": {
+    "query": "calculator screen close up",
+    "url": "https://videos.pexels.com/video-files/7055396/7055396-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/extreme-close-up-video-of-digital-calculator-7055396/",
+    "credit": "Kindel Media / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7535088/7535088-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/person-using-calculator-in-smartphone-7535088/",
+      "credit": "Mikhail Nilov / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/3860709/3860709-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-close-up-of-a-person-using-a-calculator-3860709/",
+      "credit": "Steve B / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "원그래프 비교",
+   "chart": {
+    "items": [
+     [
+      "배달 시",
+      24,
+      "%"
+     ],
+     [
+      "포장 시",
+      49,
+      "%"
+     ]
+    ]
+   },
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "That's 49 percent, almost half. More than twice the delivery share."
+  },
+  {
+   "text": "알보 계산\n11,245÷5,516=2.04배",
+   "say": "만 천이백사십오를 오천오백십육으로 나누면, 이 점 영사 배. 주문 방법 하나로 몫이 두 배가 돼요.",
+   "broll": {
+    "query": "surprised man looking at phone",
+    "url": "https://videos.pexels.com/video-files/7534957/7534957-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/man-using-a-cellphone-7534957/",
+    "credit": "Mikhail Nilov / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6517433/6517433-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/a-man-talking-on-the-phone-while-looking-at-the-laptop-and-drinking-6517433/",
+      "credit": "RDNE Stock project / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6257827/6257827-hd_1366_720_24fps.mp4",
+      "page": "https://www.pexels.com/video/close-up-of-man-using-smartphone-6257827/",
+      "credit": "ArtHouse Studio / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "숫자 2배 크게 튀어나옴",
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "11,245 divided by 5,516 is 2.04. One change in how you order doubles the share."
+  },
+  {
+   "text": "하루 50마리 모두\n포장이라면? (예시)",
+   "say": "아까 예시로 다시 해볼게요. 하루 오십 마리가 모두 포장이라면 어떨까요?",
+   "broll": {
+    "query": "people waiting takeout counter",
+    "url": "https://videos.pexels.com/video-files/29887146/12831143_1920_1080_60fps.mp4",
+    "page": "https://www.pexels.com/video/casual-interaction-at-city-cafe-counter-29887146/",
+    "credit": "Doğan Alpaslan  Demir / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/6683941/6683941-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-man-getting-his-takeout-order-at-a-cafe-6683941/",
+      "credit": "Kampus Production / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/35545660/15059169_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/busy-cafe-with-customers-ordering-at-counter-35545660/",
+      "credit": "Sururi Ballıdağ Director / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "카메라 옆으로 이동",
+   "source": "알보 계산(예시, 하루 50마리 가정)",
+   "say_en": "Back to our example. What if all 50 chickens a day were pickup orders?"
+  },
+  {
+   "text": "알보 계산(예시)\n11,245×50=56만 2,250원",
+   "say": "만 천이백사십오 곱하기 오십, 오십육만 이천이백오십 원이에요. 배달일 때보다 이십팔만 원 넘게 많아요.",
+   "broll": {
+    "query": "hands counting cash restaurant",
+    "url": "https://videos.pexels.com/video-files/10422116/10422116-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/woman-counting-money-10422116/",
+    "credit": "Maria Sicret / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/34579096/14652615_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/counting-currency-notes-in-hand-close-up-34579096/",
+      "credit": "SHOX ART / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/34298569/14530763_1920_1080_24fps.mp4",
+      "page": "https://www.pexels.com/video/hands-counting-polish-zloty-banknotes-34298569/",
+      "credit": "SHOX ART / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "막대 두 개 비교",
+   "chart": {
+    "items": [
+     [
+      "배달(예시)",
+      275800,
+      "원"
+     ],
+     [
+      "포장(예시)",
+      562250,
+      "원"
+     ]
+    ]
+   },
+   "source": "알보 계산(예시, 하루 50마리 가정)",
+   "say_en": "11,245 times 50 is 562,250 won. That's over 280,000 won more than delivery."
+  },
+  {
+   "text": "물론 모두 포장일 순\n없어요",
+   "say": "물론 모든 주문이 포장일 수는 없어요. 비가 오거나 바쁜 날엔 배달이 꼭 필요하죠.",
+   "broll": {
+    "query": "rain city street night",
+    "url": "https://videos.pexels.com/video-files/855432/855432-hd_1840_1034_25fps.mp4",
+    "page": "https://www.pexels.com/video/video-of-people-waiting-for-a-taxi-on-a-rainy-night-855432/",
+    "credit": "Pixabay / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/9253241/9253241-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/raindrops-on-the-road-9253241/",
+      "credit": "Shamnad Abdulsalam / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/3249516/3249516-hd_1840_1034_25fps.mp4",
+      "page": "https://www.pexels.com/video/two-woman-with-umbrella-standing-on-the-middle-of-an-empty-street-on-a-rainy-night-3249516/",
+      "credit": "Paul Daley / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "글자 강조 등장",
+   "say_en": "Of course, not every order can be pickup. On rainy or busy days, delivery is a must."
+  },
+  {
+   "text": "그래서 나한테\n뜻하는 건",
+   "say": "그래서 이 숫자가 나한테 뜻하는 건 뭘까요? 세 가지로 정리해볼게요.",
+   "broll": {
+    "query": "woman thinking looking window",
+    "url": "https://videos.pexels.com/video-files/5500762/5500762-hd_1366_720_24fps.mp4",
+    "page": "https://www.pexels.com/video/woman-in-white-shirt-leaning-on-a-wall-while-looking-outside-5500762/",
+    "credit": "Anastasia  Shuraeva / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/8090351/8090351-hd_1366_720_24fps.mp4",
+      "page": "https://www.pexels.com/video/woman-looking-out-the-window-8090351/",
+      "credit": "Yaroslav Shuraev / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6984880/6984880-hd_1920_1080_24fps.mp4",
+      "page": "https://www.pexels.com/video/woman-in-white-sweater-leaning-by-the-glass-wall-6984880/",
+      "credit": "Yaroslav Shuraev / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "글자 강조",
+   "say_en": "So what do these numbers mean for me? Here are three takeaways."
+  },
+  {
+   "text": "① 가까우면\n포장 주문",
+   "say": "첫째, 가게가 가깝다면 포장 주문이에요. 같은 돈을 내도 사장님 몫이 훨씬 커져요.",
+   "broll": {
+    "query": "man walking carrying food bag",
+    "url": "https://videos.pexels.com/video-files/8992549/8992549-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/man-carrying-thermal-bag-while-walking-8992549/",
+    "credit": "Artem Podrez / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7701954/7701954-hd_1366_720_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-delivery-man-walking-in-the-hallway-while-carrying-a-thermal-bag-7701954/",
+      "credit": "MART  PRODUCTION / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/8992393/8992393-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/man-holding-parcels-while-walking-8992393/",
+      "credit": "Artem Podrez / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "번호 1 등장 + 카메라 이동",
+   "say_en": "First, if the shop is close, order pickup. You pay the same, but the owner keeps much more."
+  },
+  {
+   "text": "② 단골 가게는\n직접 가보기",
+   "say": "둘째, 자주 가는 동네 가게라면 한 번쯤 직접 들러보세요. 가게 입장에선 반가운 손님이에요.",
+   "broll": {
+    "query": "customer paying at counter",
+    "url": "https://videos.pexels.com/video-files/8657618/8657618-hd_1366_720_25fps.mp4",
+    "page": "https://www.pexels.com/video/close-up-video-of-a-person-buying-medicine-8657618/",
+    "credit": "cottonbro studio / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/5103988/5103988-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/woman-getting-things-out-of-grocery-basket-at-billing-counter-5103988/",
+      "credit": "Gustavo Fring / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6683942/6683942-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-man-paying-with-credit-card-6683942/",
+      "credit": "Kampus Production / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "번호 2 등장",
+   "say_en": "Second, if it's your neighborhood favorite, drop by in person. Shops love those customers."
+  },
+  {
+   "text": "③ 가격표 뒤의\n숫자 보기",
+   "say": "셋째, 가격표 뒤의 숫자를 보는 습관이에요. 이만 삼천 원이 어떻게 나뉘는지 알면, 선택이 달라져요.",
+   "broll": {
+    "query": "person reading receipt",
+    "url": "https://videos.pexels.com/video-files/7546417/7546417-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/elderly-woman-looking-at-the-invoice-while-on-the-table-7546417/",
+    "credit": "SHVETS production / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/5981292/5981292-hd_1366_720_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-women-having-problem-with-finances-5981292/",
+      "credit": "https://kaboompics.com/ / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/7735915/7735915-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/close-up-video-of-a-money-7735915/",
+      "credit": "Mikhail Nilov / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "번호 3 등장",
+   "say_en": "Third, look at the numbers behind the price. Knowing how 23,000 won splits changes your choice."
+  },
+  {
+   "text": "배달이 나쁜 건\n아니에요",
+   "say": "배달이 나쁘다는 얘기는 아니에요. 편리함에도 값이 있고, 그 값을 누가 내는지 아는 게 중요해요.",
+   "broll": {
+    "query": "family eating chicken home",
+    "url": "https://videos.pexels.com/video-files/3198160/3198160-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-family-eating-together-3198160/",
+    "credit": "cottonbro studio / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/5590991/5590991-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/close-up-video-of-a-roasted-chicken-5590991/",
+      "credit": "Tima Miroshnichenko / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/5727380/5727380-hd_1920_1080_24fps.mp4",
+      "page": "https://www.pexels.com/video/people-having-dinner-5727380/",
+      "credit": "Any Lane / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "카메라 천천히 확대",
+   "say_en": "This doesn't mean delivery is bad. Convenience has a price, and it matters who pays it."
+  },
+  {
+   "text": "한 번에 보기\n배달 vs 포장",
+   "say": "마지막으로 한 번에 볼게요. 배달이면 오천오백십육 원, 포장이면 만 천이백사십오 원이 사장님 몫이에요.",
+   "broll": {
+    "query": "calculator hands counting",
+    "url": "https://videos.pexels.com/video-files/8479058/8479058-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-person-using-a-calculator-and-counting-cash-8479058/",
+    "credit": "ArtHouse Studio / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/9056550/9056550-hd_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-person-computing-numbers-using-a-calculator-9056550/",
+      "credit": "SHVETS production / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/5981346/5981346-hd_1366_720_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-person-computing-while-writing-on-a-notepad-5981346/",
+      "credit": "https://kaboompics.com/ / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "요약 그래프 두 막대",
+   "chart": {
+    "items": [
+     [
+      "배달 시 사장님 몫",
+      5516,
+      "원"
+     ],
+     [
+      "포장 시 사장님 몫",
+      11245,
+      "원"
+     ]
+    ]
+   },
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "One last look. The owner keeps 5,516 won on delivery and 11,245 won on pickup."
+  },
+  {
+   "text": "숫자는 자료\n기준이에요",
+   "say": "다만 이 숫자는 공개된 기사 자료 기준이에요. 가게와 지역, 플랫폼마다 실제 금액은 달라요.",
+   "broll": {
+    "query": "newspaper reading hands",
+    "url": "https://videos.pexels.com/video-files/5905282/5905282-hd_1920_1080_24fps.mp4",
+    "page": "https://www.pexels.com/video/people-reading-the-newspaper-5905282/",
+    "credit": "Dziana Hasanbekava / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7697045/7697045-hd_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/person-holding-a-newspaper-7697045/",
+      "credit": "RDNE Stock project / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/32114693/13691466_1920_1080_30fps.mp4",
+      "page": "https://www.pexels.com/video/cozy-coffee-break-with-newspaper-reading-32114693/",
+      "credit": "Esra Afşar / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "출처 자막 등장",
+   "source": "아시아경제·다음뉴스(2026, 연도 재확인 필요)",
+   "say_en": "These figures come from published news data. Actual amounts vary by shop, region and platform."
+  },
+  {
+   "text": "여러분은\n배달파? 포장파?",
+   "say": "여러분은 배달파인가요, 포장파인가요? 댓글로 알려주세요. 다음 편에서 더 따라가 볼게요.",
+   "broll": {
+    "query": "friends laughing eating chicken",
+    "url": "https://videos.pexels.com/video-files/9756194/9756194-hd_1920_1080_24fps.mp4",
+    "page": "https://www.pexels.com/video/a-woman-giving-bread-to-her-partner-9756194/",
+    "credit": "KoolShooters / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/5791517/5791517-hd_1366_720_25fps.mp4",
+      "page": "https://www.pexels.com/video/people-eating-together-5791517/",
+      "credit": "cottonbro studio / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/7856543/7856543-hd_1366_720_25fps.mp4",
+      "page": "https://www.pexels.com/video/people-playing-video-game-7856543/",
+      "credit": "Ron Lach / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "질문 말풍선 등장",
+   "say_en": "Are you a delivery person or a pickup person? Tell us in the comments. We'll dig deeper next time."
+  },
+  {
+   "text": "처음 그 숫자,\n다시 볼까요?",
+   "say": "그럼 처음 그 숫자, 다시 볼까요? 이만 삼천 원 중 사장님 몫은 이십사 퍼센트였어요.",
+   "broll": {
+    "query": "fried chicken table closeup",
+    "url": "https://videos.pexels.com/video-files/8177807/8177807-hd_1366_720_25fps.mp4",
+    "page": "https://www.pexels.com/video/person-dipping-french-fries-8177807/",
+    "credit": "cottonbro studio / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/39195772/16678424_1920_1080_25fps.mp4",
+      "page": "https://www.pexels.com/video/delicious-grilled-chicken-with-fries-and-sauce-39195772/",
+      "credit": "Spotlight states / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/34521396/14626228_1920_1080_60fps.mp4",
+      "page": "https://www.pexels.com/video/delicious-grilled-chicken-plate-with-sides-34521396/",
+      "credit": "Emanuel Pedro / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
+   },
+   "motion": "되감기 효과",
+   "ending": true,
+   "source": "알보 계산(아시아경제·다음뉴스 2026)",
+   "say_en": "So, shall we look at that first number again? Out of 23,000 won, the owner's share was 24 percent."
+  }
+ ]
+}

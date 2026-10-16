@@ -1,0 +1,29 @@
+# 조회수 확인(yt-views·kpi-refresh): 제작 세션은 YouTube API에 직접 못 닿으므로 GitHub가 대신 묻는다.
+# stats/request.json이 올라오면 tools/yt_views.py를 돌려 결과를 yt-cache 브랜치(기록 1개, 매번 덮어씀)에 올린다.
+# 비용: 무료 키(하루 10,000단위 중 검색 1회 약 100단위) + GitHub Actions 무료 시간.
+name: yt_views
+on:
+  push:
+    paths: ["stats/request.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: yt_views
+jobs:
+  views:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: 조회수 가져오기
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python3 tools/yt_views.py stats/request.json /tmp/result.json
+      - name: yt-cache에 올리기
+        run: |
+          mkdir -p /tmp/cache/stats && cp /tmp/result.json /tmp/cache/stats/result.json
+          cd /tmp/cache
+          git init -q && git checkout -q -b yt-cache
+          git config user.name "yt-bot" && git config user.email "yt-bot@users.noreply.github.com"
+          git add -A && git commit -q -m "yt_views $(date -u +%FT%TZ)"
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" yt-cache

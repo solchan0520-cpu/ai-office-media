@@ -1,0 +1,67 @@
+# 목소리 만들기: 제작 세션은 huggingface.co에 못 닿아 MeloTTS(무료·MIT)를 못 쓴다 → GitHub가 대신 만든다.
+# script.json이 올라오면 장면마다 say를 MeloTTS-Korean으로 읽어 voice/sNNN.wav + manifest.json(say 해시)을 만들고
+# tts-cache 브랜치에 올린다(매번 덮어써서 기록 1개). 비용: GitHub Actions 무료 시간.
+name: tts
+on:
+  push:
+    paths: ["shorts/**/script.json", "long/**/script.json", "longs/**/script.json"]
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "script.json 경로"
+        required: true
+permissions:
+  contents: write
+concurrency: tts
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: 만들 대본 고르기
+        id: pick
+        run: |
+          if [ -n "${{ github.event.inputs.script }}" ]; then
+            echo "files=${{ github.event.inputs.script }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "files=$(git diff --name-only HEAD~1 HEAD -- 'shorts/**/script.json' 'long/**/script.json' 'longs/**/script.json' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.pick.outputs.files != ''
+        with:
+          python-version: "3.10"
+      - uses: actions/cache@v4
+        if: steps.pick.outputs.files != ''
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+            ~/nltk_data
+          key: melo-209145371c-v1
+      - name: MeloTTS 설치
+        if: steps.pick.outputs.files != ''
+        run: |
+          pip install --quiet "git+https://github.com/myshell-ai/MeloTTS.git@209145371cff8fc3bd60d7be902ea69cbdb7965a"
+          SP=$(python -c "import site; print(site.getsitepackages()[0])")
+          if [ ! -e "$SP/unidic/dicdir/mecabrc" ]; then rm -rf "$SP/unidic/dicdir" && ln -s "$SP/unidic_lite/dicdir" "$SP/unidic/dicdir"; fi
+          python -m nltk.downloader -q averaged_perceptron_tagger averaged_perceptron_tagger_eng cmudict || true
+      - name: 목소리 만들기
+        if: steps.pick.outputs.files != ''
+        run: |
+          for f in ${{ steps.pick.outputs.files }}; do python3 tools/make_voice.py "$f" || true; done
+      - name: tts-cache에 올리기
+        if: steps.pick.outputs.files != ''
+        run: |
+          mkdir -p /tmp/cache
+          for f in ${{ steps.pick.outputs.files }}; do
+            d=$(dirname "$f")
+            if [ -f "$d/voice/manifest.json" ]; then mkdir -p "/tmp/cache/$d" && cp -r "$d/voice" "/tmp/cache/$d/"; fi
+          done
+          cd /tmp/cache
+          git init -q && git checkout -q -b tts-cache
+          git config user.name "tts-bot" && git config user.email "tts-bot@users.noreply.github.com"
+          git add -A && git commit -q -m "voice for ${{ steps.pick.outputs.files }}" || exit 0
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" tts-cache

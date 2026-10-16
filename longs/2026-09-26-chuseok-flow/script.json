@@ -1,0 +1,904 @@
+{
+ "id": "2026-09-26-chuseok-flow",
+ "format": "long",
+ "kind": "priority",
+ "topicDoc": "topics/priority-2026-09-26-long",
+ "title": "추석 비용 73만 원, 어디로 흘러갔나 | 알고보면 돈 5편",
+ "thumbText": "추석 73만 원\n어디로 갔나",
+ "series": "알고보면 돈",
+ "seriesNo": 5,
+ "sources": [
+  "https://biz.newdaily.co.kr/site/data/html/2026/09/22/2026092200117.html",
+  "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04365686645582416",
+  "https://supple.kr/news/cmuhlk2sa000mw4tg9nktpo2x",
+  "https://view.asiae.co.kr/article/2026092414524460449",
+  "https://www.asiae.co.kr/article/2024092216151227468",
+  "https://www.dailian.co.kr/news/view/1692543/",
+  "https://www.fnnews.com/news/202609241001059518",
+  "https://www.imaeil.com/page/view/2026092216052684517",
+  "https://www.kmib.co.kr/article/view.asp?arcid=9000016945&code=61141611&sid1=eco",
+  "https://www.mhns.co.kr/news/articleView.html?idxno=760268",
+  "https://www.mt.co.kr/policy/2026/09/21/2026092110015017096",
+  "https://www.mt.co.kr/society/2026/09/25/2026092509264673939",
+  "https://www.newspim.com/news/view/20260922001160",
+  "https://www.seoul.co.kr/news/economy/2026/09/07/20260907029003",
+  "https://www.seoul.co.kr/news/society/2026/09/23/20260923500194"
+ ],
+ "brollUsed": [],
+ "scenes": [
+  {
+   "text": "72만 8천 원",
+   "say": "칠십이만 팔천 원.",
+   "source": "소비자공익네트워크 조사 · 머니투데이(2026.9.25)",
+   "broll": {
+    "query": "korean family holiday table",
+    "url": "https://videos.pexels.com/video-files/6645754/6645754-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/people-eating-with-chopsticks-6645754/",
+    "credit": "RDNE Stock project / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "올 추석 1인 평균 지출",
+   "say": "올 추석, 한 사람이 쓸 거라고 답한 평균 금액이에요.",
+   "source": "소비자공익네트워크 조사 · 머니투데이(2026.9.25)"
+  },
+  {
+   "text": "가장 큰 몫은?\n차례상 아님",
+   "say": "그런데 가장 큰 몫은 차례상이 아니었어요.",
+   "source": "소비자공익네트워크 조사 · 머니투데이(2026.9.25)",
+   "broll": {
+    "query": "family dinner celebration",
+    "url": "https://videos.pexels.com/video-files/5617254/5617254-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/family-toasting-and-celebrating-5617254/",
+    "credit": "Askar Abayev / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "부모님 용돈",
+   "say": "부모님 용돈이었죠.",
+   "source": "소비자공익네트워크 조사 · 머니투데이(2026.9.25)"
+  },
+  {
+   "text": "명절 뒤\n돈은 3곳으로",
+   "say": "그리고 명절이 끝나면, 돈은 세 군데로 더 흘러가요.",
+   "source": "소비자공익네트워크 조사 · 머니투데이(2026.9.25)",
+   "broll": {
+    "query": "people walking city street",
+    "url": "https://videos.pexels.com/video-files/7325946/7325946-hd_1920_1080_24fps.mp4",
+    "page": "https://www.pexels.com/video/men-walking-in-an-alley-7325946/",
+    "credit": "PNW Production / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "중고앱·도로공사\n다음 달 카드값",
+   "say": "중고 앱, 도로공사 장부, 그리고 다음 달 카드값.",
+   "source": "소비자공익네트워크 조사 · 머니투데이(2026.9.25)"
+  },
+  {
+   "text": "73만 원의 행방\n5장으로 따라가기",
+   "say": "오늘은 이 칠십삼만 원이 어디로 가는지, 다섯 장으로 따라가 볼게요.",
+   "source": "소비자공익네트워크 조사 · 머니투데이(2026.9.25)"
+  },
+  {
+   "text": "성인 1,000명 조사\n평균 72만 8천 원",
+   "say": "소비자공익네트워크가 전국 성인 천 명에게 물었더니, 추석 예상 지출은 평균 칠십이만 팔천 원이었어요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)",
+   "case": {
+    "date": "2026-09-25",
+    "headline": "추석 예상 지출 평균 72만 8,630원, 10명 중 6명 '매우 부담'",
+    "outlet": "머니투데이"
+   },
+   "broll": {
+    "query": "people shopping mall crowd",
+    "url": "https://videos.pexels.com/video-files/4750042/4750042-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/people-walking-inside-the-mall-4750042/",
+    "credit": "Anvar Tushakov / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "용돈 30.4만\n상차림 22.4만",
+   "say": "부모님 용돈이 삼십만 사천 원, 상차림이 이십이만 삼천 원, 교통과 숙박이 십구만 이천 원이에요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)",
+   "chart": {
+    "items": [
+     [
+      "부모님 용돈",
+      30.49,
+      "만 원"
+     ],
+     [
+      "상차림",
+      22.39,
+      "만 원"
+     ],
+     [
+      "교통·숙박",
+      19.23,
+      "만 원"
+     ]
+    ]
+   }
+  },
+  {
+   "text": "알보 계산\n용돈 = 약 42%",
+   "say": "알보가 계산해 보면, 용돈이 전체의 약 사십이 퍼센트예요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)"
+  },
+  {
+   "text": "가구 크기로도\n차이가 커요",
+   "say": "가구 크기로도 차이가 커요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)",
+   "broll": {
+    "query": "family living room",
+    "url": "https://videos.pexels.com/video-files/7415436/7415436-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/mather-and-father-talking-together-7415436/",
+    "credit": "Kampus Production / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "4인+ 90만 원\n1인 52만 원",
+   "say": "네 명 이상 가구는 구십만 원, 1인 가구는 오십이만 원이었죠.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)"
+  },
+  {
+   "text": "그래서일까요",
+   "say": "그래서일까요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)",
+   "broll": {
+    "query": "woman worried bills",
+    "url": "https://videos.pexels.com/video-files/5981347/5981347-hd_1366_720_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-woman-looking-problematic-and-frustrated-5981347/",
+    "credit": "https://kaboompics.com/ / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "'매우 부담'\n60% 넘어",
+   "say": "명절 지출이 매우 부담된다는 답이 육십 퍼센트를 넘었어요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)"
+  },
+  {
+   "text": "작년보다\n약 10%p 늘어",
+   "say": "작년보다 약 열 퍼센트포인트 늘었죠.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)"
+  },
+  {
+   "text": "실제 송금 기록도\n비슷해요",
+   "say": "실제 송금 기록도 비슷해요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)",
+   "broll": {
+    "query": "hands giving envelope money",
+    "url": "https://videos.pexels.com/video-files/30325369/12999228_1920_1080_24fps.mp4",
+    "page": "https://www.pexels.com/video/woman-preparing-red-envelopes-for-lunar-new-year-30325369/",
+    "credit": "khanhhoangminh  3 / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "부모님 송금 21.3만\n4년 새 +38%",
+   "say": "카카오페이 분석으로는 지난해 추석 부모님 송금 평균이 이십일만 삼천 원, 사 년 전보다 삼십팔 퍼센트 올랐어요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)"
+  },
+  {
+   "text": "명절 예산은\n용돈부터",
+   "say": "그래서 나한테 뜻하는 건, 명절 예산은 용돈부터 정해야 전체가 잡힌다는 거예요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)"
+  },
+  {
+   "text": "조금 더\n들여다볼게요",
+   "say": "조금 더 들여다볼게요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)",
+   "broll": {
+    "query": "train station crowd holiday",
+    "url": "https://videos.pexels.com/video-files/36035831/15282488_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/rush-hour-crowd-at-busy-train-station-36035831/",
+    "credit": "yuki kiki / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "귀성 44%↑\n국내여행 18%↓",
+   "say": "이 조사에서 명절에 고향에 간다는 답은 사십사 퍼센트로 작년 삼십육 퍼센트보다 늘었고, 국내 여행을 간다는 답은 이십삼 퍼센트에서 십팔 퍼센트로 줄었어요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)"
+  },
+  {
+   "text": "놀러 가는 대신\n집으로",
+   "say": "멀리 놀러 가는 대신 집에 가서 돈을 쓰는 쪽으로 옮겨 간 거죠.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)"
+  },
+  {
+   "text": "송금 20대 19만\n40대 24.3만 원",
+   "say": "송금 기록을 나이별로 보면, 이십 대는 부모님께 십구만 원, 삼십 대는 이십이만 원, 사십 대는 이십사만 삼천 원을 보냈어요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)",
+   "broll": {
+    "query": "elderly parents smiling",
+    "url": "https://videos.pexels.com/video-files/7185649/7185649-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/an-elderly-couple-painting-eggs-7185649/",
+    "credit": "Antoni Shkraba / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "자녀 용돈\n평균 11.4만 원",
+   "say": "부모가 자녀에게 준 용돈도 평균 십일만 사천 원이었죠.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)"
+  },
+  {
+   "text": "매년 같은 금액\n절반 가까이",
+   "say": "금액을 정하는 방법은, 매년 같은 금액이라는 답이 절반 가까이, 물가에 맞춰 올린다는 답이 삼십 퍼센트였어요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)"
+  },
+  {
+   "text": "물가 반영이면\n해마다 커져요",
+   "say": "물가에 맞춰 올리는 집이라면, 용돈이 해마다 조금씩 커지는 구조예요.",
+   "source": "소비자공익네트워크 · 머니투데이(2026.9.25) · 서울신문(2026.9.23)"
+  },
+  {
+   "text": "상차림 비용\n조사마다 2배",
+   "say": "상차림 비용은 조사마다 두 배 차이가 났어요.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문",
+   "broll": {
+    "query": "traditional market vegetables stall",
+    "url": "https://videos.pexels.com/video-files/36017942/15273758_1600_720_30fps.mp4",
+    "page": "https://www.pexels.com/video/bustling-indoor-market-with-vibrant-vegetables-36017942/",
+    "credit": "Circuit Occidental / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "aT 19.7만 원\n마트 39.8만 원",
+   "say": "농수산식품유통공사는 4인 차례상 평균 십구만 육천 원, 한국물가정보는 대형마트 기준 삼십구만 칠천 원이었죠.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문",
+   "chart": {
+    "items": [
+     [
+      "aT 평균",
+      19.66,
+      "만 원"
+     ],
+     [
+      "물가정보 시장",
+      30.25,
+      "만 원"
+     ],
+     [
+      "물가정보 마트",
+      39.77,
+      "만 원"
+     ]
+    ]
+   },
+   "case": {
+    "date": "2026-09-21",
+    "headline": "4인 차례상 평균 19만 6,630원, 작년보다 1.5% 내려",
+    "outlet": "머니투데이"
+   }
+  },
+  {
+   "text": "알보 계산\n차이 20만·2배",
+   "say": "알보 계산으로 차이는 이십만 원, 딱 두 배예요.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문"
+  },
+  {
+   "text": "물가가 2배\n뛴 게 아니에요",
+   "say": "물가가 두 배 뛴 게 아니에요.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문",
+   "broll": {
+    "query": "grocery shopping cart",
+    "url": "https://videos.pexels.com/video-files/9010435/9010435-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/a-person-putting-groceries-on-a-shopping-cart-9010435/",
+    "credit": "Kindel Media / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "몇 가지·어디서\n할인 넣었나",
+   "say": "몇 가지를 담는지, 어디서 사는지, 할인을 넣는지가 달랐어요.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문"
+  },
+  {
+   "text": "aT 조사\n마트 4,400원 쌈",
+   "say": "공사 조사에선 정부 할인 덕에 대형유통이 전통시장보다 사천사백 원 쌌어요.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문"
+  },
+  {
+   "text": "물가정보 조사\n시장 9.5만 원 쌈",
+   "say": "반대로 한국물가정보에선 전통시장이 구만 오천 원 쌌죠.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문",
+   "broll": {
+    "query": "market vendor selling",
+    "url": "https://videos.pexels.com/video-files/31451486/13412587_1920_1080_50fps.mp4",
+    "page": "https://www.pexels.com/video/lively-outdoor-market-scene-with-vendors-31451486/",
+    "credit": "Perfect Pixel Studio / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "성균관 표준안\n6가지, 많아도 9",
+   "say": "성균관 표준안은 기본 여섯 가지, 많아도 아홉 가지면 된다고 해요.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문"
+  },
+  {
+   "text": "우리 집 목록으로\n계산하기",
+   "say": "그래서 나한테 뜻하는 건, 뉴스 속 평균보다 우리 집 목록으로 계산하는 게 정확하다는 거예요.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문"
+  },
+  {
+   "text": "담는 음식 수도\n조사마다 달라",
+   "say": "조사마다 담는 음식 가짓수도 달라요.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문",
+   "broll": {
+    "query": "cooking pancakes pan",
+    "url": "https://videos.pexels.com/video-files/7677227/7677227-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/video-of-a-cooking-pancakes-7677227/",
+    "credit": "PNW Production / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "aT: 24품목\n전국 53곳",
+   "say": "공사 조사는 스물네 가지, 전국 쉰세 곳을 봤어요.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문"
+  },
+  {
+   "text": "축산 +2.5%\n과일 -7.2%",
+   "say": "올해 품목별로는 축산이 이 점 오 퍼센트, 채소가 이 점 칠 퍼센트 올랐고, 과일은 칠 점 이 퍼센트, 수산은 사 점 구 퍼센트 내렸어요.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문"
+  },
+  {
+   "text": "시금치 +68%\n배추 +37%",
+   "say": "한국물가정보 조사에선 시금치가 육십팔 퍼센트, 배추가 삼십칠 퍼센트 뛰었죠.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문",
+   "broll": {
+    "query": "fresh vegetables farm",
+    "url": "https://videos.pexels.com/video-files/36483614/15470447_1920_1080_60fps.mp4",
+    "page": "https://www.pexels.com/video/fresh-vegetables-variety-in-market-display-36483614/",
+    "credit": "Somogro Bangladesh / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "여름 폭염·폭우\n때문이에요",
+   "say": "여름 폭염과 폭우 때문이에요.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문"
+  },
+  {
+   "text": "할인 지원 1,930억\n작년의 2배",
+   "say": "정부는 이번 추석에 천구백삼십억 원을 할인 지원에 썼는데, 작년의 두 배예요.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문"
+  },
+  {
+   "text": "마트 차례상 -7.6%\n할인 반영",
+   "say": "공사 조사에서 대형유통 차례상이 칠 점 육 퍼센트 싸진 건 이 할인이 반영된 결과예요.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문",
+   "broll": {
+    "query": "supermarket shelves",
+    "url": "https://videos.pexels.com/video-files/29846459/12817261_1920_1080_60fps.mp4",
+    "page": "https://www.pexels.com/video/woman-shopping-in-grocery-aisle-29846459/",
+    "credit": "Aamir Somewhere / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "할인만 빼도\n숫자가 달라져요",
+   "say": "그러니까 같은 마트라도, 할인 행사를 넣고 빼는 것만으로 숫자가 달라지는 거죠.",
+   "source": "한국농수산식품유통공사·한국물가정보(2026.9) · 머니투데이 · 서울신문"
+  },
+  {
+   "text": "선물은\n중고앱으로",
+   "say": "명절 선물은 중고 앱으로 흘러갔어요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)",
+   "broll": {
+    "query": "wrapped gift boxes table",
+    "url": "https://videos.pexels.com/video-files/6396294/6396294-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/panning-shot-of-christmas-presents-6396294/",
+    "credit": "Pavel Danilyuk / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "선물세트 검색\n작년의 47배",
+   "say": "추석 앞 일주일, 당근에서 선물세트 검색은 작년의 마흔일곱 배, 거래 완료는 열한 배였어요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)",
+   "chart": {
+    "items": [
+     [
+      "검색량",
+      47.1,
+      "배"
+     ],
+     [
+      "거래 완료",
+      11.2,
+      "배"
+     ]
+    ]
+   },
+   "case": {
+    "date": "2026-09-23",
+    "headline": "추석 앞 일주일 중고앱 선물세트 검색 4,611% 늘어",
+    "outlet": "국민일보"
+   }
+  },
+  {
+   "text": "배 한 박스\n1만 원",
+   "say": "배 한 박스가 만 원에 올라와 금방 문의가 붙기도 했죠.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)"
+  },
+  {
+   "text": "알보 계산\n해 볼게요",
+   "say": "알보 계산을 해 볼게요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)",
+   "broll": {
+    "query": "person typing on phone",
+    "url": "https://videos.pexels.com/video-files/4671883/4671883-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/person-typing-on-a-mobile-phone-4671883/",
+    "credit": "Vilkenson Thimothée / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "5만 원 세트 반값\n2만 5천 원",
+   "say": "오만 원짜리 세트를 반값에 팔면, 산 사람은 이만 오천 원을 아끼고, 판 사람은 이만 오천 원이 생겨요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)"
+  },
+  {
+   "text": "선물값의 절반\n시장에서 사라짐",
+   "say": "선물한 쪽이 쓴 돈의 절반은 시장에서 사라진 셈이죠.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)"
+  },
+  {
+   "text": "하지만\n선이 있어요",
+   "say": "하지만 선이 있어요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)",
+   "broll": {
+    "query": "hands packing parcel",
+    "url": "https://videos.pexels.com/video-files/7855142/7855142-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-seller-packing-the-purchase-7855142/",
+    "credit": "Kampus Production / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "술 세트 판매\n최대 징역 3년",
+   "say": "술은 면허 없이 팔면 최대 징역 삼 년, 벌금 삼천만 원이에요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)"
+  },
+  {
+   "text": "건강기능식품은\n조건 맞아야 OK",
+   "say": "홍삼, 비타민 같은 건강기능식품은 뜯지 않고, 기한 안이고, 허용된 앱일 때만 가능해요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)"
+  },
+  {
+   "text": "팔기 전에\n품목부터",
+   "say": "그래서 나한테 뜻하는 건, 팔기 전에 품목부터 보라는 거예요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)"
+  },
+  {
+   "text": "어떤 세트가\n많이 팔렸을까",
+   "say": "어떤 세트가 많이 팔렸을까요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)",
+   "broll": {
+    "query": "canned food shelf",
+    "url": "https://videos.pexels.com/video-files/4983686/4983686-hd_1920_1080_24fps.mp4",
+    "page": "https://www.pexels.com/video/grocery-items-on-the-kitchen-shelf-4983686/",
+    "credit": "Luis Quintero / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "스팸 거래 +801%\n참치 거래 +361%",
+   "say": "같은 기간 스팸 검색은 오백사십육 퍼센트, 거래는 팔백일 퍼센트 늘었고, 참치는 검색 이백이십이 퍼센트, 거래 삼백육십일 퍼센트 늘었어요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)"
+  },
+  {
+   "text": "식용유·김·샴푸\n생활용품도",
+   "say": "식용유, 김, 샴푸와 치약 같은 생활용품 세트도 많이 올라왔죠.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)"
+  },
+  {
+   "text": "가격대\n1만~10만 원",
+   "say": "가격대는 만 원에서 십만 원 사이가 대부분이었어요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)"
+  },
+  {
+   "text": "파는 이유는\n비슷했어요",
+   "say": "파는 이유는 비슷했어요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)",
+   "broll": {
+    "query": "office workers",
+    "url": "https://videos.pexels.com/video-files/6325853/6325853-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/co-workers-discussing-their-work-6325853/",
+    "credit": "olia danilevich / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "회사 선물 안 씀\n1인 가구라 남음",
+   "say": "회사에서 받았는데 안 쓴다, 1인 가구라 다 못 쓴다.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)"
+  },
+  {
+   "text": "조심할 점도\n있어요",
+   "say": "다만 조심할 점도 있어요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)",
+   "broll": {
+    "query": "smartphone payment online",
+    "url": "https://videos.pexels.com/video-files/6898009/6898009-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-man-calling-while-holding-a-card-6898009/",
+    "credit": "Mikhail Nilov / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "선입금 사기\n가짜 결제 링크",
+   "say": "돈만 받고 물건을 안 보내는 사기, 가짜 안전결제 링크 같은 피해가 함께 늘었다는 보도가 있었어요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)"
+  },
+  {
+   "text": "뜯었거나 기한 지남\n→ 거래 막힘",
+   "say": "뜯었거나 기한이 지난 식품은 앱에서 거래가 막히고요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)",
+   "broll": {
+    "query": "people meeting street exchange",
+    "url": "https://videos.pexels.com/video-files/19329194/19329194-hd_1920_1080_24fps.mp4",
+    "page": "https://www.pexels.com/video/a-man-in-a-black-jacket-is-talking-on-his-cell-phone-19329194/",
+    "credit": "Ali  Alcántara / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "직접 만나\n포장·기한 확인",
+   "say": "사는 쪽이라면 직접 만나서, 포장과 기한을 확인하는 게 안전해요.",
+   "source": "국민일보(2026.9.23) · 아시아경제(2026.9.24) · 파이낸셜뉴스(2026.9.24)"
+  },
+  {
+   "text": "귀성길 통행료\n0원",
+   "say": "귀성길 고속도로 통행료는 0원이었죠.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)",
+   "broll": {
+    "query": "highway traffic cars aerial",
+    "url": "https://videos.pexels.com/video-files/2818521/2818521-hd_1920_1080_24fps.mp4",
+    "page": "https://www.pexels.com/video/aerial-footage-of-a-traffic-in-a-multi-lane-expressway-2818521/",
+    "credit": "K / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "사라진 요금은\n어딘가에 남아요",
+   "say": "그런데 사라진 요금은 어딘가에 남아요.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)"
+  },
+  {
+   "text": "감면 4,712억 원\n통행료 수입 10.7%",
+   "say": "지난해 고속도로 통행료 감면은 모두 사천칠백십이억 원, 통행료 수입의 십 점 칠 퍼센트였어요.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)",
+   "broll": {
+    "query": "toll gate highway",
+    "url": "https://videos.pexels.com/video-files/33965633/14411286_1920_1080_24fps.mp4",
+    "page": "https://www.pexels.com/video/aerial-view-of-indian-highway-toll-plaza-33965633/",
+    "credit": "PRANAY KHOBRAGADE / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "명절 면제\n1,192억 원",
+   "say": "그중 명절 면제가 천백구십이억 원이에요.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)",
+   "chart": {
+    "items": [
+     [
+      "명절 면제",
+      1192,
+      "억 원"
+     ],
+     [
+      "그 밖의 감면",
+      3520,
+      "억 원"
+     ]
+    ]
+   },
+   "case": {
+    "date": "2026-09-24",
+    "headline": "명절 통행료 면제 1,192억 원, 정부 보전 없이 도로공사 부담",
+    "outlet": "파이낸셜뉴스"
+   }
+  },
+  {
+   "text": "알보 계산\n감면 4번 중 1번",
+   "say": "알보 계산으로 감면 네 번 중 한 번꼴이 명절 사흘에 몰린 셈이죠.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)"
+  },
+  {
+   "text": "누적 감면 5조 원+\n정부 보전 0원",
+   "say": "이천구 년부터 쌓인 감면은 오조 사천오백억 원이 넘는데, 정부가 채워 준 돈은 없었어요.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)",
+   "broll": {
+    "query": "car driving highway night",
+    "url": "https://videos.pexels.com/video-files/28928755/12519832_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/nighttime-highway-drive-with-streetlights-28928755/",
+    "credit": "Richard Multimedia / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "누적 감면 = 부채의\n약 12% 규모",
+   "say": "도로공사 부채 사십사조 오천억 원의 약 십이 퍼센트예요.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)"
+  },
+  {
+   "text": "공짜 통행료도\n누군가의 장부에",
+   "say": "그래서 나한테 뜻하는 건, 공짜 통행료도 결국 누군가의 장부에 남는다는 거예요.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)"
+  },
+  {
+   "text": "감면 제도\n23가지",
+   "say": "감면 제도는 스물세 가지나 돼요.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)",
+   "broll": {
+    "query": "electric car charging",
+    "url": "https://videos.pexels.com/video-files/4818143/4818143-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/a-woman-waiting-for-her-car-to-be-charged-4818143/",
+    "credit": "Gustavo Fring / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "친환경차 할인\n580억 원",
+   "say": "명절 면제 말고도 전기차와 수소차 할인이 오백팔십억 원, 장애인과 국가유공자 감면도 있죠.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)"
+  },
+  {
+   "text": "철도와는\n달라요",
+   "say": "흥미로운 건 철도와의 차이예요.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)",
+   "broll": {
+    "query": "train platform korea",
+    "url": "https://videos.pexels.com/video-files/29117385/12579573_1920_1080_24fps.mp4",
+    "page": "https://www.pexels.com/video/high-speed-train-arriving-at-busy-platform-29117385/",
+    "credit": "Paul Bill / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "코레일 보전\n연 3,600억 원+",
+   "say": "코레일은 비슷한 공익 할인 비용을 정부에서 해마다 삼천육백억 원 넘게 보전받아요.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)"
+  },
+  {
+   "text": "'보전해야' vs\n'보전할 수 있다'",
+   "say": "철도 법은 정부가 보전해야 한다고 쓰고, 도로공사 법은 보전할 수 있다고만 써서예요.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)"
+  },
+  {
+   "text": "민자도로\n명절 손실 보전",
+   "say": "민자 고속도로도 명절 면제 손실은 보전을 받죠.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)",
+   "broll": {
+    "query": "road construction workers",
+    "url": "https://videos.pexels.com/video-files/19832493/19832493-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/workers-are-working-on-a-construction-site-19832493/",
+    "credit": "CP Khanal / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "알보 계산\n연평균 3천억 원+",
+   "say": "알보가 나눠 보면, 십칠 년 누적 감면은 한 해 평균 삼천억 원이 넘어요.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)"
+  },
+  {
+   "text": "통행료 반영은\n아직 미정",
+   "say": "다만 이 비용이 앞으로 통행료에 어떻게 반영될지는, 아직 정해진 게 없어요.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)"
+  },
+  {
+   "text": "구조만\n보여 드릴게요",
+   "say": "우리 영상은 구조만 보여 드릴게요.",
+   "source": "파이낸셜뉴스(2026.9.24) · 뉴스핌(2026.9.22)"
+  },
+  {
+   "text": "명절 뒤\n카드값이 와요",
+   "say": "명절이 끝나면 다음 달 카드값이 와요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)",
+   "broll": {
+    "query": "calculator bills hands",
+    "url": "https://videos.pexels.com/video-files/7710766/7710766-hd_1366_720_25fps.mp4",
+    "page": "https://www.pexels.com/video/a-person-using-a-calculator-7710766/",
+    "credit": "https://kaboompics.com/ / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "리볼빙\n연 17%대 수수료",
+   "say": "이때 결제일에 일부만 내는 리볼빙을 켜 두면, 남은 돈에 평균 연 십칠 퍼센트대 수수료가 붙어요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)"
+  },
+  {
+   "text": "카드론보다\n3%p 비싸요",
+   "say": "카드론보다 삼 퍼센트포인트 비싸요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)",
+   "chart": {
+    "items": [
+     [
+      "카드론",
+      14.48,
+      "%"
+     ],
+     [
+      "리볼빙",
+      17.48,
+      "%"
+     ]
+    ]
+   }
+  },
+  {
+   "text": "100만 원 넘기면\n월 1만 4,567원",
+   "say": "알보 계산으로 백만 원을 넘기면 한 달에 만 사천오백 원쯤이에요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)",
+   "broll": {
+    "query": "credit card shopping",
+    "url": "https://videos.pexels.com/video-files/5981981/5981981-hd_1366_720_25fps.mp4",
+    "page": "https://www.pexels.com/video/woman-buying-on-internet-5981981/",
+    "credit": "https://kaboompics.com/ / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "리볼빙 잔액 7조\n5달째 증가",
+   "say": "지난 팔월 리볼빙 잔액은 칠조 원, 다섯 달째 늘었어요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)",
+   "case": {
+    "date": "2026-09-21",
+    "headline": "리볼빙 이월잔액 7조 원 육박, 5개월 연속 증가",
+    "outlet": "이데일리"
+   }
+  },
+  {
+   "text": "73만 원 넘기면\n월 1만 614원",
+   "say": "추석에 쓴 칠십삼만 원을 그대로 넘기면, 한 달 수수료는 약 만 육백 원이에요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)"
+  },
+  {
+   "text": "이번 달 안에\n갚을 만큼만",
+   "say": "그래서 나한테 뜻하는 건, 명절 지출은 이번 달 안에 갚을 만큼만 쓰는 게 제일 싸다는 거예요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)",
+   "broll": {
+    "query": "city skyline evening",
+    "url": "https://videos.pexels.com/video-files/12282674/12282674-hd_1920_1080_24fps.mp4",
+    "page": "https://www.pexels.com/video/night-in-city-12282674/",
+    "credit": "Vladyslav Huivyk / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "일반 정보\n금융상품 권유 아님",
+   "say": "이 영상은 일반 정보이고, 특정 금융상품 권유가 아니에요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)"
+  },
+  {
+   "text": "리볼빙,\n왜 늘까요",
+   "say": "리볼빙이 왜 늘까요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)"
+  },
+  {
+   "text": "카드론 문턱↑\n리볼빙으로",
+   "say": "카드론 문턱이 높아지자, 급한 돈을 리볼빙과 대환대출로 돌리는 사람이 늘었다는 분석이 있어요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)",
+   "broll": {
+    "query": "bank building exterior",
+    "url": "https://videos.pexels.com/video-files/10218426/10218426-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/bank-exterior-with-logo-10218426/",
+    "credit": "CityXcape / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "카드론 42.7조 감소\n리볼빙은 증가",
+   "say": "팔월 카드론 잔액은 사십이조 육천억 원으로 석 달째 줄었는데, 리볼빙은 오히려 다섯 달째 늘었죠.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)"
+  },
+  {
+   "text": "저신용 구간\n연 19%대",
+   "say": "신용점수가 낮은 구간에선 리볼빙 수수료가 연 십구 퍼센트를 넘기도 해요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)"
+  },
+  {
+   "text": "법정 최고금리\n20%",
+   "say": "법정 최고금리가 이십 퍼센트니까, 거의 끝까지 간 셈이에요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)",
+   "broll": {
+    "query": "person thinking finances",
+    "url": "https://videos.pexels.com/video-files/7735867/7735867-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/woman-holding-money-while-thinking-7735867/",
+    "credit": "Mikhail Nilov / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "연체는 막아 주는\n제도이기도",
+   "say": "리볼빙은 결제일에 일부만 내도 연체가 되지 않게 해 주는 제도라 급할 때 도움이 되기도 해요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)"
+  },
+  {
+   "text": "켜 둔 걸 잊으면\n이자가 쌓여요",
+   "say": "하지만 켜 둔 걸 잊으면, 쓰지 않은 달에도 이자가 쌓여요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)",
+   "broll": {
+    "query": "hands scrolling phone",
+    "url": "https://videos.pexels.com/video-files/10238038/10238038-hd_1920_1080_25fps.mp4",
+    "page": "https://www.pexels.com/video/woman-scrolling-social-media-10238038/",
+    "credit": "Josh Tavernier | iCapture Media Digital Marketing Agency / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "카드 앱 결제 설정\n켜짐·꺼짐 확인",
+   "say": "카드 앱의 결제 설정에서 켜짐과 꺼짐을 한 번 확인해 보세요.",
+   "source": "여신금융협회 공시 · 이데일리(2026.9.21) · 뉴데일리(2026.9.22)"
+  },
+  {
+   "text": "73만 원의 행방\n용돈·중고·통행료·카드",
+   "say": "정리하면, 추석 칠십삼만 원은 용돈으로, 중고 앱으로, 도로공사 장부로, 그리고 카드값으로 흘러가요.",
+   "broll": {
+    "query": "sunset city timelapse",
+    "url": "https://videos.pexels.com/video-files/5562942/5562942-hd_1920_1080_30fps.mp4",
+    "page": "https://www.pexels.com/video/time-lapse-video-of-the-sky-5562942/",
+    "credit": "Daniel Qura / Pexels",
+    "license": "Pexels License(상업 무료)"
+   }
+  },
+  {
+   "text": "다음 영상\n리볼빙 이자 편",
+   "say": "다음 영상은 숏폼 '리볼빙 이자' 편에서 이어 볼게요."
+  },
+  {
+   "text": "우리 집 추석 예산\n댓글로 알려 주세요",
+   "say": "여러분 집 추석 예산, 어디에 제일 많이 썼는지 댓글로 알려 주세요."
+  }
+ ],
+ "brollCopy": {
+  "0": 1,
+  "2": 3,
+  "4": 5,
+  "7": 8,
+  "10": 11,
+  "12": 13,
+  "15": 16,
+  "18": 19,
+  "21": 22,
+  "25": 26,
+  "28": 29,
+  "31": 32,
+  "34": 35,
+  "37": 38,
+  "40": 41,
+  "42": 43,
+  "45": 46,
+  "48": 49,
+  "52": 53,
+  "56": 57,
+  "58": 59,
+  "60": 61,
+  "62": 63,
+  "64": 65,
+  "67": 68,
+  "70": 71,
+  "72": 73,
+  "75": 76,
+  "79": 80,
+  "82": 83,
+  "85": 86,
+  "88": 89,
+  "91": 92,
+  "93": 94,
+  "95": 96
+ }
+}
