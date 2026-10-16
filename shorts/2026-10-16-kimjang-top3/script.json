@@ -435,7 +435,25 @@
    "text": "1위\n배추값 내림세 보도",
    "say": "일 위, 배추 값이 내려가고 있다는 보도도 나왔어요.",
    "broll": {
-    "query": "napa cabbage closeup hands"
+    "query": "napa cabbage closeup hands",
+    "url": "https://videos.pexels.com/video-files/32259620/13758040_1080_1920_30fps.mp4",
+    "page": "https://www.pexels.com/video/cutting-fresh-cabbage-for-home-cooking-32259620/",
+    "credit": "Nadin Sh / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/8862082/8862082-hd_720_1366_25fps.mp4",
+      "page": "https://www.pexels.com/video/person-peeling-the-leaves-of-a-purple-cabbage-8862082/",
+      "credit": "Ron Lach / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/34228454/14506543_1080_1920_60fps.mp4",
+      "page": "https://www.pexels.com/video/chef-slicing-red-cabbage-with-precision-34228454/",
+      "credit": "Evgenij Mikhailov / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "순위판 1 등장, 가격 그래프 내려감",
    "source": "농림축산식품부·SBS Biz",
@@ -445,7 +463,25 @@
    "text": "다만 정확한 숫자는\n아직 미확인이에요",
    "say": "다만 정확한 숫자는 아직 다 확인되지 않았어요. 지어내지 않을게요.",
    "broll": {
-    "query": "woman writing notes thinking"
+    "query": "woman writing notes thinking",
+    "url": "https://videos.pexels.com/video-files/12908967/12908967-hd_1080_1920_24fps.mp4",
+    "page": "https://www.pexels.com/video/woman-with-documents-in-room-12908967/",
+    "credit": "Mizuno K / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7709316/7709316-hd_720_1366_25fps.mp4",
+      "page": "https://www.pexels.com/video/girl-taking-notes-with-pen-and-paper-7709316/",
+      "credit": "https://kaboompics.com/ / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/9465063/9465063-hd_720_1366_30fps.mp4",
+      "page": "https://www.pexels.com/video/woman-writing-in-notebook-9465063/",
+      "credit": "Monstera Production / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "글자 강조",
    "say_en": "But the exact numbers aren't confirmed yet. We won't make them up."
