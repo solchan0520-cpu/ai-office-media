@@ -346,7 +346,25 @@
    "text": "김장 비용\n올해는 내려갈까?",
    "say": "김장 비용, 올해는 내려갈까요?",
    "broll": {
-    "query": "korean cabbage market crates"
+    "query": "korean cabbage market crates",
+    "url": "https://videos.pexels.com/video-files/34950824/14805528_1080_1920_30fps.mp4",
+    "page": "https://www.pexels.com/video/elderly-man-preparing-cabbage-outdoors-34950824/",
+    "credit": "Doğan Alpaslan  Demir / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/30021745/12880598_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/vibrant-farmers-market-vegetable-display-30021745/",
+      "credit": "Sarah O'Shea / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/37152373/15738963_1080_1920_24fps.mp4",
+      "page": "https://www.pexels.com/video/outdoor-market-shopping-experience-37152373/",
+      "credit": "Hikmet Toprak / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "첫 화면 질문+배추 그림",
    "say_en": "Will kimchi-making costs drop this year?"
@@ -355,7 +373,25 @@
    "text": "3위\n정부 할인 지원",
    "say": "삼 위, 정부가 김장철마다 할인 지원을 해요.",
    "broll": {
-    "query": "vegetable market shopping"
+    "query": "vegetable market shopping",
+    "url": "https://videos.pexels.com/video-files/27771428/12220474_1080_1920_25fps.mp4",
+    "page": "https://www.pexels.com/video/semt-manavi-27771428/",
+    "credit": "Nemika F / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/5709071/5709071-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/woman-buying-vegetables-at-the-market-5709071/",
+      "credit": "Sam Lion / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/9015585/9015585-hd_1080_1920_24fps.mp4",
+      "page": "https://www.pexels.com/video/woman-shopping-for-fruits-9015585/",
+      "credit": "Kevin  Malik / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "순위판 3 등장",
    "source": "농림축산식품부",
@@ -365,7 +401,25 @@
    "text": "2위\n공급량 늘어날 전망",
    "say": "이 위, 올해 배추 공급량이 지난해보다 크게 늘어날 전망이에요.",
    "broll": {
-    "query": "farmer harvesting cabbage field"
+    "query": "farmer harvesting cabbage field",
+    "url": "https://videos.pexels.com/video-files/38123800/16186851_1080_1920_30fps.mp4",
+    "page": "https://www.pexels.com/video/lush-green-cabbage-field-under-sunlight-38123800/",
+    "credit": "Anh Tuấn Lê / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/39450359/16801222_1080_1920_60fps.mp4",
+      "page": "https://www.pexels.com/video/farmers-sorting-fresh-greenery-by-roadside-39450359/",
+      "credit": "RAHULKUMAR R / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/10553954/10553954-hd_720_1366_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-woman-in-a-green-outfit-walking-in-a-cabbage-farm-10553954/",
+      "credit": "Ron Lach / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "순위판 2 등장, 화살표 위로",
    "source": "농림축산식품부(2026)",
@@ -375,7 +429,25 @@
    "text": "1위\n배추값 내림세 보도",
    "say": "일 위, 배추 값이 내려가고 있다는 보도도 나왔어요.",
    "broll": {
-    "query": "cabbage price market vendor"
+    "query": "cabbage price market vendor",
+    "url": "https://videos.pexels.com/video-files/36024524/15277043_1080_1920_24fps.mp4",
+    "page": "https://www.pexels.com/video/bustling-palengke-in-metro-manila-market-36024524/",
+    "credit": "Airam Dato-on / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/36108516/15313710_1080_1920_24fps.mp4",
+      "page": "https://www.pexels.com/video/fresh-strawberries-on-sale-at-local-market-36108516/",
+      "credit": "Airam Dato-on / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/36024529/15276978_1080_1620_30fps.mp4",
+      "page": "https://www.pexels.com/video/bustling-rice-stall-in-metro-manila-market-36024529/",
+      "credit": "Airam Dato-on / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "순위판 1 등장, 가격 그래프 내려감",
    "source": "농림축산식품부·SBS Biz",
@@ -385,7 +457,25 @@
    "text": "다만 정확한 숫자는\n아직 미확인이에요",
    "say": "다만 정확한 숫자는 아직 다 확인되지 않았어요. 지어내지 않을게요.",
    "broll": {
-    "query": "person checking price tag"
+    "query": "person checking price tag",
+    "url": "https://videos.pexels.com/video-files/5947622/5947622-hd_1080_1920_30fps.mp4",
+    "page": "https://www.pexels.com/video/person-holding-paper-bag-5947622/",
+    "credit": "Ivan S / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/5644249/5644249-hd_720_1366_25fps.mp4",
+      "page": "https://www.pexels.com/video/a-tag-used-for-the-black-friday-sale-5644249/",
+      "credit": "https://kaboompics.com/ / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/36024521/15276943_1080_1920_24fps.mp4",
+      "page": "https://www.pexels.com/video/bustling-local-market-with-rice-for-sale-36024521/",
+      "credit": "Airam Dato-on / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "글자 강조",
    "say_en": "But the exact numbers aren't confirmed yet. We won't make them up."
@@ -394,7 +484,25 @@
    "text": "그래서 뜻하는 건\n조금 더 지켜보기",
    "say": "그래서 나한테 뜻하는 건, 조금만 더 지켜보고 담가도 늦지 않을 수 있다는 거예요.",
    "broll": {
-    "query": "family making kimchi together"
+    "query": "family making kimchi together",
+    "url": "https://videos.pexels.com/video-files/8788893/8788893-hd_1080_1920_24fps.mp4",
+    "page": "https://www.pexels.com/video/a-boy-making-paper-lanterns-at-home-with-his-dad-8788893/",
+    "credit": "Kevin  Malik / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7361650/7361650-hd_1080_1920_25fps.mp4",
+      "page": "https://www.pexels.com/video/family-spending-time-together-7361650/",
+      "credit": "Angela Roma / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/6221660/6221660-hd_1080_1920_24fps.mp4",
+      "page": "https://www.pexels.com/video/rolling-out-dough-6221660/",
+      "credit": "Antonius Ferret / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "글자 강조",
    "say_en": "So for you, it may be fine to wait a little before making kimchi."
@@ -403,7 +511,25 @@
    "text": "다음 편에서\n더 자세히 볼게요",
    "say": "다음 편에서 정확한 숫자로 더 자세히 볼게요.",
    "broll": {
-    "query": "korean cabbage field rows"
+    "query": "korean cabbage field rows",
+    "url": "https://videos.pexels.com/video-files/34378688/14564070_1080_1920_60fps.mp4",
+    "page": "https://www.pexels.com/video/expansive-farmland-with-autumn-crops-34378688/",
+    "credit": "Mumtaz  Niazi / Pexels",
+    "license": "Pexels License(상업 무료)",
+    "extra": [
+     {
+      "url": "https://videos.pexels.com/video-files/7714912/7714912-hd_1080_1920_24fps.mp4",
+      "page": "https://www.pexels.com/video/sprouts-planted-on-soil-7714912/",
+      "credit": "Greta Hoffman / Pexels",
+      "license": "Pexels License(상업 무료)"
+     },
+     {
+      "url": "https://videos.pexels.com/video-files/38123793/16186846_1080_1920_30fps.mp4",
+      "page": "https://www.pexels.com/video/aerial-view-of-lush-green-cabbage-field-38123793/",
+      "credit": "Anh Tuấn Lê / Pexels",
+      "license": "Pexels License(상업 무료)"
+     }
+    ]
    },
    "motion": "다음 편 예고 효과",
    "ending": true,
