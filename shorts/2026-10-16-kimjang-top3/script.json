@@ -334,7 +334,13 @@
   "https://www.pexels.com/video/person-holding-paper-bag-6956681/",
   "https://www.pexels.com/video/five-women-eating-cakes-together-7337217/",
   "https://www.pexels.com/video/man-and-woman-eating-together-9579104/",
-  "https://www.pexels.com/video/a-man-eating-a-banana-with-a-knife-and-fork-5019314/"
+  "https://www.pexels.com/video/a-man-eating-a-banana-with-a-knife-and-fork-5019314/",
+  "https://www.pexels.com/video/bustling-palengke-in-metro-manila-market-36024524/",
+  "https://www.pexels.com/video/fresh-strawberries-on-sale-at-local-market-36108516/",
+  "https://www.pexels.com/video/bustling-rice-stall-in-metro-manila-market-36024529/",
+  "https://www.pexels.com/video/person-holding-paper-bag-5947622/",
+  "https://www.pexels.com/video/a-tag-used-for-the-black-friday-sale-5644249/",
+  "https://www.pexels.com/video/bustling-local-market-with-rice-for-sale-36024521/"
  ],
  "style": {
   "layout": "순위 카드+막대",
@@ -429,25 +435,7 @@
    "text": "1위\n배추값 내림세 보도",
    "say": "일 위, 배추 값이 내려가고 있다는 보도도 나왔어요.",
    "broll": {
-    "query": "cabbage price market vendor",
-    "url": "https://videos.pexels.com/video-files/36024524/15277043_1080_1920_24fps.mp4",
-    "page": "https://www.pexels.com/video/bustling-palengke-in-metro-manila-market-36024524/",
-    "credit": "Airam Dato-on / Pexels",
-    "license": "Pexels License(상업 무료)",
-    "extra": [
-     {
-      "url": "https://videos.pexels.com/video-files/36108516/15313710_1080_1920_24fps.mp4",
-      "page": "https://www.pexels.com/video/fresh-strawberries-on-sale-at-local-market-36108516/",
-      "credit": "Airam Dato-on / Pexels",
-      "license": "Pexels License(상업 무료)"
-     },
-     {
-      "url": "https://videos.pexels.com/video-files/36024529/15276978_1080_1620_30fps.mp4",
-      "page": "https://www.pexels.com/video/bustling-rice-stall-in-metro-manila-market-36024529/",
-      "credit": "Airam Dato-on / Pexels",
-      "license": "Pexels License(상업 무료)"
-     }
-    ]
+    "query": "napa cabbage closeup hands"
    },
    "motion": "순위판 1 등장, 가격 그래프 내려감",
    "source": "농림축산식품부·SBS Biz",
@@ -457,25 +445,7 @@
    "text": "다만 정확한 숫자는\n아직 미확인이에요",
    "say": "다만 정확한 숫자는 아직 다 확인되지 않았어요. 지어내지 않을게요.",
    "broll": {
-    "query": "person checking price tag",
-    "url": "https://videos.pexels.com/video-files/5947622/5947622-hd_1080_1920_30fps.mp4",
-    "page": "https://www.pexels.com/video/person-holding-paper-bag-5947622/",
-    "credit": "Ivan S / Pexels",
-    "license": "Pexels License(상업 무료)",
-    "extra": [
-     {
-      "url": "https://videos.pexels.com/video-files/5644249/5644249-hd_720_1366_25fps.mp4",
-      "page": "https://www.pexels.com/video/a-tag-used-for-the-black-friday-sale-5644249/",
-      "credit": "https://kaboompics.com/ / Pexels",
-      "license": "Pexels License(상업 무료)"
-     },
-     {
-      "url": "https://videos.pexels.com/video-files/36024521/15276943_1080_1920_24fps.mp4",
-      "page": "https://www.pexels.com/video/bustling-local-market-with-rice-for-sale-36024521/",
-      "credit": "Airam Dato-on / Pexels",
-      "license": "Pexels License(상업 무료)"
-     }
-    ]
+    "query": "woman writing notes thinking"
    },
    "motion": "글자 강조",
    "say_en": "But the exact numbers aren't confirmed yet. We won't make them up."
